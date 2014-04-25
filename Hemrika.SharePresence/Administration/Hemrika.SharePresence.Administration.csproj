@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B572E958-65E6-4B05-90B4-062686A63AE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hemrika.SharePresence.Administration</RootNamespace>
+    <AssemblyName>Hemrika.SharePresence.Administration</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\\Shared\SharePresence.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Security, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN\CheckLicense\AppData.cs" />
+    <Compile Include="ADMIN\CheckLicense\ManageJob.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Logger.cs" />
+    <Compile Include="ApplicationPages\ComponentManager\ComponentManager.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicationPages\LicenseManager\LicenseManager.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicationPages\UploadSolution\UploadSolution.aspx.cs">
+      <DependentUpon>UploadSolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckLicense\LicenseChecker.cs" />
+    <Compile Include="Features\Hemrika Administration ConfigurationProxy\Hemrika Administration ConfigurationProxy.EventReceiver.cs">
+      <DependentUpon>Hemrika Administration ConfigurationProxy.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Hemrika Administration Jobs\Hemrika Administration Jobs.EventReceiver.cs">
+      <DependentUpon>Hemrika Administration Jobs.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Hemrika Administration License\Hemrika Administration License.EventReceiver.cs">
+      <DependentUpon>Hemrika Administration License.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Hemrika Administration LoggingProxy\Hemrika Administration LoggingProxy.EventReceiver.cs">
+      <DependentUpon>Hemrika Administration LoggingProxy.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Hemrika Administration\Hemrika Administration.EventReceiver.cs">
+      <DependentUpon>Hemrika Administration.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ADMIN\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{16c9d076-59f3-4f7e-b457-439c074df9dd}</SharePointProjectItemId>
+    </None>
+    <None Include="ApplicationPages\ComponentManager\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{40736359-12b1-4be6-a6e8-c95bdb417ae0}</SharePointProjectItemId>
+    </None>
+    <None Include="ApplicationPages\LicenseManager\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{80ea9134-5dd4-48ae-83c0-d3d61f1d9f0b}</SharePointProjectItemId>
+    </None>
+    <None Include="ApplicationPages\UploadSolution\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8d75e570-5356-41a9-a02a-57d4bea23ccb}</SharePointProjectItemId>
+    </None>
+    <None Include="CheckLicense\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{56143d48-d4d8-46a4-9cd0-a9a24453afa0}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\HemrikaCA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c7184afc-06c6-4d0f-9027-7fd149fecb1f}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Hemrika Administration ConfigurationProxy\Hemrika Administration ConfigurationProxy.feature">
+      <FeatureId>{1d47f3fd-d174-4477-9863-837ef776fb8b}</FeatureId>
+    </None>
+    <None Include="Features\Hemrika Administration Jobs\Hemrika Administration Jobs.feature">
+      <FeatureId>{1aa76950-c8fa-46a7-9407-612db7e7ec84}</FeatureId>
+    </None>
+    <None Include="Features\Hemrika Administration License\Hemrika Administration License.feature">
+      <FeatureId>{a46b61c9-1b46-479b-9202-cf1d5df5c210}</FeatureId>
+    </None>
+    <None Include="Features\Hemrika Administration LoggingProxy\Hemrika Administration LoggingProxy.feature">
+      <FeatureId>{7faba658-8151-4956-942d-ecde5a105b01}</FeatureId>
+    </None>
+    <None Include="Features\Hemrika Administration\Hemrika Administration.feature">
+      <FeatureId>{9777e48b-9134-4f2b-a8a5-70eb582a5c00}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ListDefinitions\hemrikalicensefiles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{70c8e9ae-f417-41af-83e7-08581dc116d2}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{16fad843-bbec-4707-b987-815862dd0d33}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\AppGlobalResources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8bc058d6-a9a4-4846-b584-d9b188d40267}</SharePointProjectItemId>
+    </None>
+    <None Include="Template\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6110e048-2767-4fa6-a387-79e97d683073}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ADMIN\CheckLicense\ManageJob.aspx" />
+    <Content Include="ApplicationPages\ComponentManager\ComponentManager.aspx" />
+    <Content Include="ApplicationPages\LicenseManager\LicenseManager.aspx" />
+    <Content Include="ApplicationPages\UploadSolution\UploadSolution.aspx" />
+    <Content Include="CheckLicense\Elements.xml" />
+    <Content Include="CustomActions\HemrikaCA\Elements.xml" />
+    <Content Include="Features\Hemrika Administration ConfigurationProxy\Hemrika Administration ConfigurationProxy.Template.xml">
+      <DependentUpon>Hemrika Administration ConfigurationProxy.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Hemrika Administration Jobs\Hemrika Administration Jobs.Template.xml">
+      <DependentUpon>Hemrika Administration Jobs.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Hemrika Administration License\Hemrika Administration License.Template.xml">
+      <DependentUpon>Hemrika Administration License.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Hemrika Administration LoggingProxy\Hemrika Administration LoggingProxy.Template.xml">
+      <DependentUpon>Hemrika Administration LoggingProxy.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Hemrika Administration\Hemrika Administration.Template.xml">
+      <DependentUpon>Hemrika Administration.feature</DependentUpon>
+    </Content>
+    <Content Include="ListDefinitions\hemrikalicensefiles\Elements.xml" />
+    <Content Include="ListDefinitions\hemrikalicensefiles\schema.xml" />
+    <Content Include="Template\Images\Hemrika\FeatureIcon_ConfigurationProxy.gif" />
+    <Content Include="Template\Images\Hemrika\FeatureIcon_LoggingProxy.gif" />
+    <Content Include="Template\Images\Hemrika\ListIcon_hemrikalicensefiles.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\Hemrika Administration ConfigurationProxy\Resources.resx" />
+    <Content Include="Features\Hemrika Administration LoggingProxy\Resources.resx" />
+    <Content Include="Features\Hemrika Administration\Resources.resx" />
+    <Content Include="Resources\AppGlobalResources\Hemrika.SharePresence.Administration.AppResources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Hemrika.SharePresence.Common.csproj">
+      <Project>{2ba6a375-0fdd-4bfe-ae44-26e7e1764c71}</Project>
+      <Name>Hemrika.SharePresence.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements Id="19d6c8ff-5410-40fe-96a8-28a28adf6526" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="19d6c8ff-5410-40fe-96a8-28a28adf6526" GroupId="TimerJobs" Location="Microsoft.SharePoint.Administration.Monitoring" Sequence="100" Title="Manage Check License Timer Job" Description="Configure Check License schedule and settings">
+    <UrlAction Url="_admin/CheckLicense/ManageJob.aspx"/>
+  </CustomAction>
+</Elements> 

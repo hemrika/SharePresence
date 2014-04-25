@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListTemplate
+		Name="hemrikalicensefiles"
+		DisplayName="$Resources:hemrikalicensefiles_ListTemplateDisplayName;"
+		Description="$Resources:hemrikalicensefiles_ListTemplateDescription;"
+		Type="101"
+		BaseType="1"
+		Default="False"
+		OnQuickLaunch="TRUE"
+		Category="Libraries"
+		DisableAttachments="FALSE"
+		DisallowContentTypes="TRUE"
+		VersioningEnabled="FALSE"
+		FolderCreation="TRUE"
+		EnableModeration="False"
+		SecurityBits="11"
+		Sequence="1000"
+		Image="/_layouts/images/itdl.png"
+		Hidden="TRUE"
+		HiddenList="TRUE" />
+</Elements>

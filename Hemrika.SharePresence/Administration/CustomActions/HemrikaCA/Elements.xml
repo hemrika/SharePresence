@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup
+		Id="Hemrika_SharePoint.HemrikaCA"
+		Location="Microsoft.SharePoint.Administration.Default"
+		Title="$Resources:HemrikaCA_CustomActionTitle;"
+		Description="$Resources:HemrikaCA_CustomActionDescription;"
+		Sequence="100" />
+  <CustomAction
+  Id="Hemrika_SharePoint.ComponentManager"
+  Location="Microsoft.SharePoint.Administration.Default"
+  GroupId="Hemrika_SharePoint.HemrikaCA" 
+  Title="$Resources:ComponentManager_CustomActionTitle;"
+  Description="$Resources:ComponentManager_CustomActionDescription;"
+  Sequence="100">
+    <UrlAction
+			Url="~site/_admin/Hemrika/ComponentManager.aspx?SiteUrl={SiteUrl}" />
+  </CustomAction>
+  <CustomAction
+  Id="Hemrika_SharePoint.LicenseManager"
+  Location="Microsoft.SharePoint.Administration.Default"
+  GroupId="Hemrika_SharePoint.HemrikaCA"
+  Title="$Resources:LicenseManager_CustomActionTitle;"
+  Description="$Resources:LicenseManager_CustomActionDescription;"
+  Sequence="100">
+    <UrlAction
+			Url="~site/_admin/Hemrika/LicenseManager.aspx?SiteUrl={SiteUrl}" />
+  </CustomAction>
+  <CustomAction
+  Id="Hemrika.SharePresence.SolutionManager"
+  Location="Microsoft.SharePoint.Administration.Default"
+  GroupId="Hemrika_SharePoint.HemrikaCA"
+  Title="$Resources:SolutionManager_ActionTitle;"
+  Description="$Resources:SolutionManager_ActionDescription;"
+  Sequence="100">
+    <UrlAction
+			Url="~site/_admin/Hemrika/UploadSolution.aspx" />
+  </CustomAction>
+</Elements>

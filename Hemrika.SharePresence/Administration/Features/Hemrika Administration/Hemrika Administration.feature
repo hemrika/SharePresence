@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="296a856e-00a5-4bb8-9f54-eea386e71d15" activateOnDefault="false" alwaysForceInstall="true" creator="Rutger Hemrika" description="Hemrika CA Administration" featureId="296a856e-00a5-4bb8-9f54-eea386e71d15" imageUrl="" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.e7924f9d-2d64-4583-8e53-4ce34be547fd.FullName$" scope="WebApplication" solutionId="00000000-0000-0000-0000-000000000000" title="Hemrika Administration " version="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgBAAAAAAAAAAAAAAAAAAAACw==" autoActivateInCentralAdmin="true" deploymentPath="$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="c7184afc-06c6-4d0f-9027-7fd149fecb1f" />
+  </projectItems>
+</feature>

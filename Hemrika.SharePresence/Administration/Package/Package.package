@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9dfd4499-60e1-4cd7-998f-7b814700f40e" solutionId="9dfd4499-60e1-4cd7-998f-7b814700f40e" resetWebServer="true" title="Hemrika SharePoint Administration" description="Administration Elements for Hemrika" sharePointProductVersion="15.0" name="Hemrika.SharePresence.Administration" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="Hemrika.SharePresence.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Common\Hemrika.SharePresence.Common.csproj" />
+    <projectOutputAssembly location="Hemrika.SharePresence.SPLicense.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\License\Hemrika.SharePresence.SPLicense.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="9777e48b-9134-4f2b-a8a5-70eb582a5c00" />
+    <featureReference itemId="1d47f3fd-d174-4477-9863-837ef776fb8b" />
+    <featureReference itemId="7faba658-8151-4956-942d-ecde5a105b01" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="80ea9134-5dd4-48ae-83c0-d3d61f1d9f0b" />
+    <projectItemReference itemId="8bc058d6-a9a4-4846-b584-d9b188d40267" />
+    <projectItemReference itemId="40736359-12b1-4be6-a6e8-c95bdb417ae0" />
+    <projectItemReference itemId="16c9d076-59f3-4f7e-b457-439c074df9dd" />
+    <projectItemReference itemId="6110e048-2767-4fa6-a387-79e97d683073" />
+    <projectItemReference itemId="8d75e570-5356-41a9-a02a-57d4bea23ccb" />
+  </projectItems>
+</package>
