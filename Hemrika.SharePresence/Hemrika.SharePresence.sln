@@ -3,12 +3,68 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Common", "Common\Hemrika.SharePresence.Common.csproj", "{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{CEF36717-D182-467C-998B-A117E5C566E4}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\SharePresence.pfx = Shared\SharePresence.pfx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.SPLicense", "License\Hemrika.SharePresence.SPLicense.csproj", "{75AC8AA9-73EB-4D0F-9523-A46E1E65F548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Extensions", "Extensions\Hemrika.SharePresence.Extensions.csproj", "{3286E7DC-6916-47AE-8109-0BBFA04FF3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.HTML5", "HTML5\Hemrika.SharePresence.HTML5.csproj", "{91B501BE-3409-47AF-B83B-1E3CAE44B481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Google", "Google\Hemrika.SharePresence.Google.csproj", "{19260906-9596-43D9-87B7-245F17D23D8A}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 1
+		SccNumberOfProjects = 6
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://hemrika.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
+		SccProjectUniqueName1 = Common\\Hemrika.SharePresence.Common.csproj
+		SccProjectName1 = Common
+		SccLocalPath1 = Common
+		SccProjectUniqueName2 = License\\Hemrika.SharePresence.SPLicense.csproj
+		SccProjectName2 = License
+		SccLocalPath2 = License
+		SccProjectUniqueName3 = Extensions\\Hemrika.SharePresence.Extensions.csproj
+		SccProjectName3 = Extensions
+		SccLocalPath3 = Extensions
+		SccProjectUniqueName4 = HTML5\\Hemrika.SharePresence.HTML5.csproj
+		SccProjectName4 = HTML5
+		SccLocalPath4 = HTML5
+		SccProjectUniqueName5 = Google\\Hemrika.SharePresence.Google.csproj
+		SccProjectName5 = Google
+		SccLocalPath5 = Google
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AC8AA9-73EB-4D0F-9523-A46E1E65F548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AC8AA9-73EB-4D0F-9523-A46E1E65F548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AC8AA9-73EB-4D0F-9523-A46E1E65F548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AC8AA9-73EB-4D0F-9523-A46E1E65F548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3286E7DC-6916-47AE-8109-0BBFA04FF3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3286E7DC-6916-47AE-8109-0BBFA04FF3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3286E7DC-6916-47AE-8109-0BBFA04FF3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3286E7DC-6916-47AE-8109-0BBFA04FF3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B501BE-3409-47AF-B83B-1E3CAE44B481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B501BE-3409-47AF-B83B-1E3CAE44B481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B501BE-3409-47AF-B83B-1E3CAE44B481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B501BE-3409-47AF-B83B-1E3CAE44B481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19260906-9596-43D9-87B7-245F17D23D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19260906-9596-43D9-87B7-245F17D23D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19260906-9596-43D9-87B7-245F17D23D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19260906-9596-43D9-87B7-245F17D23D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

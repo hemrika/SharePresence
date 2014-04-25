@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91B501BE-3409-47AF-B83B-1E3CAE44B481}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hemrika.SharePresence.HTML5</RootNamespace>
+    <AssemblyName>Hemrika.SharePresence.HTML5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SharePresence.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Handlers\NamespaceDoc.cs" />
+    <Compile Include="Handlers\ScriptResourceHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebControls\Acronym.cs" />
+    <Compile Include="WebControls\Address.cs" />
+    <Compile Include="WebControls\Applet.cs" />
+    <Compile Include="WebControls\Article.cs" />
+    <Compile Include="WebControls\Aside.cs" />
+    <Compile Include="WebControls\Audio.cs" />
+    <Compile Include="WebControls\Basefont.cs" />
+    <Compile Include="WebControls\Bdo.cs" />
+    <Compile Include="WebControls\Big.cs" />
+    <Compile Include="WebControls\Canvas.cs" />
+    <Compile Include="WebControls\Center.cs" />
+    <Compile Include="WebControls\ColorInput.cs" />
+    <Compile Include="WebControls\Command.cs" />
+    <Compile Include="WebControls\ContainerControl.cs" />
+    <Compile Include="WebControls\ContainerType.cs" />
+    <Compile Include="WebControls\DataList.cs" />
+    <Compile Include="WebControls\DataListItem.cs" />
+    <Compile Include="WebControls\DataListItemCollection.cs" />
+    <Compile Include="WebControls\DateInput.cs" />
+    <Compile Include="WebControls\DateTimeInput.cs" />
+    <Compile Include="WebControls\DateTimeLocalInput.cs" />
+    <Compile Include="WebControls\Details.cs" />
+    <Compile Include="WebControls\Dir.cs" />
+    <Compile Include="WebControls\EmailInput.cs" />
+    <Compile Include="WebControls\FigCaption.cs" />
+    <Compile Include="WebControls\Figure.cs" />
+    <Compile Include="WebControls\Font.cs" />
+    <Compile Include="WebControls\Footer.cs" />
+    <Compile Include="WebControls\ForControl.cs" />
+    <Compile Include="WebControls\ForControlCollection.cs" />
+    <Compile Include="WebControls\Frame.cs" />
+    <Compile Include="WebControls\frameset.cs" />
+    <Compile Include="WebControls\Header.cs" />
+    <Compile Include="WebControls\Helper.cs" />
+    <Compile Include="WebControls\HGroup.cs" />
+    <Compile Include="WebControls\HiddenInput.cs" />
+    <Compile Include="WebControls\Html5Control.cs" />
+    <Compile Include="WebControls\Html5DataBoundControl.cs" />
+    <Compile Include="WebControls\Image.cs" />
+    <Compile Include="WebControls\InputAutoCompleteMode.cs" />
+    <Compile Include="WebControls\InputControl.cs" />
+    <Compile Include="WebControls\InputType.cs" />
+    <Compile Include="WebControls\Keygen.cs" />
+    <Compile Include="WebControls\Label.cs" />
+    <Compile Include="WebControls\Mark.cs" />
+    <Compile Include="WebControls\Meter.cs" />
+    <Compile Include="WebControls\MonthInput.cs" />
+    <Compile Include="WebControls\MonthOfYear.cs" />
+    <Compile Include="WebControls\NamespaceDoc.cs" />
+    <Compile Include="WebControls\Nav.cs" />
+    <Compile Include="WebControls\noframes.cs" />
+    <Compile Include="WebControls\NumberInput.cs" />
+    <Compile Include="WebControls\Output.cs" />
+    <Compile Include="WebControls\PreLoadMode.cs" />
+    <Compile Include="WebControls\Progress.cs" />
+    <Compile Include="WebControls\RangeInput.cs" />
+    <Compile Include="WebControls\RatingInput.cs" />
+    <Compile Include="WebControls\SearchInput.cs" />
+    <Compile Include="WebControls\Section.cs" />
+    <Compile Include="WebControls\Source.cs" />
+    <Compile Include="WebControls\Strike.cs" />
+    <Compile Include="WebControls\Summary.cs" />
+    <Compile Include="WebControls\TelInput.cs" />
+    <Compile Include="WebControls\TextInput.cs" />
+    <Compile Include="WebControls\Time.cs" />
+    <Compile Include="WebControls\TimeInput.cs" />
+    <Compile Include="WebControls\TimeOfDay.cs" />
+    <Compile Include="WebControls\Title.cs" />
+    <Compile Include="WebControls\Track.cs" />
+    <Compile Include="WebControls\TrackKind.cs" />
+    <Compile Include="WebControls\tt.cs" />
+    <Compile Include="WebControls\u.cs" />
+    <Compile Include="WebControls\UrlInput.cs" />
+    <Compile Include="WebControls\Video.cs" />
+    <Compile Include="WebControls\wbr.cs" />
+    <Compile Include="WebControls\WebParts\WebSitePartChrome.cs" />
+    <Compile Include="WebControls\WebParts\WebSitePartZone.cs" />
+    <Compile Include="WebControls\WeekInput.cs" />
+    <Compile Include="WebControls\WeekOfYear.cs" />
+    <Compile Include="WebControls\xmp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SharePresence.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

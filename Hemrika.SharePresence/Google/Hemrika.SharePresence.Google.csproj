@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19260906-9596-43D9-87B7-245F17D23D8A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hemrika.SharePresence.Google</RootNamespace>
+    <AssemblyName>Hemrika.SharePresence.Google</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SharePresence.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analytics\Account.cs" />
+    <Compile Include="Analytics\accountentry.cs" />
+    <Compile Include="Analytics\accountfeed.cs" />
+    <Compile Include="Analytics\accountquery.cs" />
+    <Compile Include="Analytics\aggregates.cs" />
+    <Compile Include="Analytics\analyticsrequest.cs" />
+    <Compile Include="Analytics\analyticsservice.cs" />
+    <Compile Include="Analytics\customvariable.cs" />
+    <Compile Include="Analytics\dataentry.cs" />
+    <Compile Include="Analytics\datafeed.cs" />
+    <Compile Include="Analytics\dataquery.cs" />
+    <Compile Include="Analytics\definition.cs" />
+    <Compile Include="Analytics\destination.cs" />
+    <Compile Include="Analytics\dimension.cs" />
+    <Compile Include="Analytics\engagement.cs" />
+    <Compile Include="Analytics\goal.cs" />
+    <Compile Include="Analytics\metric.cs" />
+    <Compile Include="Analytics\Profile.cs" />
+    <Compile Include="Analytics\profilesentry.cs" />
+    <Compile Include="Analytics\profilesfeed.cs" />
+    <Compile Include="Analytics\profilesquery.cs" />
+    <Compile Include="Analytics\property.cs" />
+    <Compile Include="Analytics\segment.cs" />
+    <Compile Include="Analytics\sourceentry.cs" />
+    <Compile Include="Analytics\step.cs" />
+    <Compile Include="Analytics\tableid.cs" />
+    <Compile Include="Analytics\tablename.cs" />
+    <Compile Include="Analytics\webpropertiesfeed.cs" />
+    <Compile Include="Analytics\webpropertiesquery.cs" />
+    <Compile Include="Analytics\WebProperty.cs" />
+    <Compile Include="Analytics\webpropertyentry.cs" />
+    <Compile Include="Client\abstractentry.cs" />
+    <Compile Include="Client\abstractfeed.cs" />
+    <Compile Include="Client\appcontrol.cs" />
+    <Compile Include="Client\asyncDataHandler.cs" />
+    <Compile Include="Client\asyncservice.cs" />
+    <Compile Include="Client\atombase.cs" />
+    <Compile Include="Client\atombaselink.cs" />
+    <Compile Include="Client\atomcategory.cs" />
+    <Compile Include="Client\atomcontent.cs" />
+    <Compile Include="Client\atomfeed.cs" />
+    <Compile Include="Client\atomfeedentry.cs" />
+    <Compile Include="Client\atomFeedgenerator.cs" />
+    <Compile Include="Client\atomfeedparser.cs" />
+    <Compile Include="Client\atomicon.cs" />
+    <Compile Include="Client\atomId.cs" />
+    <Compile Include="Client\atomlink.cs" />
+    <Compile Include="Client\atomlogo.cs" />
+    <Compile Include="Client\atomnametable.cs" />
+    <Compile Include="Client\atomperson.cs" />
+    <Compile Include="Client\atomsource.cs" />
+    <Compile Include="Client\atomtextconstruct.cs" />
+    <Compile Include="Client\atomuri.cs" />
+    <Compile Include="Client\authentication.cs" />
+    <Compile Include="Client\authexceptions.cs" />
+    <Compile Include="Client\authsubutil.cs" />
+    <Compile Include="Client\basefeedparser.cs" />
+    <Compile Include="Client\basenametable.cs" />
+    <Compile Include="Client\ChildLink.cs" />
+    <Compile Include="Client\collections.cs" />
+    <Compile Include="Client\documentquery.cs" />
+    <Compile Include="Client\exceptions.cs" />
+    <Compile Include="Client\extcollections.cs" />
+    <Compile Include="Client\extensionbase.cs" />
+    <Compile Include="Client\feedconstants.cs" />
+    <Compile Include="Client\feedmodel.cs" />
+    <Compile Include="Client\feedquery.cs" />
+    <Compile Include="Client\gauthrequest.cs" />
+    <Compile Include="Client\gauthsubrequest.cs" />
+    <Compile Include="Client\gdatabatch.cs" />
+    <Compile Include="Client\goauthrequest.cs" />
+    <Compile Include="Client\HttpUtility.cs" />
+    <Compile Include="Client\Item.cs" />
+    <Compile Include="Client\logrequest.cs" />
+    <Compile Include="Client\mediaservice.cs" />
+    <Compile Include="Client\mediasource.cs" />
+    <Compile Include="Client\oauthbase.cs" />
+    <Compile Include="Client\oauthuri.cs" />
+    <Compile Include="Client\oauthutil.cs" />
+    <Compile Include="Client\ParentLink.cs" />
+    <Compile Include="Client\request.cs" />
+    <Compile Include="Client\resumableupload.cs" />
+    <Compile Include="Client\RootObject.cs" />
+    <Compile Include="Client\rssfeedparser.cs" />
+    <Compile Include="Client\service.cs" />
+    <Compile Include="Client\serviceinterface.cs" />
+    <Compile Include="Client\simplecontainer.cs" />
+    <Compile Include="Client\simpleelement.cs" />
+    <Compile Include="Client\tracing.cs" />
+    <Compile Include="Client\UrlDestinationDetails.cs" />
+    <Compile Include="Client\utilities.cs" />
+    <Compile Include="Client\versioninterface.cs" />
+    <Compile Include="Client\xmlextension.cs" />
+    <Compile Include="Extensions\apps.cs" />
+    <Compile Include="Extensions\comments.cs" />
+    <Compile Include="Extensions\contacts.cs" />
+    <Compile Include="Extensions\entrylink.cs" />
+    <Compile Include="Extensions\enumconstruct.cs" />
+    <Compile Include="Extensions\exif.cs" />
+    <Compile Include="Extensions\extended.cs" />
+    <Compile Include="Extensions\feedlink.cs" />
+    <Compile Include="Extensions\gdatanametable.cs" />
+    <Compile Include="Extensions\georsswhere.cs" />
+    <Compile Include="Extensions\labelcollection.cs" />
+    <Compile Include="Extensions\mailitempropertycollection.cs" />
+    <Compile Include="Extensions\mediarss.cs" />
+    <Compile Include="Extensions\misc.cs" />
+    <Compile Include="Extensions\originalevent.cs" />
+    <Compile Include="Extensions\ratings.cs" />
+    <Compile Include="Extensions\recurexception.cs" />
+    <Compile Include="Extensions\recurrence.cs" />
+    <Compile Include="Extensions\reminder.cs" />
+    <Compile Include="Extensions\when.cs" />
+    <Compile Include="Extensions\where.cs" />
+    <Compile Include="Extensions\who.cs" />
+    <Compile Include="GoogleAnalyticsSettings.cs" />
+    <Compile Include="GoogleSettings.cs" />
+    <Compile Include="GoogleWebmasterToolsSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visualization\BaseGVI.cs" />
+    <Compile Include="Visualization\BaseWebControl.cs" />
+    <Compile Include="Visualization\DataStructs.cs" />
+    <Compile Include="Visualization\GenericGVIControl.cs" />
+    <Compile Include="Visualization\GVAnnotatedTimeline.cs" />
+    <Compile Include="Visualization\GVAreaChart.cs" />
+    <Compile Include="Visualization\GVBarChart.cs" />
+    <Compile Include="Visualization\GVColumnChart.cs" />
+    <Compile Include="Visualization\GVGauge.cs" />
+    <Compile Include="Visualization\GVGeoMap.cs" />
+    <Compile Include="Visualization\GVMap.cs" />
+    <Compile Include="Visualization\GVMotionChart.cs" />
+    <Compile Include="Visualization\GVOrgChart.cs" />
+    <Compile Include="Visualization\GVPieChart.cs" />
+    <Compile Include="Visualization\GVScatterChart.cs" />
+    <Compile Include="Visualization\GVSparkLine.cs" />
+    <Compile Include="Visualization\GVTable.cs" />
+    <Compile Include="Visualization\TransformDataTable.cs" />
+    <Compile Include="WebmasterTools\Body.cs" />
+    <Compile Include="WebmasterTools\CrawlIssues.cs" />
+    <Compile Include="WebmasterTools\CrawlIssuesEntry.cs" />
+    <Compile Include="WebmasterTools\CrawlIssuesFeed.cs" />
+    <Compile Include="WebmasterTools\CrawlIssuesQuery.cs" />
+    <Compile Include="WebmasterTools\CrawlRate.cs" />
+    <Compile Include="WebmasterTools\CrawlType.cs" />
+    <Compile Include="WebmasterTools\Date.cs" />
+    <Compile Include="WebmasterTools\DateDetected.cs" />
+    <Compile Include="WebmasterTools\GeoLocation.cs" />
+    <Compile Include="WebmasterTools\IssueDetail.cs" />
+    <Compile Include="WebmasterTools\IssueType.cs" />
+    <Compile Include="WebmasterTools\Keyword.cs" />
+    <Compile Include="WebmasterTools\Keywords.cs" />
+    <Compile Include="WebmasterTools\KeywordsEntry.cs" />
+    <Compile Include="WebmasterTools\KeywordsFeed.cs" />
+    <Compile Include="WebmasterTools\KeywordsQuery.cs" />
+    <Compile Include="WebmasterTools\Language.cs" />
+    <Compile Include="WebmasterTools\LinkedFrom.cs" />
+    <Compile Include="WebmasterTools\Messages.cs" />
+    <Compile Include="WebmasterTools\MessagesEntry.cs" />
+    <Compile Include="WebmasterTools\MessagesFeed.cs" />
+    <Compile Include="WebmasterTools\MessagesQuery.cs" />
+    <Compile Include="WebmasterTools\Mobile.cs" />
+    <Compile Include="WebmasterTools\PreferredDomain.cs" />
+    <Compile Include="WebmasterTools\Read.cs" />
+    <Compile Include="WebmasterTools\Sitemap.cs" />
+    <Compile Include="WebmasterTools\SitemapLastDownloaded.cs" />
+    <Compile Include="WebmasterTools\SitemapMobile.cs" />
+    <Compile Include="WebmasterTools\SitemapMobileMarkupLanguage.cs" />
+    <Compile Include="WebmasterTools\SitemapNews.cs" />
+    <Compile Include="WebmasterTools\SitemapNewsPublicationLabel.cs" />
+    <Compile Include="WebmasterTools\SitemapsEntry.cs" />
+    <Compile Include="WebmasterTools\SitemapsFeed.cs" />
+    <Compile Include="WebmasterTools\SitemapsQuery.cs" />
+    <Compile Include="WebmasterTools\SitemapType.cs" />
+    <Compile Include="WebmasterTools\SitemapUrlCount.cs" />
+    <Compile Include="WebmasterTools\Sites.cs" />
+    <Compile Include="WebmasterTools\SitesEntry.cs" />
+    <Compile Include="WebmasterTools\SitesFeed.cs" />
+    <Compile Include="WebmasterTools\SitesQuery.cs" />
+    <Compile Include="WebmasterTools\Subject.cs" />
+    <Compile Include="WebmasterTools\VerificationMethod.cs" />
+    <Compile Include="WebmasterTools\Verified.cs" />
+    <Compile Include="WebmasterTools\WebmasterToolsBaseEntry.cs" />
+    <Compile Include="WebmasterTools\WebmasterToolsNameTable.cs" />
+    <Compile Include="WebmasterTools\WebmasterToolsRequest.cs" />
+    <Compile Include="WebmasterTools\WebmasterToolsService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SharePresence.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Analytics\feed.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75AC8AA9-73EB-4D0F-9523-A46E1E65F548}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hemrika.SharePresence.SPLicense</RootNamespace>
+    <AssemblyName>Hemrika.SharePresence.SPLicense</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SharePresence.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyOpenLicenseHelperAttribute.cs" />
+    <Compile Include="AssemblyOpenLicenseKeyAttribute.cs" />
+    <Compile Include="LicenseFile\AbstractConstraint.cs" />
+    <Compile Include="LicenseFile\AbstractContainerConstraint.cs" />
+    <Compile Include="LicenseFile\AbstractLicenseData.cs" />
+    <Compile Include="LicenseFile\ConstraintCollection.cs" />
+    <Compile Include="LicenseFile\Constraints\AndConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\BetaConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\DayTimeConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\DemoConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\DesignTimeConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\DomainConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\FarmConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\OrConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\ProcessorConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\RuntimeConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\UsageConstraint.cs" />
+    <Compile Include="LicenseFile\Constraints\VersionConstraint.cs" />
+    <Compile Include="LicenseFile\CustomData.cs" />
+    <Compile Include="LicenseFile\IConstraint.cs" />
+    <Compile Include="LicenseFile\ILicenseData.cs" />
+    <Compile Include="LicenseFile\Issuer.cs" />
+    <Compile Include="LicenseFile\Product.cs" />
+    <Compile Include="LicenseFile\SPLicenseFile.cs" />
+    <Compile Include="LicenseFile\Statistics.cs" />
+    <Compile Include="LicenseFile\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SharePresence.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

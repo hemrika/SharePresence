@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hemrika.SharePresence.Common</RootNamespace>
+    <AssemblyName>Hemrika.SharePresence.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SharePresence.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Security, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationContextProvider.cs" />
+    <Compile Include="Configuration\ConfigLevel.cs" />
+    <Compile Include="Configuration\ConfigManager.cs" />
+    <Compile Include="Configuration\ConfigSettingSerializer.cs" />
+    <Compile Include="Configuration\ConfigurationException.cs" />
+    <Compile Include="Configuration\ConfigurationList.cs" />
+    <Compile Include="Configuration\ConfigurationProxy\ContainsKeyOperation.cs" />
+    <Compile Include="Configuration\ConfigurationProxy\GlobalSuppressions.cs" />
+    <Compile Include="Configuration\ConfigurationProxy\ProxyInstalledOperation.cs" />
+    <Compile Include="Configuration\ConfigurationProxy\ReadConfigurationOperation.cs" />
+    <Compile Include="Configuration\ExceptionHelper.cs" />
+    <Compile Include="Configuration\FarmPropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\FarmSettingStore.cs" />
+    <Compile Include="Configuration\FullTrustPropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\HierarchicalConfig.cs" />
+    <Compile Include="Configuration\HierarchyBuilder.cs" />
+    <Compile Include="Configuration\IConfigManager.cs" />
+    <Compile Include="Configuration\IConfigSettingSerializer.cs" />
+    <Compile Include="Configuration\IHierarchicalConfig.cs" />
+    <Compile Include="Configuration\IPropertyBag.cs" />
+    <Compile Include="Configuration\IPropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\ListBackedPropertyBag.cs" />
+    <Compile Include="Configuration\ListBackedUrlPropertyBag.cs" />
+    <Compile Include="Configuration\PropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\SandboxFarmPropertyBag.cs" />
+    <Compile Include="Configuration\SandboxFarmPropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\SandboxPropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\SandboxWebAppPropertyBag.cs" />
+    <Compile Include="Configuration\SandboxWithProxyPropertyBagHierarchy.cs" />
+    <Compile Include="Configuration\SPFarmPropertyBag.cs" />
+    <Compile Include="Configuration\SPSitePropertyBag.cs" />
+    <Compile Include="Configuration\SPWebAppPropertyBag.cs" />
+    <Compile Include="Configuration\SPWebConfigModificationHelper.cs" />
+    <Compile Include="Configuration\SPWebPropertyBag.cs" />
+    <Compile Include="Configuration\UnsupportedConfigLevelException.cs" />
+    <Compile Include="Configuration\WebAppSettingStore.cs" />
+    <Compile Include="Configuration\XmlSerializerCache.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DocIconType.cs" />
+    <Compile Include="Extensions\SPListItemExtensions.cs" />
+    <Compile Include="Extensions\SPServiceExtensions.cs" />
+    <Compile Include="Extensions\SPWebConfigModificationExtensions.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IApplicationContextProvider.cs" />
+    <Compile Include="IServiceLocator.cs" />
+    <Compile Include="License\LicenseProxy\ILicenseRepository.cs" />
+    <Compile Include="License\LicenseProxy\LicenseRepository.cs" />
+    <Compile Include="License\LicenseProxy\TestLicense.cs" />
+    <Compile Include="License\SPLicenseProvider.cs" />
+    <Compile Include="ListRepository\CAMLFilter.cs" />
+    <Compile Include="ListRepository\CAMLQueryBuilder.cs" />
+    <Compile Include="ListRepository\FieldToEntityPropertyMapping.cs" />
+    <Compile Include="ListRepository\ListItemFieldMapper.cs" />
+    <Compile Include="ListRepository\ListItemFieldMappingException.cs" />
+    <Compile Include="Localization\LocalizationHelper.cs" />
+    <Compile Include="Localization\LocalizedDescription.cs" />
+    <Compile Include="Localization\LocalizedWebDisplayName.cs" />
+    <Compile Include="Logging\BaseLogger.cs" />
+    <Compile Include="Logging\DiagnosticsArea.cs" />
+    <Compile Include="Logging\DiagnosticsAreaCollection.cs" />
+    <Compile Include="Logging\DiagnosticsAreaEventSource.cs" />
+    <Compile Include="Logging\DiagnosticsCategory.cs" />
+    <Compile Include="Logging\DiagnosticsCategoryCollection.cs" />
+    <Compile Include="Logging\DiagnosticsService.cs" />
+    <Compile Include="Logging\EventLogLogger.cs" />
+    <Compile Include="Logging\IEventLogLogger.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\ITraceLogger.cs" />
+    <Compile Include="Logging\LoggingException.cs" />
+    <Compile Include="Logging\LoggingProxy\GlobalSuppressions.cs" />
+    <Compile Include="Logging\LoggingProxy\LoggingOperation.cs" />
+    <Compile Include="Logging\LoggingProxy\TracingOperation.cs" />
+    <Compile Include="Logging\SandboxEventSeverity.cs" />
+    <Compile Include="Logging\SandboxTraceSeverity.cs" />
+    <Compile Include="Logging\SharePointLogger.cs" />
+    <Compile Include="Logging\TraceLogger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProxyArgs\ContainsKeyDataArgs.cs" />
+    <Compile Include="ProxyArgs\LoggingOperationArgs.cs" />
+    <Compile Include="ProxyArgs\ProxyInstalledArgs.cs" />
+    <Compile Include="ProxyArgs\ProxyOperationTypes.cs" />
+    <Compile Include="ProxyArgs\ReadConfigArgs.cs" />
+    <Compile Include="ProxyArgs\TracingOperationArgs.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon\Commands\FluentRibbonCommand.cs" />
+    <Compile Include="Ribbon\Commands\RibbonCommandConverter.cs" />
+    <Compile Include="Ribbon\Commands\RibbonCommandRepository.cs" />
+    <Compile Include="Ribbon\Definitions\ContextualGroupColor.cs" />
+    <Compile Include="Ribbon\Definitions\ContextualGroupDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\ControlDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\ButtonBaseDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\ButtonDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\ControlSize.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\DropDownDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\FlyoutAnchorDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\IContainer.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\IInitializable.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\LabelDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\MRUSplitButtonDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\SplitButtonDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\TextBoxDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\ToggleButtonDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\Controls\VisualControlBaseDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\GroupDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\GroupTemplateDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\ImageDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\RibbonDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\TabDefinition.cs" />
+    <Compile Include="Ribbon\Definitions\ToolTipDefinition.cs" />
+    <Compile Include="Ribbon\Libraries\GroupTemplateLibrary.cs" />
+    <Compile Include="Ribbon\Libraries\ImageLibrary.cs" />
+    <Compile Include="Ribbon\LinqExtensions.cs" />
+    <Compile Include="Ribbon\ListForms.cs" />
+    <Compile Include="Ribbon\ListTypes.cs" />
+    <Compile Include="Ribbon\RibbonController.cs" />
+    <Compile Include="Ribbon\RibbonCustomAction.cs" />
+    <Compile Include="Ribbon\RibbonCustomAction\Controls.cs" />
+    <Compile Include="Ribbon\RibbonCustomAction\Groups.cs" />
+    <Compile Include="Ribbon\RibbonCustomAction\ProvisionOverloads.cs" />
+    <Compile Include="Ribbon\RibbonCustomAction\Tabs.cs" />
+    <Compile Include="Ribbon\ScriptHelper.cs" />
+    <Compile Include="Ribbon\SPRibbonIds.cs" />
+    <Compile Include="Ribbon\ValidationException.cs" />
+    <Compile Include="Ribbon\ValidationHelper.cs" />
+    <Compile Include="Ribbon\XmlGenerator.cs" />
+    <Compile Include="ServiceLocation\ActivatingServiceLocator.cs" />
+    <Compile Include="ServiceLocation\ActivatingServiceLocatorFactory.cs" />
+    <Compile Include="ServiceLocation\IDisplayableClass.cs" />
+    <Compile Include="ServiceLocation\InstantiationType.cs" />
+    <Compile Include="ServiceLocation\IServiceLocatorConfig.cs" />
+    <Compile Include="ServiceLocation\IServiceLocatorFactory.cs" />
+    <Compile Include="ServiceLocation\NoSharePointContextException.cs" />
+    <Compile Include="ServiceLocation\ServiceLocationConfigData.cs" />
+    <Compile Include="ServiceLocation\ServiceLocatorConfig.cs" />
+    <Compile Include="ServiceLocation\SharePointServiceLocator.cs" />
+    <Compile Include="ServiceLocation\TypeMapping.cs" />
+    <Compile Include="ServiceLocation\TypeMappingChangedArgs.cs" />
+    <Compile Include="ServiceLocation\WebPartServiceLocator.cs" />
+    <Compile Include="ServiceLocator.cs" />
+    <Compile Include="ServiceLocatorImplBase.cs" />
+    <Compile Include="ServiceLocatorProvider.cs" />
+    <Compile Include="SharePointCustomFields.cs" />
+    <Compile Include="SharePointEnvironment.cs" />
+    <Compile Include="SharePointWebControls.cs" />
+    <Compile Include="TemplateEngine\ClientOption.cs" />
+    <Compile Include="TemplateEngine\ITemplateProcessor.cs" />
+    <Compile Include="TemplateEngine\ListItemTemplateProcessor.cs" />
+    <Compile Include="TemplateEngine\MenuTemplateProcessor.cs" />
+    <Compile Include="TemplateEngine\ScriptKey.cs" />
+    <Compile Include="TemplateEngine\SPXmlUrlResolver.cs" />
+    <Compile Include="TemplateEngine\TemplateArgument.cs" />
+    <Compile Include="TemplateEngine\TemplateDefinition.cs" />
+    <Compile Include="TemplateEngine\Utilities.cs" />
+    <Compile Include="TemplateEngine\XsltFunctions.cs" />
+    <Compile Include="UI\EnhancedControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\EnhancedEditorPart.cs" />
+    <Compile Include="UI\EnhancedLayoutsPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\EnhancedMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\EnhancedWebPart.cs" />
+    <Compile Include="UI\EnhancedWebPartPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\EnhancedWebPartProperty.cs" />
+    <Compile Include="UI\ModalDialogResult.cs" />
+    <Compile Include="Validation.cs" />
+    <Compile Include="WebSiteController\ActivationException.cs" />
+    <Compile Include="WebSiteController\IWebSiteControllerModule.cs" />
+    <Compile Include="WebSiteController\PersistedWebSiteControllerModule.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerConfig.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerFeatureReceiver.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerModule.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerModulesCollection.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerModuleWorkItem.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerPrincipalType.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerRule.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerRuleControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebSiteController\WebSiteControllerRulesCollection.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerRuleWorkItem.cs" />
+    <Compile Include="WebSiteController\WebSiteControllerWebConfigManager.cs" />
+    <Compile Include="WebSiteController\WebSiteDocItemModifier.cs" />
+    <Compile Include="WebSiteController\WebSiteZoneModifier.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CASPolicy.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\License\Hemrika.SharePresence.SPLicense.csproj">
+      <Project>{75ac8aa9-73eb-4d0f-9523-a46e1e65f548}</Project>
+      <Name>Hemrika.SharePresence.SPLicense</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SharePresence.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

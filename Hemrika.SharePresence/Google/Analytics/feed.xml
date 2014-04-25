@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed gd:kind="analytics#accounts" xmlns="http://www.w3.org/2005/Atom" xmlns:dxp="http://schemas.google.com/analytics/2009" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>https://www.googleapis.com/analytics/v2.4/management/accounts</id>
+  <updated>2012-11-02T15:01:52.366Z</updated>
+  <title type="text">Google Analytics Accounts for hemrika@gmail.com</title>
+  <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts"/>
+  <author>
+    <name>Google Analytics</name>
+  </author>
+  <generator>Google Analytics</generator>
+  <openSearch:totalResults>1</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+  <entry gd:kind="analytics#account">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149</id>
+    <updated>2011-03-12T14:18:58.658Z</updated>
+    <title type="text">Google Analytics Account Hemrika EZ</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#webproperties" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:accountName" value="Hemrika EZ"/>
+  </entry>
+</feed>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed gd:kind="analytics#webproperties" xmlns="http://www.w3.org/2005/Atom" xmlns:dxp="http://schemas.google.com/analytics/2009" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties</id>
+  <updated>2012-11-02T15:02:37.711Z</updated>
+  <title type="text">Google Analytics Web Properties for hemrika@gmail.com</title>
+  <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties"/>
+  <author>
+    <name>Google Analytics</name>
+  </author>
+  <generator>Google Analytics</generator>
+  <openSearch:totalResults>18</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-1</id>
+    <updated>2010-03-02T17:46:30.666Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-1</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-1"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-1/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-1"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-10</id>
+    <updated>2010-03-02T17:46:30.662Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-10</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-10"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-10/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-10"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11</id>
+    <updated>2010-03-02T17:46:30.662Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-11</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-11"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-12</id>
+    <updated>2010-03-02T17:46:30.661Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-12</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-12"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-12/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-12"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-13</id>
+    <updated>2010-03-02T17:46:30.661Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-13</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-13"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-13/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-13"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-14</id>
+    <updated>2010-03-02T17:46:30.567Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-14</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-14"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-14/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-14"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-15</id>
+    <updated>2010-08-04T19:36:10.334Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-15</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-15"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-15/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-15"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-16</id>
+    <updated>2012-04-21T20:01:26.639Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-16</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-16"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-16/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-16"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-17</id>
+    <updated>2012-06-16T04:23:59.511Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-17</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-17"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-17/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-17"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-18</id>
+    <updated>2012-10-10T16:54:03.415Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-18</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-18"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-18/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-18"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-2</id>
+    <updated>2010-03-02T17:46:30.666Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-2</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-2"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-2/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-2"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-3</id>
+    <updated>2012-08-20T20:04:15.784Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-3</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-3"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-3/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-3"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-4</id>
+    <updated>2010-03-02T17:46:30.665Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-4</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-4"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-4/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-4"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-5</id>
+    <updated>2012-04-21T19:52:04.040Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-5</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-5"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-5/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-5"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-6</id>
+    <updated>2010-03-02T17:46:30.665Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-6</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-6"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-6/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-6"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-7</id>
+    <updated>2010-03-02T17:46:30.663Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-7</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-7"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-7/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-7"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-8</id>
+    <updated>2010-03-02T17:46:30.663Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-8</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-8"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-8/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-8"/>
+  </entry>
+  <entry gd:kind="analytics#webproperty">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-9</id>
+    <updated>2010-03-02T17:46:30.662Z</updated>
+    <title type="text">Google Analytics Web Property UA-9934149-9</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-9"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#account" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#profiles" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-9/profiles"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-9"/>
+  </entry>
+</feed>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed gd:kind="analytics#profiles" xmlns="http://www.w3.org/2005/Atom" xmlns:dxp="http://schemas.google.com/analytics/2009" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11/profiles</id>
+  <updated>2012-11-02T15:04:52.539Z</updated>
+  <title type="text">Google Analytics Profiles for hemrika@gmail.com</title>
+  <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11/profiles"/>
+  <author>
+    <name>Google Analytics</name>
+  </author>
+  <generator>Google Analytics</generator>
+  <openSearch:totalResults>1</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+  <entry gd:kind="analytics#profile">
+    <id>https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11/profiles/22156604</id>
+    <updated>2011-04-20T20:15:04.355Z</updated>
+    <title type="text">Google Analytics Profile www.prosapia.info</title>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11/profiles/22156604"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" gd:targetKind="analytics#webproperty" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11"/>
+    <link rel="http://schemas.google.com/ga/2009#child" type="application/atom+xml" gd:targetKind="analytics#goals" href="https://www.googleapis.com/analytics/v2.4/management/accounts/9934149/webproperties/UA-9934149-11/profiles/22156604/goals"/>
+    <dxp:property name="ga:accountId" value="9934149"/>
+    <dxp:property name="ga:webPropertyId" value="UA-9934149-11"/>
+    <dxp:property name="ga:profileName" value="www.prosapia.info"/>
+    <dxp:property name="ga:profileId" value="22156604"/>
+    <dxp:property name="dxp:tableId" value="ga:22156604"/>
+    <dxp:property name="ga:currency" value="EUR"/>
+    <dxp:property name="ga:timezone" value="America/Los_Angeles"/>
+  </entry>
+</feed>
+
+

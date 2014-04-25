@@ -1,0 +1,4 @@
+<PermissionSet class="NamedPermissionSet">	
+	<IPermission class="SharePointPermission" version="1"  Unrestricted="true"  />
+</PermissionSet>
+
