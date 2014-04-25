@@ -37,7 +37,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SharePresence.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\\Shared\SharePresence.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -98,9 +98,6 @@
     <Compile Include="TypeExtensions.cs" />
     <Compile Include="XElementExtensions.cs" />
     <Compile Include="XmlDocumentExtensions.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="SharePresence.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

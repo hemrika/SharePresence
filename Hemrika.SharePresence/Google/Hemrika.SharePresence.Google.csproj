@@ -37,7 +37,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SharePresence.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\\Shared\SharePresence.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
@@ -238,9 +238,6 @@
     <Compile Include="WebmasterTools\WebmasterToolsNameTable.cs" />
     <Compile Include="WebmasterTools\WebmasterToolsRequest.cs" />
     <Compile Include="WebmasterTools\WebmasterToolsService.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="SharePresence.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Analytics\feed.xml" />
