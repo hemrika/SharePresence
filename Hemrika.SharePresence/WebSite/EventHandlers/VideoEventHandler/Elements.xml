@@ -8,7 +8,7 @@
       <Name>VideoEventHandlerItemAdded</Name>
       <Type>ItemAdded</Type>
       <SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
       <Class>Hemrika.SharePresence.WebSite.VideoEventHandler</Class>
       <Data></Data>
       <Filter></Filter>
@@ -18,7 +18,7 @@
       <Name>VideoEventHandlerItemUpdated</Name>
       <Type>ItemUpdated</Type>
       <SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
       <Class>Hemrika.SharePresence.WebSite.VideoEventHandler</Class>
       <Data></Data>
       <Filter></Filter>
@@ -27,7 +27,7 @@
     <Receiver>
       <Name>VideoEventHandlerItemDeleted</Name>
       <Type>ItemDeleted</Type>
-      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
       <Class>Hemrika.SharePresence.WebSite.VideoEventHandler</Class>
       <SequenceNumber>100</SequenceNumber>
       <Data></Data>
@@ -37,7 +37,7 @@
     <Receiver>
       <Name>VideoEventHandlerItemAdding</Name>
       <Type>ItemAdding</Type>
-      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
       <Class>Hemrika.SharePresence.WebSite.VideoEventHandler</Class>
       <SequenceNumber>1000</SequenceNumber>
     </Receiver>

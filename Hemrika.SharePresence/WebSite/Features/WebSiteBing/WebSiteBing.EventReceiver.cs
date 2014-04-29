@@ -83,11 +83,11 @@ namespace Hemrika.SharePresence.WebSite
             {
                 SPWebConfigModificationExtensions.WaitForOnetimeJobToFinish(webApp.Farm, "job-webconfig-modification", 180);
 
-                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']", "configuration/system.webServer/handlers");
+                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']", "configuration/system.webServer/handlers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
-                mod.Value = @"<add name=""BingHandler"" path=""BingSiteAuth.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                mod.Value = @"<add name=""BingHandler"" path=""BingSiteAuth.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 webApp.WebConfigModifications.Add(mod);
 
                 try

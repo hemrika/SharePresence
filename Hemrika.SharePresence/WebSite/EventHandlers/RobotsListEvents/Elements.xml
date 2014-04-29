@@ -1,45 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Receivers ListTemplateId="20003">
       <Receiver>
         <Name>RobotsListEventsItemAdding</Name>
         <Type>ItemAdding</Type>
-        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
         <Class>Hemrika.SharePresence.WebSite.Robots.RobotsListEvents</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
       <Receiver>
         <Name>RobotsListEventsItemUpdating</Name>
         <Type>ItemUpdating</Type>
-        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
         <Class>Hemrika.SharePresence.WebSite.Robots.RobotsListEvents</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
       <Receiver>
         <Name>RobotsListEventsItemDeleting</Name>
         <Type>ItemDeleting</Type>
-        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
         <Class>Hemrika.SharePresence.WebSite.Robots.RobotsListEvents</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
       <Receiver>
         <Name>RobotsListEventsItemAdded</Name>
         <Type>ItemAdded</Type>
-        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
         <Class>Hemrika.SharePresence.WebSite.Robots.RobotsListEvents</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
       <Receiver>
         <Name>RobotsListEventsItemUpdated</Name>
         <Type>ItemUpdated</Type>
-        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
         <Class>Hemrika.SharePresence.WebSite.Robots.RobotsListEvents</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
       <Receiver>
         <Name>RobotsListEventsItemDeleted</Name>
         <Type>ItemDeleted</Type>
-        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+        <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
         <Class>Hemrika.SharePresence.WebSite.Robots.RobotsListEvents</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>

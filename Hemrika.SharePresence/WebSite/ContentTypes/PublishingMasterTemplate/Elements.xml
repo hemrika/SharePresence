@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
 	<!--
@@ -31,19 +31,19 @@
 					<spe:Receiver>
 						<spe:Name>PublishingMasterTemplate_ItemAddedReceiver</spe:Name>
 						<spe:Type>ItemAdded</spe:Type>
-						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</spe:Assembly>
 						<spe:Class>Hemrika.SharePresence.WebSite.PublishingMasterTemplateEventReceivers</spe:Class>
 					</spe:Receiver>
 					<spe:Receiver>
 						<spe:Name>PublishingMasterTemplate_ItemUpdatedReceiver</spe:Name>
 						<spe:Type>ItemUpdated</spe:Type>
-						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</spe:Assembly>
 						<spe:Class>Hemrika.SharePresence.WebSite.PublishingMasterTemplateEventReceivers</spe:Class>
 					</spe:Receiver>
 					<spe:Receiver>
 						<spe:Name>PublishingMasterTemplate_ItemDeletedReceiver</spe:Name>
 						<spe:Type>ItemDeleted</spe:Type>
-						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</spe:Assembly>
 						<spe:Class>Hemrika.SharePresence.WebSite.PublishingMasterTemplateEventReceivers</spe:Class>
 					</spe:Receiver>
 				</spe:Receivers>

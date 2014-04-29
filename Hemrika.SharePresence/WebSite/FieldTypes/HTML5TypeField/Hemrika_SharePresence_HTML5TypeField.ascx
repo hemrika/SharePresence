@@ -1,9 +1,9 @@
-﻿<%@ Control Language="C#" Debug="true" %>
+<%@ Control Language="C#" Debug="true" %>
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%@ Assembly Name="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register TagPrefix="SharePoint" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Namespace="Microsoft.SharePoint.WebControls" %>
-<%@ Register Tagprefix="HTML5" Assembly="Hemrika.SharePresence.HTML5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c" namespace="Hemrika.SharePresence.Html5.WebControls" %>
-<%@ Register TagPrefix="HTML5Field" Assembly="Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c" Namespace="Hemrika.SharePresence.WebSite.FieldTypes" %>
+<%@ Register Tagprefix="HTML5" Assembly="Hemrika.SharePresence.HTML5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11" namespace="Hemrika.SharePresence.Html5.WebControls" %>
+<%@ Register TagPrefix="HTML5Field" Assembly="Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11" Namespace="Hemrika.SharePresence.WebSite.FieldTypes" %>
 <SharePoint:RenderingTemplate ID="HTML5PublishingDate" runat="server">
   <Template>
       <HTML5:Time ID="html_date" runat="server" IsPubDate="true" CssClass="time" Pattern="dddd, MMMM d, yyyy" Style="max-height:100%; max-width:100%;"/>

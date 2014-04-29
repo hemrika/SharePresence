@@ -103,13 +103,13 @@ namespace Hemrika.SharePresence.WebSite
 
                 SPWebConfigModification mod =
                     new SPWebConfigModification(
-                        "add[@type='Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']",
+                        "add[@type='Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']",
                         "configuration/system.webServer/handlers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
                 mod.Value =
-                    @"<add name=""SiteMapHandler"" path=""*map.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                    @"<add name=""SiteMapHandler"" path=""*map.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);

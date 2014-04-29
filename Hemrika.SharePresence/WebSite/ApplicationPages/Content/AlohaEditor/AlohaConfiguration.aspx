@@ -1,4 +1,4 @@
-<%@ Assembly Name="Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c" %>
+<%@ Assembly Name="Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11" %>
 <%@ Page Language="C#" AutoEventWireup="false" EnableViewState="false" Inherits="Hemrika.SharePresence.WebSite.AlohaConfiguration" %>
 function HTML5EditorEnable() {
 

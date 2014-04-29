@@ -1,4 +1,4 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="MobileBrowserCapabilities.cs" company="">
 // TODO: Update copyright text.
 // </copyright>
@@ -96,7 +96,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.WebSiteForm, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.WebSiteForm, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;// typeof(WebSiteForm).AssemblyQualifiedName;
             }
 
@@ -105,7 +105,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
 
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.WebPartZoneAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.WebPartZoneAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;// typeof(WebPartZoneAdapter).AssemblyQualifiedName;
             }
 
@@ -113,7 +113,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "Microsoft.SharePoint.WebPartPages.WebPart";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.WebPartAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.WebPartAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;//typeof(WebPartAdapter).AssemblyQualifiedName;
             }
 
@@ -121,7 +121,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "Microsoft.SharePoint.WebControls.InputFormTextBox";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.InputFormTextBoxAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.InputFormTextBoxAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;// typeof(InputFormTextBoxAdapter).AssemblyQualifiedName;
             }
 
@@ -129,7 +129,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "Microsoft.SharePoint.WebControls.RichTextField";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.RichTextFieldAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.RichTextFieldAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;//typeof(RichTextFieldAdapter).AssemblyQualifiedName;
             }
 
@@ -137,7 +137,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "Microsoft.SharePoint.WebControls.SPRibbonCommandHandler";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.SPRibbonCommandHandlerAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.SPRibbonCommandHandlerAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;//typeof(SPRibbonCommandHandlerAdapter).AssemblyQualifiedName;
             }
 
@@ -145,7 +145,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "Microsoft.SharePoint.WebControls.RobotsMetaTag";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.MetaData.MetaDataControl, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.MetaData.MetaDataControl, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;//typeof(MetaDataControl).AssemblyQualifiedName;
             }
 
@@ -153,7 +153,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "System.Web.UI.HtmlControls.HtmlGenericControl";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.MicroDataAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.MicroDataAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;//typeof(MicroDataAdapter).AssemblyQualifiedName;
             }
 
@@ -161,7 +161,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             fullName = "Microsoft.SharePoint.WebControls.BaseFieldControl";
             if (!Adapters.Contains(fullName))
             {
-                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.BaseFieldControlAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c";
+                assemblyQualifiedName = "Hemrika.SharePresence.WebSite.Adapters.BaseFieldControlAdapter, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11";
                 Adapters[fullName] = assemblyQualifiedName;//typeof(BaseFieldControlAdapter).AssemblyQualifiedName;
             }
 

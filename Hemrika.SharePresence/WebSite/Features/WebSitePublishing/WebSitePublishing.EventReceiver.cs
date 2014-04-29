@@ -1,4 +1,4 @@
-// <copyright file="Hemrika_SharePoint_WebSitePublishing.EventReceiver.cs" company="Hemrika">
+// <copyright file="Hemrika_SharePresence_WebSitePublishing.EventReceiver.cs" company="Hemrika">
 // Copyright Hemrika. All rights reserved.
 // </copyright>
 // <author>MARKETING\Administrator</author>

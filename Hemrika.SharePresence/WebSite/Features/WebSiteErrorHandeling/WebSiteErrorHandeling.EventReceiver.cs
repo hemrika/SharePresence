@@ -33,8 +33,8 @@ using System.Net;
 
             if (web.WebTemplate.ToLower() == "websiteroot")
             {
-                //Hemrika.SharePresence.WebSite.Modules.ErrorModule.ErrorModule, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c
-                CreateWorkItem(web, "Hemrika.SharePresence.WebSite.Modules.ErrorModule.ErrorModule", "Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c");
+                //Hemrika.SharePresence.WebSite.Modules.ErrorModule.ErrorModule, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11
+                CreateWorkItem(web, "Hemrika.SharePresence.WebSite.Modules.ErrorModule.ErrorModule", "Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11");
 
                 CreateErrorWorkItem(web, HttpStatusCode.BadRequest);
                 CreateErrorWorkItem(web, HttpStatusCode.Conflict);

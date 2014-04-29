@@ -6,7 +6,7 @@
 			<Name>SiteMapNodeEventItemAdded</Name>
 			<Type>ItemAdded</Type>
 			<SequenceNumber>100</SequenceNumber>
-			<Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.WebSite.SiteMapNodeEvent</Class>
 			<Data></Data>
 			<Filter></Filter>
@@ -16,7 +16,7 @@
 			<Name>SiteMapNodeEventItemDeleted</Name>
 			<Type>ItemDeleted</Type>
 			<SequenceNumber>100</SequenceNumber>
-			<Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.WebSite.SiteMapNodeEvent</Class>
 			<Data></Data>
 			<Filter></Filter>
@@ -26,7 +26,7 @@
 			<Name>SiteMapNodeEventItemUpdated</Name>
 			<Type>ItemUpdated</Type>
 			<SequenceNumber>100</SequenceNumber>
-			<Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.WebSite.SiteMapNodeEvent</Class>
 			<Data></Data>
 			<Filter></Filter>

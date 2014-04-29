@@ -274,11 +274,11 @@ namespace Hemrika.SharePresence.WebSite
             {
                 SPWebConfigModificationExtensions.WaitForOnetimeJobToFinish(webApp.Farm, "job-webconfig-modification", 180);
 
-                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']", "configuration/system.web/siteMap/providers");
+                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']", "configuration/system.web/siteMap/providers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
-                mod.Value = @"<add name=""WebSiteProvider"" type=""Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                mod.Value = @"<add name=""WebSiteProvider"" type=""Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);
@@ -303,11 +303,11 @@ namespace Hemrika.SharePresence.WebSite
         {
             if (webApp != null)
             {
-                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']", "configuration/system.webServer/modules");
+                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']", "configuration/system.webServer/modules");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
-                mod.Value = @"<add name=""WebSiteController"" type=""Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                mod.Value = @"<add name=""WebSiteController"" type=""Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);
@@ -339,11 +339,11 @@ namespace Hemrika.SharePresence.WebSite
             {
                 SPWebConfigModificationExtensions.WaitForOnetimeJobToFinish(webApp.Farm, "job-webconfig-modification", 180);
 
-                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']", "configuration/system.web/httpModules");
+                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']", "configuration/system.web/httpModules");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
-                mod.Value = @"<add name=""WebSiteController"" type=""Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                mod.Value = @"<add name=""WebSiteController"" type=""Hemrika.SharePresence.Common.WebSiteController.WebSiteControllerModule, Hemrika.SharePresence.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);
@@ -676,11 +676,11 @@ namespace Hemrika.SharePresence.WebSite
             {
                 SPWebConfigModificationExtensions.WaitForOnetimeJobToFinish(webApp.Farm, "job-webconfig-modification", 180);
 
-                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']", "configuration/system.webServer/handlers");
+                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']", "configuration/system.webServer/handlers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
-                mod.Value = @"<add name=""BingHandler"" path=""BingSiteAuth.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                mod.Value = @"<add name=""BingHandler"" path=""BingSiteAuth.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.Bing.BingHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);
@@ -774,13 +774,13 @@ namespace Hemrika.SharePresence.WebSite
 
                 SPWebConfigModification mod =
                     new SPWebConfigModification(
-                        "add[@type='Hemrika.SharePresence.WebSite.Robots.RobotsHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']",
+                        "add[@type='Hemrika.SharePresence.WebSite.Robots.RobotsHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']",
                         "configuration/system.webServer/handlers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
                 mod.Value =
-                    @"<add name=""RobotsHandler"" path=""robots.txt"" verb=""*"" type=""Hemrika.SharePresence.WebSite.Robots.RobotsHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                    @"<add name=""RobotsHandler"" path=""robots.txt"" verb=""*"" type=""Hemrika.SharePresence.WebSite.Robots.RobotsHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);
@@ -870,13 +870,13 @@ namespace Hemrika.SharePresence.WebSite
 
                 SPWebConfigModification mod =
                     new SPWebConfigModification(
-                        "add[@type='Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']",
+                        "add[@type='Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']",
                         "configuration/system.webServer/handlers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
                 mod.Value =
-                    @"<add name=""SiteMapHandler"" path=""*map.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                    @"<add name=""SiteMapHandler"" path=""*map.xml"" verb=""*"" type=""Hemrika.SharePresence.WebSite.SiteMap.SiteMapHandler, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);

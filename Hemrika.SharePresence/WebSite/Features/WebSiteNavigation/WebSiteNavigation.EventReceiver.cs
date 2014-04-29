@@ -1,4 +1,4 @@
-// <copyright file="Hemrika_SharePoint_WebSiteNavigation.EventReceiver.cs" company="Hemrika">
+// <copyright file="Hemrika_SharePresence_WebSiteNavigation.EventReceiver.cs" company="Hemrika">
 // Copyright Hemrika. All rights reserved.
 // </copyright>
 // <author>MARKETING\Administrator</author>
@@ -132,11 +132,11 @@ namespace Hemrika.SharePresence.WebSite
         {
             if (webApp != null)
             {
-                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c']", "configuration/system.web/siteMap/providers");
+                SPWebConfigModification mod = new SPWebConfigModification("add[@type='Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11']", "configuration/system.web/siteMap/providers");
                 mod.Owner = properties.Feature.DefinitionId.ToString();
                 mod.Sequence = 0;
                 mod.Type = SPWebConfigModification.SPWebConfigModificationType.EnsureChildNode;
-                mod.Value = @"<add name=""WebSiteProvider"" type=""Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c"" />";
+                mod.Value = @"<add name=""WebSiteProvider"" type=""Hemrika.SharePresence.WebSite.Navigation.WebSiteProvider, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11"" />";
                 if (!webApp.WebConfigModifications.Contains(mod))
                 {
                     webApp.WebConfigModifications.Add(mod);

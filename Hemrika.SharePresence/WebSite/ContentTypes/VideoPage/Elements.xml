@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <ContentType
 		ID="0x010100E2E99BB760B34490935A1126C04A810F002CEF2C33A1F4934CBB3C35977645B818"
@@ -39,19 +39,19 @@
 					<spe:Receiver>
 						<spe:Name>VideoPage_ItemAddedReceiver</spe:Name>
 						<spe:Type>ItemAdded</spe:Type>
-						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</spe:Assembly>
 						<spe:Class>Hemrika.SharePresence.WebSite.VideoPageEventReceivers</spe:Class>
 					</spe:Receiver>
 					<spe:Receiver>
 						<spe:Name>VideoPage_ItemUpdatedReceiver</spe:Name>
 						<spe:Type>ItemUpdated</spe:Type>
-						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</spe:Assembly>
 						<spe:Class>Hemrika.SharePresence.WebSite.VideoPageEventReceivers</spe:Class>
 					</spe:Receiver>
 					<spe:Receiver>
 						<spe:Name>VideoPage_ItemDeletedReceiver</spe:Name>
 						<spe:Type>ItemDeleted</spe:Type>
-						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</spe:Assembly>
 						<spe:Class>Hemrika.SharePresence.WebSite.VideoPageEventReceivers</spe:Class>
 					</spe:Receiver>
 				</spe:Receivers>

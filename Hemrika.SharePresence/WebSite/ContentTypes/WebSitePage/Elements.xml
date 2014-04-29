@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <ContentType
@@ -103,7 +103,7 @@
             <Name>WebSitePage_ItemAddedReceiver</Name>
             <Type>ItemAdded</Type>
             <SequenceNumber>10000</SequenceNumber>
-            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
             <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
             <Data></Data>
             <Filter></Filter>
@@ -112,7 +112,7 @@
             <Name>WebSitePage_ItemFileMovedReceiver</Name>
             <Type>ItemFileMoved</Type>
             <SequenceNumber>10000</SequenceNumber>
-            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
             <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
             <Data></Data>
             <Filter></Filter>
@@ -121,7 +121,7 @@
             <Name>WebSitePage_ItemUpdatedReceiver</Name>
             <Type>ItemUpdated</Type>
             <SequenceNumber>10000</SequenceNumber>
-            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
             <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
             <Data></Data>
             <Filter></Filter>
@@ -130,7 +130,7 @@
             <Name>WebSitePage_ItemDeletedReceiver</Name>
             <Type>ItemDeleted</Type>
             <SequenceNumber>10000</SequenceNumber>
-            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
             <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
             <Data></Data>
             <Filter></Filter>

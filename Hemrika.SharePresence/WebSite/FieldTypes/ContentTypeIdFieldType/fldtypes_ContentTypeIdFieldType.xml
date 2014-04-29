@@ -20,7 +20,7 @@
 			Name="ShowInSurveyCreate">FALSE</Field>
 		<Field
 			Name="ShowInColumnTemplateCreate">FALSE</Field>
-		<Field Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.ContentTypeIdFieldType, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+		<Field Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.ContentTypeIdFieldType, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
     <RenderPattern Name="DisplayPattern">
       <Switch>
         <Expr>

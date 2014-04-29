@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
@@ -125,7 +125,7 @@ namespace Hemrika.SharePresence.WebSite.ControlTemplates
         private string GetTemplate()
         {
             StringBuilder builder = new StringBuilder();
-            builder.AppendLine("<%@ Page language=\"C#\" MasterPageFile=\"~masterurl/custom.master\"   Inherits=\"Hemrika.SharePresence.WebSite.Page.WebSitePage,Hemrika.SharePresence.WebSite,Version=1.0.0.0,Culture=neutral,PublicKeyToken=3421bd1d946bda6c\" meta:progid=\"WebSite.WebSitePageLayout\" meta:webpartpageexpansion=\"full\"  %>");
+            builder.AppendLine("<%@ Page language=\"C#\" MasterPageFile=\"~masterurl/custom.master\"   Inherits=\"Hemrika.SharePresence.WebSite.Page.WebSitePage,Hemrika.SharePresence.WebSite,Version=1.0.0.0,Culture=neutral,PublicKeyToken=11e6604a27f32a11\" meta:progid=\"WebSite.WebSitePageLayout\" meta:webpartpageexpansion=\"full\"  %>");
             builder.AppendLine("<%@ Assembly Name=\"Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c\" %>");
             builder.AppendLine("<%@ Import Namespace=\"Microsoft.SharePoint\" %>");
             builder.AppendLine("<%@ Import Namespace=\"Hemrika.SharePresence.Common\" %>");

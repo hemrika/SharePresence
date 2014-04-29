@@ -1,10 +1,10 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="ErrorModule.cs" company="">
 // TODO: Update copyright text.
 // </copyright>
 // -----------------------------------------------------------------------
 //Hemrika.SharePresence.WebSite.Modules.SemanticModule.SemanticModule
-//Hemrika.SharePresence.WebSite.Modules.WebPageModule.WebPageModule, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c
+//Hemrika.SharePresence.WebSite.Modules.WebPageModule.WebPageModule, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11
 namespace Hemrika.SharePresence.WebSite.Modules.WebPageModule
 {
     using System;

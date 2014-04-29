@@ -21,7 +21,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Title, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Title, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -43,7 +43,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5PublishingDate, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5PublishingDate, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
     <RenderPattern
 			Name="DisplayPattern">
       <Switch>
@@ -79,7 +79,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Image, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Image, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
     <RenderPattern Name="DisplayPattern">
       <Switch>
         <Expr>
@@ -120,7 +120,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Video, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Video, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -142,7 +142,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Header, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Header, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -164,7 +164,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Details, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Details, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -186,7 +186,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Section, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Section, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -208,7 +208,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Footer, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Footer, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -230,7 +230,7 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Rating, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Rating, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
   <FieldType>
     <Field
@@ -252,6 +252,6 @@
     <Field
 			Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field
-			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Bookmark, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.HTML5Bookmark, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Field>
   </FieldType>
 </FieldTypes>

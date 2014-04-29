@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
@@ -145,7 +145,7 @@ namespace Hemrika.SharePresence.WebSite.ControlTemplates
         private string GetTemplate()
         {
             StringBuilder builder = new StringBuilder();
-            builder.AppendLine("<%@ Page language=\"C#\" MasterPageFile=\"~masterurl/custom.master\"   Inherits=\"Hemrika.SharePresence.WebSite.Page.WebSitePage,Hemrika.SharePresence.WebSite,Version=1.0.0.0,Culture=neutral,PublicKeyToken=3421bd1d946bda6c\" meta:progid=\"WebSite.WebSitePageLayout\" meta:webpartpageexpansion=\"full\"  %>");
+            builder.AppendLine("<%@ Page language=\"C#\" MasterPageFile=\"~masterurl/custom.master\"   Inherits=\"Hemrika.SharePresence.WebSite.Page.WebSitePage,Hemrika.SharePresence.WebSite,Version=1.0.0.0,Culture=neutral,PublicKeyToken=11e6604a27f32a11\" meta:progid=\"WebSite.WebSitePageLayout\" meta:webpartpageexpansion=\"full\"  %>");
             builder.AppendLine("<%@ Assembly Name=\"Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c\" %>");
             builder.AppendLine("<%@ Import Namespace=\"Microsoft.SharePoint\" %>");
             builder.AppendLine("<%@ Import Namespace=\"Hemrika.SharePresence.Common\" %>");
@@ -154,8 +154,8 @@ namespace Hemrika.SharePresence.WebSite.ControlTemplates
             builder.AppendLine("<%@ Register Tagprefix=\"SharePoint\" Namespace=\"Microsoft.SharePoint.WebControls\" Assembly=\"Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c\" %>");
             builder.AppendLine("<%@ Register Tagprefix=\"Utilities\" Namespace=\"Microsoft.SharePoint.Utilities\" Assembly=\"Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c\" %>");
             builder.AppendLine("<%@ Register Tagprefix=\"WebPartPages\" Namespace=\"Microsoft.SharePoint.WebPartPages\" Assembly=\"Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c\" %>");
-            builder.AppendLine("<%@ Register Tagprefix=\"SharePresence\" Namespace=\"Hemrika.SharePresence.WebSite.FieldTypes\" Assembly=\"Hemrika.SharePresence.WebSite,Version=1.0.0.0,Culture=neutral,PublicKeyToken=3421bd1d946bda6c\" %>");
-            builder.AppendLine("<%@ Register Tagprefix=\"HTML5\" Namespace=\"Hemrika.SharePresence.Html5.WebControls\" Assembly=\"Hemrika.SharePresence.HTML5,Version=1.0.0.0,Culture=neutral,PublicKeyToken=3421bd1d946bda6c\" %>");
+            builder.AppendLine("<%@ Register Tagprefix=\"SharePresence\" Namespace=\"Hemrika.SharePresence.WebSite.FieldTypes\" Assembly=\"Hemrika.SharePresence.WebSite,Version=1.0.0.0,Culture=neutral,PublicKeyToken=11e6604a27f32a11\" %>");
+            builder.AppendLine("<%@ Register Tagprefix=\"HTML5\" Namespace=\"Hemrika.SharePresence.Html5.WebControls\" Assembly=\"Hemrika.SharePresence.HTML5,Version=1.0.0.0,Culture=neutral,PublicKeyToken=11e6604a27f32a11\" %>");
             builder.AppendLine("<asp:Content ContentPlaceholderID=\"PlaceHolderPageTitle\" runat=\"server\"><SharePoint:FieldValue id=\"PageTitle\" FieldName=\"Title\" runat=\"server\"/></asp:Content>");
             builder.AppendLine("<asp:Content ContentPlaceholderID=\"PlaceHolderMain\" runat=\"server\">");
             builder.AppendLine("<!-- Place your custom field within this placeholder -->");
