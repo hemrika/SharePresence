@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+************************************************************************
+       Company: Hemrika
+   Application: Hemrika.SharePresence
+  Created date: 2012-04-19 22:12:43Z
+    Created by: MARKETING\Administrator
+  Feature Name: WebSiteGateKeeper
+ Feature Title: WebSite GateKeeper
+   Description: WebSite GateKeeper
+       History: Initial Version 1.0.0.0 
+************************************************************************
+-->
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ElementManifests></ElementManifests>
+</Feature>

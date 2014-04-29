@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements Id="c690efe7-46ef-4ab1-afa9-6b37f83fee3a" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="c690efe7-46ef-4ab1-afa9-6b37f83fee3a" GroupId="TimerJobs" Location="Microsoft.SharePoint.Administration.Monitoring" Sequence="100" Title="Manage SiteMap Ping Timer Job" Description="Configure SiteMap Ping schedule and settings">
+    <UrlAction Url="_admin/SiteMapPing/ManageJob.aspx"/>
+  </CustomAction>
+</Elements> 

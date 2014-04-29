@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://development/_vti_bin/SharePresence/GateKeeperService.svc/mex?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" />
+  <xs:element name="HasListing">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" minOccurs="0" name="type" type="q1:GateKeeperType" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" minOccurs="0" name="node" type="q2:GateKeeperListing" />
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HasListingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HasListingResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GateKeeper">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" minOccurs="0" name="type" type="q3:GateKeeperType" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" minOccurs="0" name="node" type="q4:GateKeeperListing" />
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GateKeeperResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HoneyPot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserHostAddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Referrer" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserAgent" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HoneyPotResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HTTP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserHostAddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastActivity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Referrer" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ThreatLevel" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserAgent" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="VisitorType" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HTTPResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Drone">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserHostAddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Referrer" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserAgent" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DroneResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Proxy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserHostAddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Referrer" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserAgent" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProxyResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

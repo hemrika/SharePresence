@@ -1,0 +1,17 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x0100B20DE0926B2DC04E818270694771A42B" Name="Noise Entry" Group="Noise Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+    <FieldRefs>
+      <FieldRef ID="761dd5b6-54bb-48a5-b79c-fe518676ace8" Name="Noise_x0020_Group" DisplayName="Noise Group" />
+      <FieldRef ID="1a25f830-5754-4d19-bfd8-d8ac0cb5aaf0" Name="Noise_x0020_Words" DisplayName="Noise Words" />
+    </FieldRefs>
+    <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+          <Display>ListForm</Display>
+          <Edit>ListForm</Edit>
+          <New>ListForm</New>
+        </FormTemplates>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

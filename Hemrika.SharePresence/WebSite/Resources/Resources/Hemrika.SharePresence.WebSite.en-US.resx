@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PublishingStartDate_DisplayName" xml:space="preserve">
+    <value>PublishingStartDate</value>
+  </data>
+  <data name="PublishingStartDate_Description" xml:space="preserve">
+    <value>PublishingStartDate</value>
+  </data>
+  <data name="PublishingExpirationDate_DisplayName" xml:space="preserve">
+    <value>PublishingExpirationDate</value>
+  </data>
+  <data name="PublishingExpirationDate_Description" xml:space="preserve">
+    <value>PublishingExpirationDate</value>
+  </data>
+  <data name="PublishingContact_DisplayName" xml:space="preserve">
+    <value>PublishingContact</value>
+  </data>
+  <data name="PublishingContact_Description" xml:space="preserve">
+    <value>PublishingContact</value>
+  </data>
+  <data name="PublishingContactEmail_DisplayName" xml:space="preserve">
+    <value>PublishingContactEmail</value>
+  </data>
+  <data name="PublishingContactEmail_Description" xml:space="preserve">
+    <value>PublishingContactEmail</value>
+  </data>
+  <data name="PublishingPreviewImage_DisplayName" xml:space="preserve">
+    <value>PublishingPreviewImage</value>
+  </data>
+  <data name="PublishingPreviewImage_Description" xml:space="preserve">
+    <value>PublishingPreviewImage</value>
+  </data>
+  <data name="PublishingHidden_DisplayName" xml:space="preserve">
+    <value>PublishingHidden</value>
+  </data>
+  <data name="PublishingHidden_Description" xml:space="preserve">
+    <value>PublishingHidden</value>
+  </data>
+  <data name="PublishingAssociatedContentType_DisplayName" xml:space="preserve">
+    <value>PublishingAssociatedContentType</value>
+  </data>
+  <data name="PublishingAssociatedContentType_Description" xml:space="preserve">
+    <value>PublishingAssociatedContentType</value>
+  </data>
+  <data name="ContentTypeIdFieldType_DisplayName" xml:space="preserve">
+    <value>ContentTypeIdFieldType</value>
+  </data>
+  <data name="ContentTypeIdFieldType_Description" xml:space="preserve">
+    <value>ContentTypeIdFieldType</value>
+  </data>
+  <data name="error_ListTemplateDescription" xml:space="preserve">
+    <value>Error pages list</value>
+  </data>
+  <data name="error_ListTemplateDisplayName" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Error_Description" xml:space="preserve">
+    <value>Error Pages</value>
+  </data>
+  <data name="Error_Title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Pages_Description" xml:space="preserve">
+    <value>WebSite Pages Library</value>
+  </data>
+  <data name="Pages_Title" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="WebPageTitle_DisplayName" xml:space="preserve">
+    <value>WebPageTitle</value>
+  </data>
+  <data name="WebPageTitle_Description" xml:space="preserve">
+    <value>WebPageTitle</value>
+  </data>
+  <data name="WebPageSubTitle_DisplayName" xml:space="preserve">
+    <value>WebPageSubTitle</value>
+  </data>
+  <data name="WebPageSubTitle_Description" xml:space="preserve">
+    <value>WebPageSubTitle</value>
+  </data>
+  <data name="WebSitePart_WebPartTitle" xml:space="preserve">
+    <value>WebSitePart Title</value>
+  </data>
+  <data name="WebSitePart_WebPartDescription" xml:space="preserve">
+    <value>WebSitePart Description</value>
+  </data>
+  <data name="WebSitePart_WebPartGroup" xml:space="preserve">
+    <value>Webparts</value>
+  </data>
+  <data name="WebSitePart_WebPartQuickAddGroup" xml:space="preserve">
+    <value>Webparts</value>
+  </data>
+  <data name="MetaDataFields_DisplayName" xml:space="preserve">
+    <value>MetaDataFields</value>
+  </data>
+  <data name="MetaDataFields_Description" xml:space="preserve">
+    <value>MetaDataFields</value>
+  </data>
+  <data name="WebSiteContentFieldType_DisplayName" xml:space="preserve">
+    <value>WebSiteContentFieldType</value>
+  </data>
+  <data name="WebSiteContentFieldType_Description" xml:space="preserve">
+    <value>WebSiteContentFieldType</value>
+  </data>
+  <data name="fieldtype_HTML_name" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="fieldtype_HTML_description" xml:space="preserve">
+    <value>HTML Field</value>
+  </data>
+  <data name="fieldtype_Image_description" xml:space="preserve">
+    <value>Image Field</value>
+  </data>
+  <data name="fieldtype_Image_name" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="PublishingLayout_DisplayName" xml:space="preserve">
+    <value>PublishingLayout</value>
+  </data>
+  <data name="PublishingLayout_Description" xml:space="preserve">
+    <value>PublishingLayout</value>
+  </data>
+  <data name="PublishingPageDesign_DisplayName" xml:space="preserve">
+    <value>Publishing Page Design</value>
+  </data>
+  <data name="PublishingPageDesign_Description" xml:space="preserve">
+    <value>Publishing PageDesign Field</value>
+  </data>
+  <data name="TimeFieldType_DisplayName" xml:space="preserve">
+    <value>TimeFieldType</value>
+  </data>
+  <data name="TimeFieldType_Description" xml:space="preserve">
+    <value>TimeFieldType</value>
+  </data>
+  <data name="AddressFieldType_DisplayName" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AddressFieldType_Description" xml:space="preserve">
+    <value>AddressFieldType</value>
+  </data>
+  <data name="HTML5TypeField_DisplayName" xml:space="preserve">
+    <value>HTML5</value>
+  </data>
+  <data name="HTML5TypeField_Description" xml:space="preserve">
+    <value>HTML5TypeField</value>
+  </data>
+  <data name="HTML5Image_Description" xml:space="preserve">
+    <value>HTML5 image with picker</value>
+  </data>
+  <data name="HTML5Image_DisplayName" xml:space="preserve">
+    <value>HTML5 Image</value>
+  </data>
+  <data name="HTML5Details_Description" xml:space="preserve">
+    <value>HTML5 Details</value>
+  </data>
+  <data name="HTML5Details_DisplayName" xml:space="preserve">
+    <value>HTML5 Details</value>
+  </data>
+  <data name="HTML5Header_Description" xml:space="preserve">
+    <value>HTML5 Header</value>
+  </data>
+  <data name="HTML5Header_DisplayName" xml:space="preserve">
+    <value>HTML5 Header</value>
+  </data>
+  <data name="HTML5Section_Description" xml:space="preserve">
+    <value>HTML5 Section</value>
+  </data>
+  <data name="HTML5Section_DisplayName" xml:space="preserve">
+    <value>HTML5 Section</value>
+  </data>
+  <data name="HTML5Video_Description" xml:space="preserve">
+    <value>HTML5 Video</value>
+  </data>
+  <data name="HTML5Video_DisplayName" xml:space="preserve">
+    <value>HTML5 Video</value>
+  </data>
+  <data name="HTML5Footer_Description" xml:space="preserve">
+    <value>HTML5 Footer</value>
+  </data>
+  <data name="HTML5Footer_DisplayName" xml:space="preserve">
+    <value>HTML5 Footer</value>
+  </data>
+  <data name="SchemaOrgTypeFieldType_DisplayName" xml:space="preserve">
+    <value>Schema Type</value>
+  </data>
+  <data name="SchemaOrgTypeFieldType_Description" xml:space="preserve">
+    <value>Schema.Org Type</value>
+  </data>
+  <data name="SchemaOrgPropertyFieldType_Description" xml:space="preserve">
+    <value>Scheme.Org Property</value>
+  </data>
+  <data name="SchemaOrgPropertyFieldType_DisplayName" xml:space="preserve">
+    <value>Schema Property</value>
+  </data>
+  <data name="HTML5Rating_Description" xml:space="preserve">
+    <value>HTML5 Rating Field</value>
+  </data>
+  <data name="HTML5Rating_DisplayName" xml:space="preserve">
+    <value>HTML5 Rating</value>
+  </data>
+  <data name="HTML5Bookmark_Description" xml:space="preserve">
+    <value>HTML5 Bookmark Field</value>
+  </data>
+  <data name="HTML5Bookmark_DisplayName" xml:space="preserve">
+    <value>HTML5 Bookmark</value>
+  </data>
+  <data name="HTML5Title_Description" xml:space="preserve">
+    <value>HTML5 Title</value>
+  </data>
+  <data name="HTML5Title_DisplayName" xml:space="preserve">
+    <value>HTML5 Title</value>
+  </data>
+  <data name="HTML5PublishingDate_Description" xml:space="preserve">
+    <value>HTML5 PublishingDate</value>
+  </data>
+  <data name="HTML5PublishingDate_DisplayName" xml:space="preserve">
+    <value>HTML5 Date</value>
+  </data>
+  <data name="HTML5PublishingDate_DisplayName1" xml:space="preserve">
+    <value>HTML5 PublishingDate</value>
+  </data>
+  <data name="Tags_Description" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Tags_DisplayName" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Tag_Description" xml:space="preserve">
+    <value>Tag Field</value>
+  </data>
+  <data name="Tag_DisplayName" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+</root>

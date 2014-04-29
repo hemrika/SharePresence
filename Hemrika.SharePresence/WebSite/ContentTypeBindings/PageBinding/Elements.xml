@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!-- content type binding between content type Web Part Page and Pages -->
+	<ContentTypeBinding
+		ContentTypeId="0x01010901"
+		ListUrl="Pages" />
+  <!--WebSitePage-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165"
+     ListUrl="Pages" />
+  <ContentTypeBinding
+    ContentTypeId="0x01010500AFA50A7CFA6B4D37AC006F4906166E4A"
+    ListUrl="_catalogs/masterpage" RootWebOnly="TRUE" />
+  <ContentTypeBinding 
+    ContentTypeId="0x010100E2E99BB760B34490935A1126C04A810F00CDC8B569999E4B2C9888D1BC77AC0A79" 
+    ListUrl="_catalogs/masterpage"  RootWebOnly="TRUE"/>
+</Elements>

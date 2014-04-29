@@ -1,0 +1,29 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x0100AC0BDBCFCED44248B1A3368090B8E248" 
+               Name="NavigationEntry" 
+               Group="Navigation Content Types"
+               Description="Hemrika Navigation Entries"
+               Inherits="true"
+               Version="0" Overwrite="TRUE">
+    <FieldRefs>
+      <FieldRef ID="c29e077d-f466-4d8e-8bbe-72b66c5f205c" Name="URL" DisplayName="URL" />
+      <FieldRef ID="52578fc3-1f01-4f4d-b016-94ccbcf428cf" Name="_Comments" DisplayName="Comments" />
+      <FieldRef ID="49e684d1-8b7a-4179-9787-167ee1b6e1de" Name="Enabled" DisplayName="Enabled" DefaultValue="true" />
+      <FieldRef ID="ec5f1b12-3ad8-46f7-b01e-e38c820909a7" Name="Selected" DisplayName="Selected" />
+      <FieldRef ID="0038d6d0-a671-4b8a-ac4d-8ee95bad41fc" Name="Breadcrumb" DisplayName="Breadcrumb" />
+      <FieldRef ID="815de444-cec3-4c58-97c6-1af175aedb00" Name="Separator" DisplayName="Separator" />
+      <FieldRef ID="a09c4b56-c415-4137-b1d0-f9833be7febc" Name="Icon" DisplayName="Icon" />
+      <FieldRef ID="4af17ff8-b4e4-498e-ad7f-a60165d0475c" Name="LargeImage" DisplayName="LargeImage" />
+      <FieldRef ID="e64690c4-3b1a-4fe4-9b72-1d042f07d074" Name="Parent" DisplayName="Parent" />
+    </FieldRefs>
+    <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+          <Display>ListForm</Display>
+          <Edit>ListForm</Edit>
+          <New>ListForm</New>
+        </FormTemplates>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

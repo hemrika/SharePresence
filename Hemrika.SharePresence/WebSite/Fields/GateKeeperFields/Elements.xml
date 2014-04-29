@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+    Type="Choice"
+    DisplayName="GateKeeper Type"
+    Group="GateKeeper Columns"
+    ID="{7CBE8238-FC84-4167-AD19-D3FEAC6317F2}"
+    StaticName="GateKeeper_Type"
+    Name="GateKeeper_Type" >
+    <CHOICES>
+      <CHOICE>Drone</CHOICE>
+      <CHOICE>Black</CHOICE>
+      <CHOICE>White</CHOICE>
+      <CHOICE>HoneyPot</CHOICE>
+      <CHOICE>HTTP</CHOICE>
+      <CHOICE>Proxy</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field
+    Type="DateTime"
+    DisplayName="GateKeeper Date"
+    Group="GateKeeper Columns"
+    ID="{094B46C7-BDDB-44AB-B130-D84681C123D1}"
+    StaticName="GateKeeper_Date"
+    Name="GateKeeper_Date" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper Comment"
+    Group="GateKeeper Columns"
+    ID="{47A32142-F196-44E7-BC50-02DDCF419E1B}"
+    StaticName="GateKeeper_Comment"
+    Name="GateKeeper_Comment" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper IP address"
+    Group="GateKeeper Columns"
+    ID="{6C804A8D-D9E7-46B6-ADCE-0E2BBD89AAE4}"
+    StaticName="GateKeeper_IPAddress"
+    Name="GateKeeper_IPAddress" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper Useragent"
+    Group="GateKeeper Columns"
+    ID="{D2DAF4D5-BC71-477A-82C2-FE8A327F0029}"
+    StaticName="GateKeeper_Useragent"
+    Name="GateKeeper_Useragent" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper Url"
+    Group="GateKeeper Columns"
+    ID="{890EA2DC-0209-4EFE-9A5A-3752D68BC373}"
+    StaticName="GateKeeper_Url"
+    Name="GateKeeper_Url" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper Referrer"
+    Group="GateKeeper Columns"
+    ID="{5256CD66-F7C4-4323-8D74-C4A33B10BE3D}"
+    StaticName="GateKeeper_Referrer"
+    Name="GateKeeper_Referrer" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper Threatlevel"
+    Group="GateKeeper Columns"
+    ID="{80EBBE40-8717-4FB8-BB06-9267221E59BE}"
+    StaticName="GateKeeper_Threatlevel"
+    Name="GateKeeper_Threatlevel" >
+  </Field>
+  <Field
+    Type="Text"
+    DisplayName="GateKeeper Visitortype"
+    Group="GateKeeper Columns"
+    ID="{19166A1E-21A4-4F19-A551-5C71D942DF17}"
+    StaticName="GateKeeper_Visitortype"
+    Name="GateKeeper_Visitortype" >
+  </Field>
+  <Field
+  Type="Text"
+  DisplayName="GateKeeper Last Activity"
+  Group="GateKeeper Columns"
+  ID="{FA6464CD-C130-4C82-A8FD-ECD2A700A465}"
+  StaticName="GateKeeper_LastActivity"
+  Name="GateKeeper_LastActivity" >
+  </Field>
+</Elements>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<FieldTypes>
+	<FieldType>
+		<Field
+			Name="TypeName">SchemaType</Field>
+		<Field
+			Name="ParentType">MultiColumn</Field>
+		<Field
+			Name="TypeDisplayName">$Resources:Hemrika.SharePresence.WebSite,SchemaOrgTypeFieldType_DisplayName;</Field>
+		<Field
+			Name="TypeShortDescription">$Resources:Hemrika.SharePresence.WebSite,SchemaOrgTypeFieldType_Description;</Field>
+		<Field
+			Name="UserCreatable">TRUE</Field>
+		<Field
+			Name="ShowInListCreate">TRUE</Field>
+		<Field
+			Name="ShowInDocumentLibraryCreate">FALSE</Field>
+		<Field
+			Name="ShowInSurveyCreate">FALSE</Field>
+		<Field
+			Name="ShowInColumnTemplateCreate">TRUE</Field>
+		<Field
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.SchemaType, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>    
+	</FieldType>
+  <FieldType>
+    <Field
+			Name="TypeName">SchemaProperty</Field>
+    <Field
+			Name="ParentType">MultiColumn</Field>
+    <Field
+			Name="TypeDisplayName">$Resources:Hemrika.SharePresence.WebSite,SchemaOrgPropertyFieldType_DisplayName;</Field>
+    <Field
+			Name="TypeShortDescription">$Resources:Hemrika.SharePresence.WebSite,SchemaOrgPropertyFieldType_Description;</Field>
+    <Field
+			Name="UserCreatable">TRUE</Field>
+    <Field
+			Name="ShowInListCreate">TRUE</Field>
+    <Field
+			Name="ShowInDocumentLibraryCreate">FALSE</Field>
+    <Field
+			Name="ShowInSurveyCreate">FALSE</Field>
+    <Field
+			Name="ShowInColumnTemplateCreate">TRUE</Field>
+    <Field
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.SchemaProperty, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+  </FieldType>
+</FieldTypes>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Analytics-->
+  <CustomActionGroup
+		Id="Analytics"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="Analytics"
+		Sequence="20"
+		Description="Advanced SharePoint Analytics."
+		ImageUrl="/_layouts/images/Hemrika/moss_bi.png" />
+  <HideCustomAction
+		Id="SimplifySiteSettings_Site_WebAnalyticsReports"
+		Location="Microsoft.SharePoint.SiteSettings"
+		GroupId="SiteTasks"
+		HideActionId="Site_WebAnalyticsReports" />
+  <HideCustomAction
+		Id="SimplifySiteSettings_SiteCollection_WebAnalyticsReports"
+		Location="Microsoft.SharePoint.SiteSettings"
+		GroupId="SiteTasks"
+		HideActionId="SiteCollection_WebAnalyticsReports" />
+  <HideCustomAction
+		Id="SimplifySiteSettings_SiteCollectionUsage"
+		Location="Microsoft.SharePoint.SiteSettings"
+		GroupId="SiteTasks"
+		HideActionId="SiteCollectionUsage" />
+  <HideCustomAction
+		Id="SimplifySiteSettings_WebUsage"
+		Location="Microsoft.SharePoint.SiteSettings"
+		GroupId="SiteTasks"
+		HideActionId="WebUsage" />
+  <!--
+  <CustomAction
+  Id="Analytics_GoogleSettings"
+  GroupId="Analytics"
+  Location="Microsoft.SharePoint.SiteSettings"
+  Sequence="10"
+  Title="Google Settings"
+  Description="General Google Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Analytics/ManageGoogleAccountSettings.aspx', title: 'Manage Google Settings', allowMaximize: false, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+-->
+  <CustomAction
+		Id="Analytics_DashBoard"
+		GroupId="Analytics"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Analytics DashBoard"
+		Description="Advanced Analytics DashBoard" >
+    <UrlAction
+				Url="_layouts/Hemrika/Analytics/GoogleAnalytics.aspx" />
+  </CustomAction>
+  <CustomAction
+  Id="Analytics_GoogleSite"
+  GroupId="Analytics"
+  Location="Microsoft.SharePoint.SiteSettings"
+  Sequence="20"
+  Title="Google Site Statistics"
+  Description="Google Site Statistics" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Analytics/GoogleAnalyticsSite.aspx', title: 'Site Statistics', allowMaximize: false, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+  Id="Analytics_GoogleWeb"
+  GroupId="Analytics"
+  Location="Microsoft.SharePoint.SiteSettings"
+  Sequence="30"
+  Title="Google Web Statistics"
+  Description="Google Web Statistics" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Analytics/GoogleAnalyticsWeb.aspx', title: 'Web Statistics', allowMaximize: false, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+</Elements>

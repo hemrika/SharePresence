@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HTML5ImageDataSet" targetNamespace="http://tempuri.org/HTML5ImageDataSet.xsd" xmlns:mstns="http://tempuri.org/HTML5ImageDataSet.xsd" xmlns="http://tempuri.org/HTML5ImageDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HTML5ImageDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="HTML5ImageDataSet" msprop:Generator_UserDSName="HTML5ImageDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HTML5Images" msprop:Generator_TableClassName="HTML5ImagesDataTable" msprop:Generator_TableVarName="tableHTML5Images" msprop:Generator_TablePropName="HTML5Images" msprop:Generator_RowDeletingName="HTML5ImagesRowDeleting" msprop:Generator_UserTableName="HTML5Images" msprop:Generator_RowChangingName="HTML5ImagesRowChanging" msprop:Generator_RowEvHandlerName="HTML5ImagesRowChangeEventHandler" msprop:Generator_RowDeletedName="HTML5ImagesRowDeleted" msprop:Generator_RowEvArgName="HTML5ImagesRowChangeEvent" msprop:Generator_RowChangedName="HTML5ImagesRowChanged" msprop:Generator_RowClassName="HTML5ImagesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImageId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnImageId" msprop:Generator_ColumnPropNameInRow="ImageId" msprop:Generator_ColumnPropNameInTable="ImageIdColumn" msprop:Generator_UserColumnName="ImageId" type="xs:string" />
+              <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnPropNameInTable="HeightColumn" msprop:Generator_UserColumnName="Height" type="xs:int" default="48" minOccurs="0" />
+              <xs:element name="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" msprop:Generator_UserColumnName="Width" type="xs:int" default="48" minOccurs="0" />
+              <xs:element name="Alt" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Alt" msprop:Generator_ColumnVarNameInTable="columnAlt" msprop:Generator_ColumnPropNameInTable="AltColumn" msprop:Generator_UserColumnName="Alt" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Src" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Src" msprop:Generator_ColumnVarNameInTable="columnSrc" msprop:Generator_ColumnPropNameInTable="SrcColumn" msprop:Generator_UserColumnName="Src" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Keywords" msprop:Generator_ColumnVarNameInTable="columnKeywords" msprop:Generator_ColumnPropNameInRow="Keywords" msprop:Generator_ColumnPropNameInTable="KeywordsColumn" msprop:Generator_UserColumnName="Keywords" type="xs:string" minOccurs="0" />
+              <xs:element name="Preview" msprop:Generator_ColumnVarNameInTable="columnPreview" msprop:Generator_ColumnPropNameInRow="Preview" msprop:Generator_ColumnPropNameInTable="PreviewColumn" msprop:Generator_UserColumnName="Preview" type="xs:string" minOccurs="0" />
+              <xs:element name="Web" msprop:Generator_ColumnVarNameInTable="columnWeb" msprop:Generator_ColumnPropNameInRow="Web" msprop:Generator_ColumnPropNameInTable="WebColumn" msprop:Generator_UserColumnName="Web" type="xs:string" minOccurs="0" />
+              <xs:element name="List" msprop:Generator_ColumnVarNameInTable="columnList" msprop:Generator_ColumnPropNameInRow="List" msprop:Generator_ColumnPropNameInTable="ListColumn" msprop:Generator_UserColumnName="List" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HTML5Images" />
+      <xs:field xpath="mstns:ImageId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

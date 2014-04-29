@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+		Id="Ribbon.Hemrika.SharePresence.Analytics"
+		Location="CommandUI.Ribbon"
+		Title="Analytics">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+					Location="Ribbon.Tabs._children">
+          <Tab
+						Id="Ribbon.Hemrika.SharePresence.Analytics"
+						Title="Analytics"
+						Description="Page Analytics"
+						Sequence="140">
+            <Scaling
+							Id="Ribbon.Hemrika.SharePresence.Analytics.Scaling">
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup"
+								Size="LargeLarge" Sequence="10" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup"
+								Size="LargeLarge" Sequence="20" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup"
+								Size="LargeLarge" Sequence="30" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup"
+								Size="LargeLarge" Sequence="40" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup"
+									Size="LargeLarge" Sequence="50" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup"
+									Size="LargeLarge" Sequence="60" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup"
+									Size="LargeLarge" Sequence="70" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup"
+									Size="LargeLarge" Sequence="80" />
+            </Scaling>
+            <Groups
+							Id="Ribbon.Hemrika.SharePresence.Analytics.Groups">
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup"
+								Description="Visitors"
+								Title="Visitors"
+								Sequence="10"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Analytics.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.Visits"
+										Command="AnalyticsReportPage"
+										CommandValueId="Visits"
+                    Sequence="10"
+										Description="Visits"
+										LabelText="Visits"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_users.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_users.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.NewvsReturning"
+										Command="AnalyticsReportPage"
+										Sequence="11"
+										Description="This query returns the number of new visits vs returning visits."
+										LabelText="New vs Returning"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_Magnet.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_Magnet.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.TimeonSite"
+										Command="AnalyticsReportPage"
+										Sequence="12"
+										Description="This query returns the number of visits and total time on site, which can be used to calculate average time on site."
+										LabelText="Time on Site"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_Clock.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_Clock.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.OperatingSystem"
+										Command="AnalyticsReportPage"
+										Sequence="13"
+										Description="This query returns a breakdown of visits by the Operating System"
+										LabelText="Operating System"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_laptops.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_laptops.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.VisitorsGroup.Browsers"
+										Command="AnalyticsReportPage"
+                    CommandValueId="Browsers"
+										Sequence="14"
+										Description="Browsers"
+										LabelText="Browsers"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_network.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_network.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup"
+								Description="Traffic Sources"
+								Title="Traffic Sources"
+								Sequence="20"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Analytics.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.Usage"
+										Command="AnalyticsReportPage"
+										CommandValueId="Usage"
+                    Sequence="10"
+										Description="This query returns the site usage data broken down by source and medium, sorted by visits in descending order."
+										LabelText="Usage"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_speedometer.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_speedometer.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.ReferringSites"
+										Command="AnalyticsReportPage"
+										CommandValueId="ReferringSites"
+                    Sequence="20"
+										Description="This query returns a list of domains and how many visits each referred to your site, sorted by pageviews in descending order."
+										LabelText="Referring Sites"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_directions.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_directions.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.SearchEngines"
+										Command="AnalyticsReportPage"
+										CommandValueId="SearchEngines"
+                    Sequence="30"
+										Description="This query returns site usage data for all traffic by search engine, sorted by pageviews in descending order"
+										LabelText="Search Engines"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_search_globe.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_search_globe.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.OrganicSearch"
+										Command="AnalyticsReportPage"
+										CommandValueId="Organic Search"
+                    Sequence="40"
+										Description="This query returns site usage data for organic traffic by search engine, sorted by pageviews in descending order."
+										LabelText="Organic Search"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_search.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_search.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.SourceGroup.Keywords"
+										Command="AnalyticsReportPage"
+										CommandValueId="Keywords"
+                    Sequence="50"
+										Description="This query returns visits broken down by search engine keywords used, sorted by visits in descending order."
+										LabelText="Keywords"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_key.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_key.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup"
+								Description="Analytics Options"
+								Title="Analytics Options"
+								Sequence="30"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Analytics.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.WebLevel"
+										Command="AnalyticsReportWeb"
+										CommandValueId="Web Statistics"
+                    Sequence="10"
+										Description="Views Analytics on Web Level."
+										LabelText="Web level"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_chart.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_chart.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.SiteLevel"
+										Command="AnalyticsReportSite"
+										CommandValueId="Site Statistics"
+                    Sequence="20"
+										Description="Views Analytics on Site Level."
+										LabelText="Site level"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_chart_pie.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_chart_pie.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.Settings"
+										Command="AnalyticsReportSite"
+										CommandValueId="Analytics Settings"
+                    Sequence="30"
+										Description="Analytics Settings"
+										LabelText="Settings"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_tools.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_tools.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.AnalyticsGroup.GoogleAnalytics"
+										Command="AnalyticsReportSite"
+										CommandValueId="Google Analytics"
+                    Sequence="40"
+										Description="Google Analytics Site"
+										LabelText="Google Analytics"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_Google.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_Google.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup"
+								Description="Analytics Custom Reports"
+								Title="Analytics Custom"
+								Sequence="40"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Analytics.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Analytics.CustomGroup.CustomReport"
+										Command="AnalyticsReportSite"
+										CommandValueId="Custom Report"
+                    Sequence="1000"
+										Description="Request a custom report."
+										LabelText="Request Report"
+										Image16by16="/_layouts/images/Hemrika/Analytics/16/RibbonIcon_Analytics_custom.png"
+										Image32by32="/_layouts/images/Hemrika/Analytics/32/RibbonIcon_Analytics_custom.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.Analytics.Flexible">
+            <Layout Title="Large" >
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="Medium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumTwoRow">
+              <OverflowSection Type="TwoRow" TemplateAlias="o1" DisplayMode="Medium" />
+            </Layout>
+            <Layout Title="Small">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small" />
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="Large" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children" >
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.Analytics.Flexible2">
+            <Layout Title="LargeLarge">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="LargeMedium">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="LargeSmall">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="MediumLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="MediumMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="SmallLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="SmallMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="SmallSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="LargeMedium" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

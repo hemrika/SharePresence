@@ -23,9 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Admin
 		{75AC8AA9-73EB-4D0F-9523-A46E1E65F548} = {75AC8AA9-73EB-4D0F-9523-A46E1E65F548}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.WebSite", "WebSite\Hemrika.SharePresence.WebSite.csproj", "{D609C8E7-4C80-4695-9BCF-89A8CA232E58}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
+		SccNumberOfProjects = 8
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://hemrika.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -47,6 +49,9 @@ Global
 		SccProjectUniqueName6 = Administration\\Hemrika.SharePresence.Administration.csproj
 		SccProjectName6 = Administration
 		SccLocalPath6 = Administration
+		SccProjectUniqueName7 = WebSite\\Hemrika.SharePresence.WebSite.csproj
+		SccProjectName7 = WebSite
+		SccLocalPath7 = WebSite
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +84,12 @@ Global
 		{B572E958-65E6-4B05-90B4-062686A63AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B572E958-65E6-4B05-90B4-062686A63AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B572E958-65E6-4B05-90B4-062686A63AE0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D609C8E7-4C80-4695-9BCF-89A8CA232E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D609C8E7-4C80-4695-9BCF-89A8CA232E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D609C8E7-4C80-4695-9BCF-89A8CA232E58}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D609C8E7-4C80-4695-9BCF-89A8CA232E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D609C8E7-4C80-4695-9BCF-89A8CA232E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D609C8E7-4C80-4695-9BCF-89A8CA232E58}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

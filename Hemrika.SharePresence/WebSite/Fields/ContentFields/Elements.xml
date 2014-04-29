@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+  Type="Number"
+  DisplayName="Content Duration"
+  StaticName="Content_Duration"
+  Name="Content_Duration"
+  Decimals="2"
+  Group="Publishing Content Columns"
+  ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" >
+  </Field>
+  <Field
+  Type="Number"
+  DisplayName="Content Width"
+  StaticName="Content_Width"
+  Name="Content_Width"
+  Group="Publishing Content Columns"
+  ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" >
+  </Field>
+  <Field
+  Type="Number"
+  DisplayName="Content Height"
+  StaticName="Content_Height"
+  Name="Content_Height"
+  Group="Publishing Content Columns"
+  ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" >
+  </Field>
+  <Field
+  Type="Number"
+  DisplayName="Content Bitrate"
+  StaticName="Content_Bitrate"
+  Name="Content_Bitrate"
+  Group="Publishing Content Columns"
+  ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" >
+  </Field>
+  <Field
+  Type="Text"
+  DisplayName="Video Format"
+  StaticName="Video_Format"
+  Name="Video_Format"
+  Group="Publishing Content Columns"
+  ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" >
+  </Field>
+  <Field
+  Type="Text"
+  DisplayName="Audio Format"
+  StaticName="Audio_Format"
+  Name="Audio_Format"
+  Group="Publishing Content Columns"
+  ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" >
+  </Field>
+  <Field
+  Type="Text"
+  DisplayName="Media Query"
+  StaticName="Media_Query"
+  Name="Media_Query"
+  Group="Publishing Content Columns"
+  ID="{D3644DFD-480C-436C-86D2-965084114B0A}" >
+  </Field>
+  <Field
+  Type="Choice"  
+  DisplayName="Track Type"
+  StaticName="Track_Type"
+  Name="Track_Type"
+  Group="Publishing Content Columns"
+  ID="{2BF1B941-D653-4C09-B33B-A3450ADB5371}" >
+    <CHOICES>
+      <CHOICE>Subtitles</CHOICE>
+      <CHOICE>Captions</CHOICE>
+      <CHOICE>Chapters</CHOICE>
+      <CHOICE>Descriptions</CHOICE>
+      <CHOICE>Metadata</CHOICE>
+    </CHOICES>
+    <Default>Captions</Default>
+  </Field>
+    <Field
+  Type="Text"
+  DisplayName="Track Language"
+  StaticName="Track_Language"
+  Name="Track_Language"
+  Group="Publishing Content Columns"
+  ID="{C1FA5C5E-ABA5-4B82-9AFA-E862F4BA362E}" >
+  </Field>
+  <Field
+  Type="Text"
+  DisplayName="Track Label"
+  StaticName="Track_Label"
+  Name="Track_Label"
+  Group="Publishing Content Columns"
+  ID="{16103487-CE5F-44E9-8C51-E8B4250ACA63}" >
+  </Field>
+  <Field
+  Type="Boolean"
+  DisplayName="Content Loop"
+  StaticName="Content_Loop"
+  Name="Content_Loop"
+  Group="Publishing Content Columns"
+  ID="{C89BB975-9279-417F-AE91-A7683ECC0686}" >
+    <Default>False</Default>
+  </Field>
+  <Field
+  Type="Choice"  
+  DisplayName="Content Buffer"
+  StaticName="Content_Buffer"
+  Name="Content_Buffer"
+  Group="Publishing Content Columns"
+  ID="{F522CAF4-9CB2-4599-BA89-B71DFB4BCE92}" >
+    <CHOICES>
+      <CHOICE>Auto</CHOICE>
+      <CHOICE>MetaData</CHOICE>
+      <CHOICE>None</CHOICE>
+      <CHOICE>NotSet</CHOICE>
+    </CHOICES>
+    <Default>Auto</Default>
+  </Field>
+  <Field
+  Type="Boolean"
+  DisplayName="Content AutoPlay"
+  StaticName="Content_AutoPlay"
+  Name="Content_AutoPlay"
+  Group="Publishing Content Columns"
+  ID="{03C33677-8271-42E2-BC6A-6F241BA61E27}" >
+    <Default>False</Default>
+  </Field>
+  <Field
+  Type="Boolean"
+  DisplayName="Content Controls"
+  StaticName="Content_Controls"
+  Name="Content_Controls"
+  Group="Publishing Content Columns"
+  ID="{457D932B-7F3F-459B-A94C-98A0517E0B4E}" >
+    <Default>True</Default>
+  </Field>
+</Elements>

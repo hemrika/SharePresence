@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="XSLTemplates\" Type="ElementManifest" />
+    <ProjectItemFile Source="ConvertToCelsius.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="CountOccurrences.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="FirstNWords.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="FixAmpersands.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="FormatFileSize.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="GetPercentileValue.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="GetUserEmail.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="GetUserID.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="GetUserIDs.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="GetUserName.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="GetUserNames.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="MailtoUser.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="MailtoUsers.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="MultiSelectDisplay.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="MultiSelectValueCheck.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="StripHTML.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="ToLower.xsl" Target="XSLTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="ToUpper.xsl" Target="XSLTemplates\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,5 @@
+<%@ ServiceHost Language="C#" Debug="true"
+    Service="Hemrika.SharePresence.WebSite.GateKeeper.GateKeeperService, $SharePoint.Project.AssemblyFullName$"  
+    CodeBehind="GateKeeperService.svc.cs"
+    Factory="Microsoft.SharePoint.Client.Services.MultipleBaseAddressBasicHttpBindingServiceHostFactory, Microsoft.SharePoint.Client.ServerRuntime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+

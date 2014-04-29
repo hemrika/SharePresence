@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WebSitePublishing_FeatureTitle" xml:space="preserve">
+    <value>Publishing Infrastructure Feature</value>
+  </data>
+  <data name="WebSitePublishing_FeatureDescription" xml:space="preserve">
+    <value>Publishing Infrastructure Feature Description</value>
+  </data>
+  <data name="PublishingMasterTemplate_ContentTypeName" xml:space="preserve">
+    <value>Publishing MasterPage</value>
+  </data>
+  <data name="PublishingMasterTemplate_ContentTypeDescription" xml:space="preserve">
+    <value>Publishing MasterPage Template</value>
+  </data>
+  <data name="PublishingPageTemplate_ContentTypeName" xml:space="preserve">
+    <value>Publishing Page Template</value>
+  </data>
+  <data name="PublishingPageTemplate_ContentTypeDescription" xml:space="preserve">
+    <value>Publishing Page Template Description</value>
+  </data>
+  <data name="PublishingPageLayout_ContentTypeName" xml:space="preserve">
+    <value>Publishing PageLayout</value>
+  </data>
+  <data name="PublishingPageLayout_ContentTypeDescription" xml:space="preserve">
+    <value>Publishing PageLayout Description</value>
+  </data>
+  <data name="column_associatedcontenttype_displayname" xml:space="preserve">
+    <value>Publishing ContentType</value>
+  </data>
+  <data name="column_contactemail_displayname" xml:space="preserve">
+    <value>Publishing Contact Email</value>
+  </data>
+  <data name="column_contactname_displayname" xml:space="preserve">
+    <value>Publishing Contact Name</value>
+  </data>
+  <data name="column_contactpicture_displayname" xml:space="preserve">
+    <value>Publishing Contact Picture</value>
+  </data>
+  <data name="column_contact_displayname" xml:space="preserve">
+    <value>Publishing Contact</value>
+  </data>
+  <data name="column_expirationdate_displayname" xml:space="preserve">
+    <value>Publishing ExpirationDate</value>
+  </data>
+  <data name="column_hidden_displayname" xml:space="preserve">
+    <value>Publishing Hidden</value>
+  </data>
+  <data name="column_pagedesign_displayname" xml:space="preserve">
+    <value>Publishing Page Design</value>
+  </data>
+  <data name="column_previewimage_displayname" xml:space="preserve">
+    <value>Publishing Preview Image</value>
+  </data>
+  <data name="column_startdate_displayname" xml:space="preserve">
+    <value>Publishing StartDate</value>
+  </data>
+  <data name="group_publishingcolumns" xml:space="preserve">
+    <value>Publishing Content Columns</value>
+  </data>
+  <data name="Error_Title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Error_Description" xml:space="preserve">
+    <value>Error Description</value>
+  </data>
+  <data name="error_ListTemplateDescription" xml:space="preserve">
+    <value>Error Description</value>
+  </data>
+  <data name="error_ListTemplateDisplayName" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ContentPages_ListTemplateDisplayName" xml:space="preserve">
+    <value>WebSite Pages</value>
+  </data>
+  <data name="ContentPages_ListTemplateDescription" xml:space="preserve">
+    <value>Template to create a ContentPages</value>
+  </data>
+  <data name="Pages_Title" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="Pages_Description" xml:space="preserve">
+    <value>Pages Description</value>
+  </data>
+  <data name="group_metadatacolumns" xml:space="preserve">
+    <value>MetaData Content Columns</value>
+  </data>
+  <data name="column_abstract_displayname" xml:space="preserve">
+    <value>abstract</value>
+  </data>
+  <data name="column_author_displayname" xml:space="preserve">
+    <value>author</value>
+  </data>
+  <data name="column_description_displayname" xml:space="preserve">
+    <value>description</value>
+  </data>
+  <data name="column_googlebot_displayname" xml:space="preserve">
+    <value>googlebot</value>
+  </data>
+  <data name="column_keywords_displayname" xml:space="preserve">
+    <value>keywords</value>
+  </data>
+  <data name="column_language_displayname" xml:space="preserve">
+    <value>language</value>
+  </data>
+  <data name="column_rating_displayname" xml:space="preserve">
+    <value>rating</value>
+  </data>
+  <data name="column_revisit_after_displayname" xml:space="preserve">
+    <value>revisit-after</value>
+  </data>
+  <data name="column_robots_displayname" xml:space="preserve">
+    <value>robots</value>
+  </data>
+  <data name="column_web_author_displayname" xml:space="preserve">
+    <value>web_author</value>
+  </data>
+  <data name="column_articlebyline_displayname" xml:space="preserve">
+    <value>Publishing Page By</value>
+  </data>
+  <data name="column_pageimagecaption_displayname" xml:space="preserve">
+    <value>Publishing Page Image Caption</value>
+  </data>
+  <data name="column_pagesummery_displayname" xml:space="preserve">
+    <value>Publishing Page Summery</value>
+  </data>
+  <data name="column_pageicon_displayname" xml:space="preserve">
+    <value>Publishing Page Icon</value>
+  </data>
+  <data name="column_pageimage_displayname" xml:space="preserve">
+    <value>Publishing Page Image</value>
+  </data>
+  <data name="group_publishingtypes" xml:space="preserve">
+    <value>Publishing Content Types</value>
+  </data>
+  <data name="Image_ContentTypeName" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Image_ContentTypeDescription" xml:space="preserve">
+    <value>Image Description</value>
+  </data>
+  <data name="PublishingContent_ContentTypeName" xml:space="preserve">
+    <value>Publishing Content</value>
+  </data>
+  <data name="PublishingContent_ContentTypeDescription" xml:space="preserve">
+    <value>Publishing Content Description</value>
+  </data>
+  <data name="Video_ContentTypeName" xml:space="preserve">
+    <value>Video Group</value>
+  </data>
+  <data name="Video_ContentTypeDescription" xml:space="preserve">
+    <value>A Group of videos used for streaming with HTML5 Video Field</value>
+  </data>
+  <data name="Audio_ContentTypeName" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="Audio_ContentTypeDescription" xml:space="preserve">
+    <value>Audio Description</value>
+  </data>
+  <data name="WebSitePage_ContentTypeName" xml:space="preserve">
+    <value>WebSite Page</value>
+  </data>
+  <data name="WebSitePage_ContentTypeDescription" xml:space="preserve">
+    <value>A SharePresence Website page</value>
+  </data>
+  <data name="column_articlestartdate_displayname" xml:space="preserve">
+    <value>Article Startdate</value>
+  </data>
+  <data name="PageParts_Title" xml:space="preserve">
+    <value>PageParts</value>
+  </data>
+  <data name="PageParts_Description" xml:space="preserve">
+    <value>Description of PageParts</value>
+  </data>
+  <data name="Page_Title" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="Page_Description" xml:space="preserve">
+    <value>Description of Page</value>
+  </data>
+  <data name="Content_Title" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Content_Description" xml:space="preserve">
+    <value>Description of Content</value>
+  </data>
+  <data name="Design_Title" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="Design_Description" xml:space="preserve">
+    <value>Description of Design</value>
+  </data>
+  <data name="SEO_Title" xml:space="preserve">
+    <value>SEO</value>
+  </data>
+  <data name="SEO_Description" xml:space="preserve">
+    <value>Description of SEO</value>
+  </data>
+  <data name="Analytics_Title" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="Analytics_Description" xml:space="preserve">
+    <value>Description of Analytics</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_Description" xml:space="preserve">
+    <value>Description of Settings</value>
+  </data>
+  <data name="Workflows_WorkflowTitle" xml:space="preserve">
+    <value>ApprovalWorkFlow Title</value>
+  </data>
+  <data name="Workflows_WorkflowDescription" xml:space="preserve">
+    <value>ApprovalWorkFlow Description</value>
+  </data>
+  <data name="column_html5details_displayname" xml:space="preserve">
+    <value>HTML5 Details</value>
+  </data>
+  <data name="column_html5header_displayname" xml:space="preserve">
+    <value>HTML5 Header</value>
+  </data>
+  <data name="column_html5image_displayname" xml:space="preserve">
+    <value>HTML5 Image</value>
+  </data>
+  <data name="column_html5section_displayname" xml:space="preserve">
+    <value>HTML5 Section</value>
+  </data>
+  <data name="column_html5video_displayname" xml:space="preserve">
+    <value>HTML5 Video</value>
+  </data>
+  <data name="group_html5columns" xml:space="preserve">
+    <value>HTML5 Columns</value>
+  </data>
+  <data name="column_html5footer_displayname" xml:space="preserve">
+    <value>HTML5 Footer</value>
+  </data>
+  <data name="column_new_genres_displayname" xml:space="preserve">
+    <value>News Genres</value>
+  </data>
+  <data name="column_itemproperty_displayname" xml:space="preserve">
+    <value>Schema ItemProperty</value>
+  </data>
+  <data name="column_itemtype_displayname" xml:space="preserve">
+    <value>Schema ItemType</value>
+  </data>
+  <data name="group_schemacolumns" xml:space="preserve">
+    <value>Schema Columns</value>
+  </data>
+  <data name="column_html5rating_displayname" xml:space="preserve">
+    <value>HTML5 Rating</value>
+  </data>
+  <data name="column_html5bookmark_displayname" xml:space="preserve">
+    <value>HTML5 Bookmark</value>
+  </data>
+  <data name="VideoContent_ListTemplateDescription" xml:space="preserve">
+    <value>Library contains Videos</value>
+  </data>
+  <data name="VideoContent_ListTemplateDisplayName" xml:space="preserve">
+    <value>Video Content</value>
+  </data>
+  <data name="VideoPage_ContentTypeDescription" xml:space="preserve">
+    <value>A SharePresence Website Page with Video Column</value>
+  </data>
+  <data name="VideoPage_ContentTypeName" xml:space="preserve">
+    <value>Video Page</value>
+  </data>
+  <data name="column_html5title_displayname" xml:space="preserve">
+    <value>HTML5 Title</value>
+  </data>
+  <data name="column_html5date_displayname" xml:space="preserve">
+    <value>HTML5 Date</value>
+  </data>
+  <data name="NoiseEntries_ListTemplateDisplayName" xml:space="preserve">
+    <value>NoiseEntries</value>
+  </data>
+  <data name="NoiseEntries_ListTemplateDescription" xml:space="preserve">
+    <value>Template to create a NoiseEntries</value>
+  </data>
+  <data name="Noise_Title" xml:space="preserve">
+    <value>Noise</value>
+  </data>
+  <data name="Noise_Description" xml:space="preserve">
+    <value>Noise Description</value>
+  </data>
+  <data name="column_html5section_displayname1" xml:space="preserve">
+    <value>HTML5 Section 1</value>
+  </data>
+  <data name="column_html5section_displayname2" xml:space="preserve">
+    <value>HTML5 Section 2</value>
+  </data>
+  <data name="column_html5section_displayname3" xml:space="preserve">
+    <value>HTML5 Section 3</value>
+  </data>
+  <data name="column_html5section_displayname4" xml:space="preserve">
+    <value>HTML5 Section 4</value>
+  </data>
+  <data name="column_html5section_displayname5" xml:space="preserve">
+    <value>HTML5 Section 5</value>
+  </data>
+  <data name="column_html5section_displayname6" xml:space="preserve">
+    <value>HTML5 Section 6</value>
+  </data>
+  <data name="column_html5section_displayname7" xml:space="preserve">
+    <value>HTML5 Section 7</value>
+  </data>
+  <data name="column_html5section_displayname8" xml:space="preserve">
+    <value>HTML5 Section 8</value>
+  </data>
+  <data name="column_html5section_displayname9" xml:space="preserve">
+    <value>HTML5 Section 9</value>
+  </data>
+  <data name="column_html5image_displayname1" xml:space="preserve">
+    <value>HTML5 Image 1</value>
+  </data>
+  <data name="column_html5image_displayname2" xml:space="preserve">
+    <value>HTML5 Image 2</value>
+  </data>
+  <data name="column_html5image_displayname3" xml:space="preserve">
+    <value>HTML5 Image 3</value>
+  </data>
+  <data name="column_html5image_displayname4" xml:space="preserve">
+    <value>HTML5 Image 4</value>
+  </data>
+  <data name="column_html5footer_displayname1" xml:space="preserve">
+    <value>HTML5 Footer 1</value>
+  </data>
+  <data name="column_html5footer_displayname2" xml:space="preserve">
+    <value>HTML5 Footer 2</value>
+  </data>
+  <data name="column_html5footer_displayname3" xml:space="preserve">
+    <value>HTML5 Footer 3</value>
+  </data>
+  <data name="column_html5footer_displayname4" xml:space="preserve">
+    <value>HTML5 Footer 4</value>
+  </data>
+  <data name="column_html5footer_displayname5" xml:space="preserve">
+    <value>HTML5 Footer 5</value>
+  </data>
+  <data name="column_html5footer_displayname6" xml:space="preserve">
+    <value>HTML5 Footer 6</value>
+  </data>
+  <data name="column_html5footer_displayname7" xml:space="preserve">
+    <value>HTML5 Footer 7</value>
+  </data>
+  <data name="column_html5footer_displayname8" xml:space="preserve">
+    <value>HTML5 Footer 8</value>
+  </data>
+  <data name="column_html5footer_displayname9" xml:space="preserve">
+    <value>HTML5 Footer 9</value>
+  </data>
+  <data name="column_html5header_displayname1" xml:space="preserve">
+    <value>HTML5 Header 1</value>
+  </data>
+  <data name="column_html5header_displayname2" xml:space="preserve">
+    <value>HTML5 Header 2</value>
+  </data>
+  <data name="column_html5header_displayname3" xml:space="preserve">
+    <value>HTML5 Header 3</value>
+  </data>
+  <data name="column_html5header_displayname4" xml:space="preserve">
+    <value>HTML5 Header 4</value>
+  </data>
+  <data name="column_html5header_displayname5" xml:space="preserve">
+    <value>HTML5 Header 5</value>
+  </data>
+  <data name="column_html5header_displayname6" xml:space="preserve">
+    <value>HTML5 Header 6</value>
+  </data>
+  <data name="column_html5header_displayname7" xml:space="preserve">
+    <value>HTML5 Header 7</value>
+  </data>
+  <data name="column_html5header_displayname8" xml:space="preserve">
+    <value>HTML5 Header 8</value>
+  </data>
+  <data name="column_html5header_displayname9" xml:space="preserve">
+    <value>HTML5 Header 9</value>
+  </data>
+  <data name="column_html5image_displayname5" xml:space="preserve">
+    <value>HTML5 Image 5</value>
+  </data>
+  <data name="column_html5image_displayname6" xml:space="preserve">
+    <value>HTML5 Image 6</value>
+  </data>
+  <data name="column_html5image_displayname7" xml:space="preserve">
+    <value>HTML5 Image 7</value>
+  </data>
+  <data name="column_html5image_displayname8" xml:space="preserve">
+    <value>HTML5 Image 8</value>
+  </data>
+  <data name="column_html5image_displayname9" xml:space="preserve">
+    <value>HTML5 Image 9</value>
+  </data>
+  <data name="column_html5video_displayname1" xml:space="preserve">
+    <value>HTML5 Video 1</value>
+  </data>
+  <data name="column_html5video_displayname2" xml:space="preserve">
+    <value>HTML5 Video 2</value>
+  </data>
+  <data name="column_html5video_displayname3" xml:space="preserve">
+    <value>HTML5 Video 3</value>
+  </data>
+  <data name="column_html5video_displayname4" xml:space="preserve">
+    <value>HTML5 Video 4</value>
+  </data>
+  <data name="BlogPage_ContentTypeDescription" xml:space="preserve">
+    <value>A SharePresence WebSite page used for weblogs</value>
+  </data>
+  <data name="BlogPage_ContentTypeName" xml:space="preserve">
+    <value>BlogPage</value>
+  </data>
+  <data name="PressRelease_ContentTypeDescription" xml:space="preserve">
+    <value>A SharePresence Website Page but with metadata set for news.</value>
+  </data>
+  <data name="PressRelease_ContentTypeName" xml:space="preserve">
+    <value>PressRelease Page</value>
+  </data>
+  <data name="MP4Video_ContentTypeName" xml:space="preserve">
+    <value>MP4 Video</value>
+  </data>
+  <data name="MP4Video_ContentTypeDescription" xml:space="preserve">
+    <value>A MP4 Video file ( H.264 + MP3 )</value>
+  </data>
+  <data name="FLVVideo_ContentTypeName" xml:space="preserve">
+    <value>FLV Video</value>
+  </data>
+  <data name="FLVVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A FLV Video file ( Flash Video )</value>
+  </data>
+  <data name="ContentEntries_ListTemplateDisplayName" xml:space="preserve">
+    <value>ContentEntries</value>
+  </data>
+  <data name="ContentEntries_ListTemplateDescription" xml:space="preserve">
+    <value>Template to create a ContentEntries</value>
+  </data>
+  <data name="Videos_Title" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="Videos_Description" xml:space="preserve">
+    <value>Videos Description</value>
+  </data>
+  <data name="MOVVideo_ContentTypeName" xml:space="preserve">
+    <value>MOV Video</value>
+  </data>
+  <data name="MOVVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A MOV Video file ( QuickTime )</value>
+  </data>
+  <data name="MPGVideo_ContentTypeName" xml:space="preserve">
+    <value>MPG Video</value>
+  </data>
+  <data name="MPGVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A MPG Video file ( MPEG )</value>
+  </data>
+  <data name="WMVVideo_ContentTypeName" xml:space="preserve">
+    <value>WMV Video</value>
+  </data>
+  <data name="WMVVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A WMV Video file ( WMV + WMA )</value>
+  </data>
+  <data name="Caption_ContentTypeName" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="Caption_ContentTypeDescription" xml:space="preserve">
+    <value>A Caption file for subtitles in video</value>
+  </data>
+  <data name="AVIVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A AVI Video file</value>
+  </data>
+  <data name="AVIVideo_ContentTypeName" xml:space="preserve">
+    <value>AVI Video</value>
+  </data>
+  <data name="WebMVideo_ContentTypeName" xml:space="preserve">
+    <value>WebM Video</value>
+  </data>
+  <data name="WebMVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A WebM file ( VP80 + Vorbis )</value>
+  </data>
+  <data name="OGGVideo_ContentTypeName" xml:space="preserve">
+    <value>OGG Video</value>
+  </data>
+  <data name="OGGVideo_ContentTypeDescription" xml:space="preserve">
+    <value>A OGG Video file ( Theora + Vorbis )</value>
+  </data>
+  <data name="VideoDuration_SiteColumnDisplayName" xml:space="preserve">
+    <value>Video_Duration Name</value>
+  </data>
+  <data name="VideoDuration_SiteColumnGroup" xml:space="preserve">
+    <value>Video Columns</value>
+  </data>
+  <data name="VideoDuration_SiteColumnDescription" xml:space="preserve">
+    <value>Video_Duration Description</value>
+  </data>
+  <data name="column_OpenGraph_title" xml:space="preserve">
+    <value>og:title</value>
+  </data>
+  <data name="column_OpenGraph_type" xml:space="preserve">
+    <value>og:type</value>
+  </data>
+  <data name="column_OpenGraph_url" xml:space="preserve">
+    <value>og:url</value>
+  </data>
+  <data name="column_OpenGraph_description" xml:space="preserve">
+    <value>og:description</value>
+  </data>
+  <data name="column_OpenGraph_site_name" xml:space="preserve">
+    <value>og:site_name</value>
+  </data>
+  <data name="column_OpenGraph_image" xml:space="preserve">
+    <value>og:image</value>
+  </data>
+  <data name="column_OpenGraph_article_published" xml:space="preserve">
+    <value>og:article:published_time</value>
+  </data>
+  <data name="column_OpenGraph_acticle_modified" xml:space="preserve">
+    <value>og:article:modified_time</value>
+  </data>
+  <data name="column_OpenGraph_article_expiration" xml:space="preserve">
+    <value>og:article:expiration_time</value>
+  </data>
+  <data name="column_OpenGraph_article_author" xml:space="preserve">
+    <value>og:article:author</value>
+  </data>
+  <data name="column_OpenGraph_article_publisher" xml:space="preserve">
+    <value>og:article:publisher</value>
+  </data>
+  <data name="column_OpenGraph_article_section" xml:space="preserve">
+    <value>og:article:section</value>
+  </data>
+  <data name="column_OpenGraph_article_tag" xml:space="preserve">
+    <value>og:article:tag</value>
+  </data>
+  <data name="column_OpenGraph_facebook_admins" xml:space="preserve">
+    <value>fb:admins</value>
+  </data>
+  <data name="column_OpenGraph_facebook_app_id" xml:space="preserve">
+    <value>fb:app_id</value>
+  </data>
+  <data name="column_OpenGraph_facebook_profile_id" xml:space="preserve">
+    <value>fb:profile_id</value>
+  </data>
+  <data name="column_OpenGraph_twitter_card" xml:space="preserve">
+    <value>twitter:card</value>
+  </data>
+  <data name="column_OpenGraph_twitter_creator" xml:space="preserve">
+    <value>twitter:creator</value>
+  </data>
+  <data name="column_OpenGraph_twitter_creator_id" xml:space="preserve">
+    <value>twitter:creator:id</value>
+  </data>
+  <data name="column_OpenGraph_twitter_site" xml:space="preserve">
+    <value>twitter:site</value>
+  </data>
+  <data name="column_OpenGraph_twitter_site_id" xml:space="preserve">
+    <value>twitter:site:id</value>
+  </data>
+</root>

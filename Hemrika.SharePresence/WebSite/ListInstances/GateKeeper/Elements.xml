@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ListInstance
+		Title="$Resources:GateKeeper_Title;"
+		Description="$Resources:GateKeeper_Description;"
+		FeatureId="aa91f447-787e-430e-a2dc-24369e8161df"
+		Id="5CD2E00E-8775-471D-A5BB-384407B7AC58"
+		Url="GateKeeper"
+		OnQuickLaunch="TRUE"
+		QuickLaunchUrl="GateKeeper/Forms/AllItems.aspx"
+		RootWebOnly="TRUE"
+		TemplateType="20004" />
+</Elements>

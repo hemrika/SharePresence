@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!-- GateKeeper -->
+	<CustomActionGroup
+		Id="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="GateKeeper"
+		Sequence="30"
+		Description="GateKeeper Sercurity"
+		ImageUrl="/_layouts/images/Hemrika/moss_sb.png" />
+	<CustomAction
+		Id="GateKeeper_Settings"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Settings"
+		Description="GateKeeper Settings" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperManage.aspx', title: 'GateKeeper Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_BlackList"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="20"
+		Title="Black List"
+		Description="GateKeeper Black List" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperBlackList.aspx', title: 'GateKeeper Black List', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_WhiteList"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="30"
+		Title="White List"
+		Description="GateKeeper White List" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperWhiteList.aspx', title: 'GateKeeper White List', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_Drone"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="40"
+		Title="Drones"
+		Description="GateKeeper Drones" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperDrones.aspx', title: 'GateKeeper Drones', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_Proxy"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="50"
+		Title="Proxies"
+		Description="GateKeeper Proxies" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperProxies.aspx', title: 'GateKeeper Proxies', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_Visitors"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="50"
+		Title="Visitors"
+		Description="GateKeeper Visitors" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperVisitors.aspx', title: 'GateKeeper Visitors', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_Honeypot"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="60"
+		Title="HoneyPot"
+		Description="GateKeeper HoneyPot" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperHoneyPot.aspx', title: 'GateKeeper HoneyPot', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="GateKeeper_Hotlink"
+		GroupId="GateKeeper"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="70"
+		Title="Hotlinking"
+		Description="GateKeeper Hotlinking" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/GateKeeper/GateKeeperHotlinking.aspx', title: 'GateKeeper Hotlinking', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+</Elements>

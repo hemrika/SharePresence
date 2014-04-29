@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ErrorPagesContent\" Type="ElementManifest" />
+    <ProjectItemFile Source="NotFound.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="RequestedRangeNotSatisfiable.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="Forbidden.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="Unauthorized.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="BadRequest.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="PreconditionFailed.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="NotAcceptable.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="LengthRequired.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="PaymentRequired.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="RequestTimeout.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="RequestEntityTooLarge.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="ProxyAuthenticationRequired.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="Conflict.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="MethodNotAllowed.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="UnsupportedMediaType.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="ExpectationFailed.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="Gone.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+    <ProjectItemFile Source="RequestUriTooLong.aspx" Target="ErrorPagesContent\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

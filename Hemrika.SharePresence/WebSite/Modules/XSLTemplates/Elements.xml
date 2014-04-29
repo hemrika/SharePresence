@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="XSLTemplates" Path="XSLTemplates" Url="Style Library/XSL" RootWebOnly="TRUE">
+		<File
+			Url="ConvertToCelsius.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="CountOccurrences.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="FirstNWords.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="FixAmpersands.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="FormatFileSize.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="GetPercentileValue.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="GetUserEmail.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="GetUserID.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="GetUserIDs.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="GetUserName.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="GetUserNames.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="MailtoUser.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="MailtoUsers.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="MultiSelectDisplay.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="MultiSelectValueCheck.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="StripHTML.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="ToLower.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+		<File
+			Url="ToUpper.xsl"
+			Type="GhostableInLibrary"
+			IgnoreIfAlreadyExists="TRUE" />
+	</Module>
+</Elements>

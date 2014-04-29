@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_facebook_admins;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{80121E8F-D7BF-4157-ADCC-0483C2541098}"  StaticName="fb:admins" Name="fb:admins" >
+    <Default>Enter your FB admins here.</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_facebook_app_id;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{2D4E5A7D-B0A2-4600-91CF-8F7AE8462B03}"  StaticName="fb:app_id" Name="fb:app_id" >
+    <Default>Enter your FB AppId here.</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_facebook_profile_id;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{B192C315-174F-4DF5-961B-D7208B07C7FE}"  StaticName="fb:profile_id" Name="fb:profile_id" >
+    <Default>Enter your FB ProfileId here.</Default>
+  </Field>
+</Elements>

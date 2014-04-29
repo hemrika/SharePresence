@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--
+    ************************************************************************
+       Application: Hemrika.SharePresence
+      Created date: 2012-01-11 15:06:48Z
+        Created by: MARKETING\Administrator
+              Name: PageLayout
+       Description: PageLayout Description
+           History: Initial Version 0
+    ************************************************************************
+    -->
+	<!-- Parent ContentType PublishingPageTemplate_ContentTypeName -->
+	<ContentType
+		ID="0x010100E2E99BB760B34490935A1126C04A810F00CDC8B569999E4B2C9888D1BC77AC0A79"
+		Name="$Resources:PublishingPageLayout_ContentTypeName;"
+		Description="$Resources:PublishingPageLayout_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+		Hidden="TRUE"
+    NewDocumentControl="WebSite.WebSitePageLayout"
+		ProgId="WebSite.WebSitePageLayout"
+		Inherits="TRUE"
+		Overwrite="TRUE">
+		<FieldRefs>
+			<FieldRef
+				ID="9da97a8a-1da5-4a77-98d3-4bc10456e700"
+				Name="Comments"
+				Required="FALSE" />
+			<FieldRef
+				ID="4B3AC8E4-69A7-4B10-A8FD-386841B277A7"
+				Name="PublishingAssociatedContentType"
+				Required="FALSE" />
+		</FieldRefs>
+		<DocumentTemplate
+			TargetName="/_layouts/Hemrika/Catalog/CreatePageLayout.aspx?Dlg=1" />
+		<XmlDocuments>
+			<XmlDocument
+				NamespaceURI="http://schemas.microsoft.com/sharepoint/events">
+				<spe:Receivers xmlns:spe="http://schemas.microsoft.com/sharepoint/events">
+					<spe:Receiver>
+						<spe:Name>PublishingPageLayout_ItemAddedReceiver</spe:Name>
+						<spe:Type>ItemAdded</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.PublishingPageLayoutEventReceivers</spe:Class>
+					</spe:Receiver>
+					<spe:Receiver>
+						<spe:Name>PublishingPageLayout_ItemUpdatedReceiver</spe:Name>
+						<spe:Type>ItemUpdated</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.PublishingPageLayoutEventReceivers</spe:Class>
+					</spe:Receiver>
+				</spe:Receivers>
+			</XmlDocument>
+		</XmlDocuments>
+	</ContentType>
+	<CustomAction
+		Id="CreateWebSitePageLayout"
+		Title="WebSite PageLayout"
+		Description="Creates a WebSite PageLayout."
+		GroupId="WebPages"
+		Location="Microsoft.SharePoint.Create"
+		ImageUrl="/_layouts/images/ltsmrtpg.png">
+		<UrlAction
+			Url="/_layouts/Hemrika/Catalog/CreatePageLayout.aspx?Dlg=1" />
+	</CustomAction>
+</Elements>

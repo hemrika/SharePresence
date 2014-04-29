@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images" Url="Style Library/v5/Images"  Path="HTML5\Images" RootWebOnly="TRUE">
+    <File Url="favicon.ico" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="search.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="v5.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  </Module>
+  <Module Name="Scripts" Url="Style Library/v5/Script"  Path="HTML5\Script" RootWebOnly="TRUE">
+    <File Url="v5.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="jquery.migrate.min.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="jquery.min.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+  <Module Name="Styles" Url="Style Library/v5/Style" Path="HTML5\Style" RootWebOnly="TRUE">
+    <File Path="v5.css"  Url="v5.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  </Module>
+  <Module Name="Masterpages" Url="_catalogs/masterpage" Path="HTML5\Masterpages" RootWebOnly="True">
+    <File Path="v5.master" Url="v5.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" >
+      <Property Name="ContentTypeId" Value="0x01010500BCB4228D6C2D314C8EDFF88881389675"/>
+      <Property Name="ContentType" Value="Publishing MasterPage"/>
+      <Property Name="UIVersion" Value="4"/>
+      <Property Name="MasterPageDescription" Value="" />
+      <Property Name="vti_progid" Value="WebSite.WebSitePageMaster" />
+      <Property Name="HTML_x0020_File_x0020_Type" Value="WebSite.WebSitePageMaster" />
+    </File>
+    <File Path="Two Rows.aspx" Url="Two Rows.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" >
+      <Property Name="ContentTypeId" Value="0x010100E2E99BB760B34490935A1126C04A810F00CDC8B569999E4B2C9888D1BC77AC0A79" />
+      <Property Name="ContentType" Value="Publishing PageLayout"/>
+      <Property Name="Title" Value="Two Rows"/>
+      <Property Name="PublishingAssociatedContentType" Value=";#Publishing Content Types;#0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165;#WebSitePage;#"/>
+      <Property Name="PublishingPageDesign" Value=";#7d9c2d9c-a6e8-4d6f-9051-06e199e96115;#Two Rows;#_catalogs/masterpage/Two Rows.aspx;#"/>
+      <Property Name="MasterPageDescription" Value="Two Rows" />
+      <Property Name="vti_progid" Value="WebSite.WebSitePageLayout" />
+      <Property Name="HTML_x0020_File_x0020_Type" Value="WebSite.WebSitePageLayout" />
+    </File>
+    <File Path="One Column.aspx" Url="One Column.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" >
+      <Property Name="ContentTypeId" Value="0x010100E2E99BB760B34490935A1126C04A810F00CDC8B569999E4B2C9888D1BC77AC0A79"/>
+      <Property Name="ContentType" Value="Publishing PageLayout"/>
+      <Property Name="Title" Value="One Column"/>
+      <Property Name="PublishingAssociatedContentType" Value=";#Publishing Content Types;#0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165;#WebSitePage;#"/>
+      <Property Name="PublishingPageDesign" Value=";#7d9c2d9c-a6e8-4d6f-9051-06e199e96115;#One Column;#_catalogs/masterpage/One Column.aspx;#"/>
+      <Property Name="MasterPageDescription" Value="One Column" />
+      <Property Name="vti_progid" Value="WebSite.WebSitePageLayout" />
+      <Property Name="HTML_x0020_File_x0020_Type" Value="WebSite.WebSitePageLayout" />
+    </File>
+    <File Path="Simple.aspx" Url="Simple.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" >
+      <Property Name="ContentTypeId" Value="0x010100E2E99BB760B34490935A1126C04A810F00CDC8B569999E4B2C9888D1BC77AC0A79"/>
+      <Property Name="ContentType" Value="Publishing PageLayout"/>
+      <Property Name="Title" Value="One Column"/>
+      <Property Name="Description" Value="One Columns with one Section. No WebPart zones"/>
+      <Property Name="PublishingAssociatedContentType" Value=";#Publishing Content Types;#0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165;#WebSitePage;#"/>
+      <Property Name="PublishingPageDesign" Value=";#7d9c2d9c-a6e8-4d6f-9051-06e199e96115;#Simple;#_catalogs/masterpage/Simple.aspx;#"/>
+      <Property Name="MasterPageDescription" Value="Simple" />
+      <Property Name="vti_progid" Value="WebSite.WebSitePageLayout" />
+      <Property Name="HTML_x0020_File_x0020_Type" Value="WebSite.WebSitePageLayout" />
+    </File>
+    <File Path="Two Columns.aspx" Url="Two Columns.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" >
+      <Property Name="ContentTypeId" Value="0x010100E2E99BB760B34490935A1126C04A810F00CDC8B569999E4B2C9888D1BC77AC0A79"/>
+      <Property Name="ContentType" Value="Publishing PageLayout"/>
+      <Property Name="Title" Value="Two Columns"/>
+      <Property Name="Description" Value="Two Columns with one Section per column. No WebPart zones."/>
+      <Property Name="PublishingAssociatedContentType" Value=";#Publishing Content Types;#0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165;#WebSitePage;#"/>
+      <Property Name="PublishingPageDesign" Value=";#7d9c2d9c-a6e8-4d6f-9051-06e199e96115;#Two Columns;#_catalogs/masterpage/Two Columns.aspx;#"/>
+      <Property Name="MasterPageDescription" Value="Two Columns" />
+      <Property Name="vti_progid" Value="WebSite.WebSitePageLayout" />
+      <Property Name="HTML_x0020_File_x0020_Type" Value="WebSite.WebSitePageLayout" />
+    </File>
+</Module>
+</Elements>

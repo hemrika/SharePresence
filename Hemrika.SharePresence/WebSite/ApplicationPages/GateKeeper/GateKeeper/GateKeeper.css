@@ -1,0 +1,35 @@
+﻿.GateKeeper .settings {font-family:Verdana; font-style: normal; font-size: 11px;}
+.GateKeeper .settings {padding: 10px 10px 10px 10px;background: white;border: 1px solid silver;margin-bottom: 20px;margin-top: 20px; overflow:hidden; }
+.GateKeeper .settings h1 {margin: 0 0 10px 0;border-bottom: 1px solid silver;font-size:15px;letter-spacing:1px;}
+
+.GateKeeper {font-family:Verdana; font-style: normal; font-size: 11px;}
+.GateKeeper .savebutton {text-align: right; clear: both;}
+.GateKeeper input[type="text"] {width: 300px;} 
+.GateKeeper input[type="submit"] {background:#FFFFFF none repeat scroll 0 0;border:1px solid #B8C1CA;color:#000000;}
+.GateKeeper input[type="submit"]:hover {background:#B8C1CA none repeat scroll 0 0;color:#FFFFFF;cursor:pointer;}
+.GateKeeper textarea {width: 500px; height: 150px;}
+
+.GateKeeper .label{width: 240px;}
+.GateKeeper .input span {color: #666666; font-style: italic}
+.GateKeeper .note {float: right; background-color:#F1F1F1;border:1px solid #B8C1CA;width: 300px;padding: 5px 10px;}
+.GateKeeper .note h2{font-size: 12px;margin-bottom: 0px;padding-bottom: 0px;}
+
+#IPBlackList input[type="text"] {width: 150px;} 
+#IPWhiteList input[type="text"] {width: 150px;} 
+#UABlackList input[type="text"] {width: 150px;} 
+#UAWhiteList input[type="text"] {width: 150px;} 
+#UrlWhiteList input[type="text"] {width: 150px;} 
+
+UL.tabNavigation {list-style: none;margin: 0;padding: 0;}
+UL.tabNavigation LI {display: inline;}
+UL.tabNavigation LI A {padding: 3px 5px;background-color: #ccc;color: #000;text-decoration: none;}
+UL.tabNavigation LI A.selected,UL.tabNavigation LI A:hover {background-color: #333;color: #fff;padding-top: 7px;}
+UL.tabNavigation LI A:focus {outline: 0;}
+div.tabs > div {padding: 10px 15px;margin-top: 2px;border: 2px solid #333; background-color: #F1F1F1;}
+div.tabs > div h2 {margin-top: 0;}
+
+#IPBlackList .settings{width: 340px; margin: 10px auto;}
+#IPWhiteList .settings{width: 340px; margin: 10px auto;}
+#UABlackList .settings{width: 340px; margin: 10px auto;}
+#UAWhiteList .settings{width: 340px; margin: 10px auto;}
+#UrlWhiteList .settings{width: 340px; margin: 10px auto;}

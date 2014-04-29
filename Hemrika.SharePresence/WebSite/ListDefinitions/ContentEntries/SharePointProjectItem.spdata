@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.ListDefinition" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ContentEntries\" Type="ElementManifest" />
+    <ProjectItemFile Source="EditDlg.htm" Target="ContentEntries\" Type="ElementFile" />
+    <ProjectItemFile Source="FileDlg.htm" Target="ContentEntries\" Type="ElementFile" />
+    <ProjectItemFile Source="Repair.aspx" Target="ContentEntries\" Type="ElementFile" />
+    <ProjectItemFile Source="schema.xml" Target="ContentEntries\" Type="ElementFile" />
+    <ProjectItemFile Source="Upload.aspx" Target="ContentEntries\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

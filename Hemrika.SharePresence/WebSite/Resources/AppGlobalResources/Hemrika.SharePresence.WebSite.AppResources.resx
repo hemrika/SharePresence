@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CreateWebPage_PageTitle" xml:space="preserve">
+    <value>Create WebPage</value>
+  </data>
+  <data name="CreateWebPage_PageDescription" xml:space="preserve">
+    <value>Create a new WebPage</value>
+  </data>
+  <data name="CreateWebPage_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CreateWebPage_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CreateWebPage_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="CreateWebPage_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="CreateWebPage_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="CreateWebPage_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageMasterPage_PageTitle" xml:space="preserve">
+    <value>Manage MasterPages</value>
+  </data>
+  <data name="ManageMasterPage_PageDescription" xml:space="preserve">
+    <value>Manage the Sites MasterPages</value>
+  </data>
+  <data name="ManageMasterPage_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageMasterPage_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageMasterPage_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageMasterPage_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageMasterPage_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageMasterPage_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManagePageLayouts_PageTitle" xml:space="preserve">
+    <value>Manage the PageLayouts</value>
+  </data>
+  <data name="ManagePageLayouts_PageDescription" xml:space="preserve">
+    <value>pageLayout Management</value>
+  </data>
+  <data name="ManagePageLayouts_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManagePageLayouts_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManagePageLayouts_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManagePageLayouts_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManagePageLayouts_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManagePageLayouts_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ControllerModules_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="ControllerModules_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="ControllerModules_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ControllerModules_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ControllerModules_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ControllerModules_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ControllerModules_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ControllerModules_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageWebSiteModules_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="ManageWebSiteModules_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="ManageWebSiteModules_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageWebSiteModules_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageWebSiteModules_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageWebSiteModules_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageWebSiteModules_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageWebSiteModules_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="gac_newentry_actionClassDesc" xml:space="preserve">
+    <value>The fully qualified class name which implements IGenericAction and contains the logic to be performed on the page</value>
+  </data>
+  <data name="gac_newentry_actionClassTitle" xml:space="preserve">
+    <value>Fully qualified class name</value>
+  </data>
+  <data name="gac_newentry_pageDesc" xml:space="preserve">
+    <value>The url of the page to which this master page will be assigned</value>
+  </data>
+  <data name="gac_newentry_pageTitle" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="gac_newentry_title" xml:space="preserve">
+    <value>Generic Action Rule</value>
+  </data>
+  <data name="mpc_newentry_desc" xml:space="preserve">
+    <value>This page allows you to add and edit master page assignment rules</value>
+  </data>
+  <data name="mpc_newentry_newMasterPageDesc" xml:space="preserve">
+    <value>The name of the master page to be assigned</value>
+  </data>
+  <data name="mpc_newentry_newMasterPageTitle" xml:space="preserve">
+    <value>New Master page</value>
+  </data>
+  <data name="mpc_newentry_oldMasterPageDesc" xml:space="preserve">
+    <value>Only pages with this master page assigned will be updated with the new master page.  Leave this blank to assign the new master page to all master pages</value>
+  </data>
+  <data name="mpc_newentry_oldMasterPageTitle" xml:space="preserve">
+    <value>Old Master page</value>
+  </data>
+  <data name="mpc_newentry_pageDesc" xml:space="preserve">
+    <value>The url of the page to which this master page will be assigned</value>
+  </data>
+  <data name="mpc_newentry_pageTitle" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="mpc_newentry_title" xml:space="preserve">
+    <value>Master page Assignment Rule</value>
+  </data>
+  <data name="pac_newentry_desc" xml:space="preserve">
+    <value>This page allows you to add and edit access control rules</value>
+  </data>
+  <data name="pac_newentry_listDesc" xml:space="preserve">
+    <value>The list name this access control entry applies to.  Leave blank to apply the permission globally.  Entries of permission type role will ignore this item</value>
+  </data>
+  <data name="pac_newentry_listTitle" xml:space="preserve">
+    <value>List Name</value>
+  </data>
+  <data name="pac_newentry_pageDesc" xml:space="preserve">
+    <value>The url of the page to which this access control entry applies to</value>
+  </data>
+  <data name="pac_newentry_pageTitle" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="pac_newentry_permissionDesc" xml:space="preserve">
+    <value>The permission level or role for this access control entry</value>
+  </data>
+  <data name="pac_newentry_permissionLevelChoicePermissionLevel" xml:space="preserve">
+    <value>Permission Level</value>
+  </data>
+  <data name="pac_newentry_permissionLevelChoiceRole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="pac_newentry_permissionLevelDesc" xml:space="preserve">
+    <value>Select if this is a permission level or role being applied</value>
+  </data>
+  <data name="pac_newentry_permissionLevelTitle" xml:space="preserve">
+    <value>Permission Level</value>
+  </data>
+  <data name="pac_newentry_permissionTitle" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="pac_newentry_title" xml:space="preserve">
+    <value>Page Access Controller Rule</value>
+  </data>
+  <data name="pcl_customActionGroup_title" xml:space="preserve">
+    <value>Page Controller Module Settings</value>
+  </data>
+  <data name="pcl_feature_desc" xml:space="preserve">
+    <value>Creates links on the Application Management page in Central Admin to administrative pages for Page Controller modules</value>
+  </data>
+  <data name="pcl_feature_title" xml:space="preserve">
+    <value>Page Controller Modules Central Admin Links</value>
+  </data>
+  <data name="pc_adminpageModule_headerClassName" xml:space="preserve">
+    <value>Fully Qualified Class Name</value>
+  </data>
+  <data name="pc_adminpageModule_title" xml:space="preserve">
+    <value>Page Controller Module Settings</value>
+  </data>
+  <data name="pc_adminpageModule_toolBarText" xml:space="preserve">
+    <value>Add a new page controller module</value>
+  </data>
+  <data name="pc_adminpageModule_toolBarToolTip" xml:space="preserve">
+    <value>Add a new page controller module</value>
+  </data>
+  <data name="pc_adminpage_headerAppliesToSsl" xml:space="preserve">
+    <value>HTTPS</value>
+  </data>
+  <data name="pc_adminpage_headerDisabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="pc_adminpage_headerPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="pc_adminpage_headerPrincipal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="pc_adminpage_headerPrincipalType" xml:space="preserve">
+    <value>Principal Type</value>
+  </data>
+  <data name="pc_adminpage_headerProperties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="pc_adminpage_headerRuleType" xml:space="preserve">
+    <value>Rule Type</value>
+  </data>
+  <data name="pc_adminpage_headerSequence" xml:space="preserve">
+    <value>Sequence</value>
+  </data>
+  <data name="pc_adminpage_title" xml:space="preserve">
+    <value>Page Controller Rules Settings</value>
+  </data>
+  <data name="pc_adminpage_toolBarAdminPageText" xml:space="preserve">
+    <value>Go to rule Admin page</value>
+  </data>
+  <data name="pc_adminpage_toolBarAdminPageToolTip" xml:space="preserve">
+    <value>Go to rule Admin page</value>
+  </data>
+  <data name="pc_adminpage_toolBarFilterOffText" xml:space="preserve">
+    <value>Remove filter</value>
+  </data>
+  <data name="pc_adminpage_toolBarFilterOffToolTip" xml:space="preserve">
+    <value>Remove filter</value>
+  </data>
+  <data name="pc_adminpage_toolBarFilterText" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="pc_adminpage_toolBarFilterToolTip" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="pc_adminpage_toolBarNewEntryText" xml:space="preserve">
+    <value>Create new rule</value>
+  </data>
+  <data name="pc_adminpage_toolBarNewEntryToolTip" xml:space="preserve">
+    <value>Create new rule</value>
+  </data>
+  <data name="pc_customActionModule_desc" xml:space="preserve">
+    <value>Configure settings for Page Controller Modules</value>
+  </data>
+  <data name="pc_customActionModule_title" xml:space="preserve">
+    <value>Page Controller Modules</value>
+  </data>
+  <data name="pc_customAction_desc" xml:space="preserve">
+    <value>Configure settings for page controller rules</value>
+  </data>
+  <data name="pc_customAction_title" xml:space="preserve">
+    <value>Page Controller Rules Settings</value>
+  </data>
+  <data name="pc_feature_desc" xml:space="preserve">
+    <value>An HttpModule with a pluggable architecture that allows page requests to be intercepted and custom actions performed</value>
+  </data>
+  <data name="pc_feature_title" xml:space="preserve">
+    <value>Page Controller Feature</value>
+  </data>
+  <data name="pc_newentry_appliesToSslDesc" xml:space="preserve">
+    <value>Check to have this rule apply to calls to https:// as well as http://.  Uncheck to only apply to calls for http://</value>
+  </data>
+  <data name="pc_newentry_appliesToSslTitle" xml:space="preserve">
+    <value>Applies to SSL</value>
+  </data>
+  <data name="pc_newentry_desc" xml:space="preserve">
+    <value>This page allows you to add and edit a page controller rule</value>
+  </data>
+  <data name="pc_newentry_isDisabledDesc" xml:space="preserve">
+    <value>Check to disable this rule.  Uncheck to enable</value>
+  </data>
+  <data name="pc_newentry_isDisabledTitle" xml:space="preserve">
+    <value>Rule Disabled</value>
+  </data>
+  <data name="pc_newentry_pageDesc" xml:space="preserve">
+    <value>The url of the page to which this page controller rule applies to</value>
+  </data>
+  <data name="pc_newentry_pageTitle" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="pc_newentry_principalDesc" xml:space="preserve">
+    <value>A specific user or group to whom this page controller rule applies.  Leave blank to apply to all users</value>
+  </data>
+  <data name="pc_newentry_principalTitle" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="pc_newentry_principalTypeChoiceGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="pc_newentry_principalTypeChoiceUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="pc_newentry_principalTypeDesc" xml:space="preserve">
+    <value>Select the type of principal</value>
+  </data>
+  <data name="pc_newentry_principalTypeTitle" xml:space="preserve">
+    <value>Principal Type</value>
+  </data>
+  <data name="pc_newentry_propertiesDesc" xml:space="preserve">
+    <value>Specific properties for this rule type</value>
+  </data>
+  <data name="pc_newentry_propertiesTitle" xml:space="preserve">
+    <value>Rule Properties</value>
+  </data>
+  <data name="pc_newentry_ruletypeDesc" xml:space="preserve">
+    <value>Specific type of Page Controller rule</value>
+  </data>
+  <data name="pc_newentry_ruletypeTitle" xml:space="preserve">
+    <value>Rule Type</value>
+  </data>
+  <data name="pc_newentry_sequenceDesc" xml:space="preserve">
+    <value>Represents the order in which the rule will be executed.  Rules with higher sequence numbers will be executed last.  There is no guarantee what order rules with the same sequence number will execute.</value>
+  </data>
+  <data name="pc_newentry_sequenceTitle" xml:space="preserve">
+    <value>Sequence</value>
+  </data>
+  <data name="pc_newentry_title" xml:space="preserve">
+    <value>Page Controller Rule</value>
+  </data>
+  <data name="pc_newmodule_classDesc" xml:space="preserve">
+    <value>The fully qualified class name</value>
+  </data>
+  <data name="pc_newmodule_classTitle" xml:space="preserve">
+    <value>Fully qualified class name</value>
+  </data>
+  <data name="pc_newmodule_desc" xml:space="preserve">
+    <value>This page allows you to add and edit page controller modules</value>
+  </data>
+  <data name="pc_newmodule_title" xml:space="preserve">
+    <value>Page Controller Module</value>
+  </data>
+  <data name="pfc_adminpage_headerForwardTo" xml:space="preserve">
+    <value>Forward to Page</value>
+  </data>
+  <data name="pfc_newentry_additionalQueryStringParamsDesc" xml:space="preserve">
+    <value>Additional parameters to be added to the query string in the form of key=value, separated by "&amp;".  Do not include the initial "?" - it will be added automatically</value>
+  </data>
+  <data name="pfc_newentry_additionalQueryStringParamsTitle" xml:space="preserve">
+    <value>Additional Query String Parameters</value>
+  </data>
+  <data name="pfc_newentry_desc" xml:space="preserve">
+    <value>This page allows you to add and edit page forwarding rules</value>
+  </data>
+  <data name="pfc_newentry_forwardToDesc" xml:space="preserve">
+    <value>The url of the page where user will be forwarded</value>
+  </data>
+  <data name="pfc_newentry_forwardToTitle" xml:space="preserve">
+    <value>Forward to Page</value>
+  </data>
+  <data name="pfc_newentry_includeQueryStringDesc" xml:space="preserve">
+    <value>Click this if you would like to include the query string from the page being forwarded</value>
+  </data>
+  <data name="pfc_newentry_includeQueryStringTitle" xml:space="preserve">
+    <value>Include Query String</value>
+  </data>
+  <data name="pc_adminpage_ValidationSummaryHeaderText" xml:space="preserve">
+    <value>Header Text</value>
+  </data>
+  <data name="ManageWebSiteModule_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="ManageWebSiteModule_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="ManageWebSiteModule_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageWebSiteModule_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageWebSiteModule_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageWebSiteModule_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageWebSiteModule_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageWebSiteModule_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageWebSiteModuleRules_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageWebSiteModuleRule_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="MetaWebLog_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="MetaWebLog_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="MetaWebLog_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MetaWebLog_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MetaWebLog_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="MetaWebLog_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="MetaWebLog_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="MetaWebLog_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="SemanticUrl_Description" xml:space="preserve">
+    <value>Give the Url to use for the content to be displayed.</value>
+  </data>
+  <data name="SemanticUrl_Title" xml:space="preserve">
+    <value>Original URL</value>
+  </data>
+  <data name="CreatePageLayout_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="CreatePageLayout_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="CreatePageLayout_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CreatePageLayout_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CreatePageLayout_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="CreatePageLayout_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="CreatePageLayout_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="CreatePageLayout_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="CreateMasterPage_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="CreateMasterPage_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="CreateMasterPage_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CreateMasterPage_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CreateMasterPage_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="CreateMasterPage_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="CreateMasterPage_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="CreateMasterPage_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="CreateWebPageProvisioning_PageTitle" xml:space="preserve">
+    <value>Provisioning the Web</value>
+  </data>
+  <data name="CreateWebPageProvisioning_PageDescription" xml:space="preserve">
+    <value>We are provisioning the web, you will be directed towards the site when finished.</value>
+  </data>
+  <data name="CreateWebPageProvisioning_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CreateWebPageProvisioning_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CreateWebPageProvisioning_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="CreateWebPageProvisioning_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="CreateWebPageProvisioning_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="CreateWebPageProvisioning_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="LicenseDomain_Title" xml:space="preserve">
+    <value>Domain Name</value>
+  </data>
+  <data name="LicenseDomein_Description" xml:space="preserve">
+    <value>Put the domain name for your license here.</value>
+  </data>
+  <data name="LicenseFile_Description" xml:space="preserve">
+    <value>Copy your License code here.</value>
+  </data>
+  <data name="LicenseFile_Title" xml:space="preserve">
+    <value>License Code</value>
+  </data>
+  <data name="ManageWebSiteLicense_PageTitle" xml:space="preserve">
+    <value>Manage WebSite Licenses</value>
+  </data>
+  <data name="ManageWebSiteLicense_PageDescription" xml:space="preserve">
+    <value>Add and Remove Licenses for use with SharePresense</value>
+  </data>
+  <data name="ManageWebSiteLicense_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageWebSiteLicense_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageWebSiteLicense_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageWebSiteLicense_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageWebSiteLicense_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageWebSiteLicense_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageNavigation_PageTitle" xml:space="preserve">
+    <value>Manage Navigation</value>
+  </data>
+  <data name="ManageNavigation_PageDescription" xml:space="preserve">
+    <value>Manage your WebSite Navigation</value>
+  </data>
+  <data name="ManageNavigation_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageNavigation_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageNavigation_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageNavigation_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageNavigation_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageNavigation_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageMetaDataSettings_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="ManageMetaDataSettings_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="ManageMetaDataSettings_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageMetaDataSettings_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageMetaDataSettings_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageMetaDataSettings_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageMetaDataSettings_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageMetaDataSettings_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="UploadContent_PageTitle" xml:space="preserve">
+    <value>Upload Content</value>
+  </data>
+  <data name="UploadContent_PageDescription" xml:space="preserve">
+    <value>Upload Site Content</value>
+  </data>
+  <data name="UploadContent_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UploadContent_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UploadContent_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="UploadContent_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="UploadContent_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="UploadContent_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="EditWebSitePart_PageTitle" xml:space="preserve">
+    <value>EditWebSitePart</value>
+  </data>
+  <data name="EditWebSitePart_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="EditWebSitePart_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="EditWebSitePart_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="EditWebSitePart_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="EditWebSitePart_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="EditWebSitePart_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="EditWebSitePart_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_PageTitle" xml:space="preserve">
+    <value>Google Analytics Settings</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_PageDescription" xml:space="preserve">
+    <value>Manage your Google Analytics Account Settings</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="ManageGoogleAccountSettings_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="DesignDatSourceEditor_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="DesignDatSourceEditor_PageDescription" xml:space="preserve">
+    <value>Page Description</value>
+  </data>
+  <data name="DesignDatSourceEditor_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="DesignDatSourceEditor_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="DesignDatSourceEditor_FormSection1Title" xml:space="preserve">
+    <value>Sample Title</value>
+  </data>
+  <data name="DesignDatSourceEditor_FormSection1Description" xml:space="preserve">
+    <value>Sample Description</value>
+  </data>
+  <data name="DesignDatSourceEditor_FormSection1Label" xml:space="preserve">
+    <value>Sample Label</value>
+  </data>
+  <data name="DesignDatSourceEditor_FormSection1Input" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="CreatePageLayout_PageDescription1" xml:space="preserve">
+    <value>A PageLayout is a template for a page.</value>
+  </data>
+  <data name="CreatePageLayout_PageTitle1" xml:space="preserve">
+    <value>Create a new PageLayout</value>
+  </data>
+</root>

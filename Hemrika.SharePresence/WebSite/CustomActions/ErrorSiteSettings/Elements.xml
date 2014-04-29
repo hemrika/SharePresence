@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Error -->
+  <CustomActionGroup
+		Id="Error"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="Error Settings"
+		Sequence="20"
+		Description="Error Handling Engine"
+		ImageUrl="/_layouts/images/Hemrika/moss_sec.png" />
+  <CustomAction
+		Id="Error_Settings"
+		GroupId="Error"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Settings"
+		Description="Error Settings" RootWebOnly="TRUE" >
+    <UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Error/ManageErrors.aspx', title: 'Manage Error Settings', allowMaximize: false, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+</Elements>

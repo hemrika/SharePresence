@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B81650077636cd95c294c198badcdb3e7ee62ab"
+		Name="$Resources:PressRelease_ContentTypeName;"
+		Description="$Resources:PressRelease_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    NewDocumentControl="WebSite.WebSitePage"
+    ProgId="WebSite.WebSitePage"
+		Inherits="TRUE" 
+    Overwrite="TRUE">
+    <FieldRefs>
+      <FieldRef ID="E4C27D5D-E49B-4F28-BB0C-A2B089337EAF" Name="News Genres" DisplayName="News Genres"  Required="FALSE" DefaultValue="PressRelease" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="FD160718-1FCB-4AD2-A87E-B884D7362BB4" Name="Schema.Org Type" DisplayName="Schema.Org Type" Required="FALSE" DefaultValue="http://schema.org/WebPage"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

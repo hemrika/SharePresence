@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B795"
+     ListUrl="Videos" />
+  <!--Video-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500745355C921FB48549146166307BB4ED1"
+     ListUrl="Videos" />
+  <!--Video MP4-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500EB58EBAF84C84E7E9EC6662CD91C0D9E"
+     ListUrl="Videos" />
+  <!--Video FLV-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B795001D9735D7D3274B39BE63E7481AC721DD"
+     ListUrl="Videos" />
+  <!--Video AVI-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500E1BB3FAC3C6942C8BB1094C63924AED2"
+     ListUrl="Videos" />
+  <!--Video WMV-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500EA53A380C5304FCE9B994E17FB5DFDA0"
+     ListUrl="Videos" />
+  <!--Video MOV-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B795000FA90D277C8F47D18BCEEC8C17129A3D"
+     ListUrl="Videos" />
+  <!--Video MPG-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500BB7672E7108E47C0BC018742B601D7B0"
+     ListUrl="Videos" />
+  <!--Video WebM-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500C30D8C4A5CF549198D36E68DF6895910"
+     ListUrl="Videos" />
+  <!--Video OGG-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B7950043719C81EE934057ACCAD438B8B9A5B5"
+     ListUrl="Videos" />
+  <!--Video WTT-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500487D920FBFD74147939AF1E6CE85652E"
+     ListUrl="Videos" />
+  
+</Elements>

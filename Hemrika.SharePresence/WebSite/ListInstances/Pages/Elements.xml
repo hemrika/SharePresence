@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance
+		Title="$Resources:Hemrika.SharePresence.WebSite,Pages_Title;"
+		Description="$Resources:Hemrika.SharePresence.WebSite,Pages_Description;"
+		FeatureId="e9269d5f-39cd-40bb-8cdd-c80702707b73"
+		Id="27CA167D-D941-4012-93CC-C42937645E51"
+		Url="Pages"
+		OnQuickLaunch="TRUE"
+		QuickLaunchUrl="Pages/Forms/AllItems.aspx"
+		RootWebOnly="FALSE"
+		TemplateType="20002" 
+		VersioningEnabled="True" />
+</Elements>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="NavigationTemplates\" Type="ElementManifest" />
+    <ProjectItemFile Source="BreadCrump\definition.xml" Target="NavigationTemplates\BreadCrump\" Type="ElementFile" />
+    <ProjectItemFile Source="BreadCrump\breadcrumb.css" Target="NavigationTemplates\BreadCrump\" Type="ElementFile" />
+    <ProjectItemFile Source="BreadCrump\Breadcrumb.xslt" Target="NavigationTemplates\BreadCrump\" Type="ElementFile" />
+    <ProjectItemFile Source="DropDown\definition.xml" Target="NavigationTemplates\DropDown\" Type="ElementFile" />
+    <ProjectItemFile Source="DropDown\Dropdown.xslt" Target="NavigationTemplates\DropDown\" Type="ElementFile" />
+    <ProjectItemFile Source="DumpXML\definition.xml" Target="NavigationTemplates\DumpXML\" Type="ElementFile" />
+    <ProjectItemFile Source="DumpXML\DumpXML.xslt" Target="NavigationTemplates\DumpXML\" Type="ElementFile" />
+    <ProjectItemFile Source="Accordion\definition.xml" Target="NavigationTemplates\Accordion\" Type="ElementFile" />
+    <ProjectItemFile Source="Accordion\Accordion.xslt" Target="NavigationTemplates\Accordion\" Type="ElementFile" />
+    <ProjectItemFile Source="Accordion\tabs-accordion.css" Target="NavigationTemplates\Accordion\" Type="ElementFile" />
+    <ProjectItemFile Source="MegaMenu\definition.xml" Target="NavigationTemplates\MegaMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="MegaMenu\hoverIntent.js" Target="NavigationTemplates\MegaMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="MegaMenu\MegaMenu.css" Target="NavigationTemplates\MegaMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="MegaMenu\MegaMenu.js" Target="NavigationTemplates\MegaMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="MegaMenu\MegaMenu.xslt" Target="NavigationTemplates\MegaMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="Sitemap\definition.xml" Target="NavigationTemplates\Sitemap\" Type="ElementFile" />
+    <ProjectItemFile Source="Sitemap\sitemap.css" Target="NavigationTemplates\Sitemap\" Type="ElementFile" />
+    <ProjectItemFile Source="Sitemap\Sitemap.xslt" Target="NavigationTemplates\Sitemap\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\arrows-ffffff.png" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\definition.xml" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\hoverIntent.js" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\jquery.bgiframe.min.js" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\shadow.png" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\superfish-navbar.css" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\superfish-vertical.css" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\superfish.css" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\superfish.js" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\Superfish.xslt" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="Superfish\supersubs.js" Target="NavigationTemplates\Superfish\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\definition.xml" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\file.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\folder-closed.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\folder.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\jquery.cookie.js" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\jquery.treeview.css" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\jquery.treeview.js" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\minus.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\plus.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\Template.xslt" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\TemplateHead.txt" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-black-line.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-black.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-default-line.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-default.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-famfamfam-line.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-famfamfam.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-gray-line.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-gray.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-red-line.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="TreeView\treeview-red.gif" Target="NavigationTemplates\TreeView\" Type="ElementFile" />
+    <ProjectItemFile Source="ULXSLT\definition.xml" Target="NavigationTemplates\ULXSLT\" Type="ElementFile" />
+    <ProjectItemFile Source="ULXSLT\ULXSLT.xslt" Target="NavigationTemplates\ULXSLT\" Type="ElementFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="WebSiteMenu" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="Hemrika.SharePresence.WebSite.Navigation" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

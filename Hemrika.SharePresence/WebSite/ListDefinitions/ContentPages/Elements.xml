@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+		Name="ContentPages"     
+		DisplayName="$Resources:ContentPages_ListTemplateDisplayName;"
+		Description="$Resources:ContentPages_ListTemplateDescription;"
+		Type="20002"
+		BaseType="1"
+		Default="True"
+		OnQuickLaunch="FALSE"
+		Category="Libraries"
+		DisableAttachments="TRUE"
+		DisallowContentTypes="FALSE"
+		VersioningEnabled="TRUE"
+		FolderCreation="FALSE"
+		EnableModeration="True"
+		SecurityBits="11"
+		Sequence="110"
+		Image="/_layouts/images/Hemrika/ListIcon_ContentPages.gif"    
+		Hidden="FALSE"
+		HiddenList="FALSE" />
+</Elements>

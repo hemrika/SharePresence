@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Basic List" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Basic List" BaseType="0" EnableContentTypes="True">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x010046EA71B010823F4193BDCAC6F54AC4B3" Name="Drone Entry" Group="GateKeeper Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+        <FieldRefs>
+          <FieldRef ID="094b46c7-bddb-44ab-b130-d84681c123d1" Name="GateKeeper_Date" DisplayName="GateKeeper Date" />
+          <FieldRef ID="6c804a8d-d9e7-46b6-adce-0e2bbd89aae4" Name="GateKeeper_IPAddress" DisplayName="GateKeeper IP address" />
+          <FieldRef ID="d2daf4d5-bc71-477a-82c2-fe8a327f0029" Name="GateKeeper_Useragent" DisplayName="GateKeeper Useragent" />
+          <FieldRef ID="5256cd66-f7c4-4323-8d74-c4a33b10be3d" Name="GateKeeper_Referrer" DisplayName="GateKeeper Referrer" />
+          <FieldRef ID="7CBE8238-FC84-4167-AD19-D3FEAC6317F2" Name="GateKeeper_Type" DisplayName="GateKeeper Type" DefaultValue="Drone" />
+        </FieldRefs>
+        <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+            <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+              <Display>ListForm</Display>
+              <Edit>ListForm</Edit>
+              <New>ListForm</New>
+            </FormTemplates>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0100FE525E38AA64A640B310538E993529C8" Name="GateKeeper Entry" Group="GateKeeper Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+        <FieldRefs>
+          <FieldRef ID="6c804a8d-d9e7-46b6-adce-0e2bbd89aae4" Name="GateKeeper_IPAddress" DisplayName="GateKeeper IP address" />
+          <FieldRef ID="d2daf4d5-bc71-477a-82c2-fe8a327f0029" Name="GateKeeper_Useragent" DisplayName="GateKeeper Useragent" />
+          <FieldRef ID="890ea2dc-0209-4efe-9a5a-3752d68bc373" Name="GateKeeper_Url" DisplayName="GateKeeper Url" />
+          <FieldRef ID="094b46c7-bddb-44ab-b130-d84681c123d1" Name="GateKeeper_Date" DisplayName="GateKeeper Date" />
+          <FieldRef ID="47a32142-f196-44e7-bc50-02ddcf419e1b" Name="GateKeeper_Comment" DisplayName="GateKeeper Comment" />
+          <FieldRef ID="7CBE8238-FC84-4167-AD19-D3FEAC6317F2" Name="GateKeeper_Type" DisplayName="GateKeeper Type" DefaultValue="Black" />
+        </FieldRefs>
+        <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+            <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+              <Display>ListForm</Display>
+              <Edit>ListForm</Edit>
+              <New>ListForm</New>
+            </FormTemplates>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0100B02A6273A93A75478BFFA53CC49ABA75" Name="HoneyPot Entry" Group="GateKeeper Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+        <FieldRefs>
+          <FieldRef ID="094b46c7-bddb-44ab-b130-d84681c123d1" Name="GateKeeper_Date" DisplayName="GateKeeper Date" />
+          <FieldRef ID="6c804a8d-d9e7-46b6-adce-0e2bbd89aae4" Name="GateKeeper_IPAddress" DisplayName="GateKeeper IP address" />
+          <FieldRef ID="d2daf4d5-bc71-477a-82c2-fe8a327f0029" Name="GateKeeper_Useragent" DisplayName="GateKeeper Useragent" />
+          <FieldRef ID="5256cd66-f7c4-4323-8d74-c4a33b10be3d" Name="GateKeeper_Referrer" DisplayName="GateKeeper Referrer" />
+          <FieldRef ID="7CBE8238-FC84-4167-AD19-D3FEAC6317F2" Name="GateKeeper_Type" DisplayName="GateKeeper Type" DefaultValue="HoneyPot" />
+        </FieldRefs>
+        <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+            <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+              <Display>ListForm</Display>
+              <Edit>ListForm</Edit>
+              <New>ListForm</New>
+            </FormTemplates>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0100481213A85D86C04185CCC53E27B2E9DC" Name="HTTP Entry" Group="GateKeeper Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+        <FieldRefs>
+          <FieldRef ID="094b46c7-bddb-44ab-b130-d84681c123d1" Name="GateKeeper_Date" DisplayName="GateKeeper Date" />
+          <FieldRef ID="6c804a8d-d9e7-46b6-adce-0e2bbd89aae4" Name="GateKeeper_IPAddress" DisplayName="GateKeeper IP address" />
+          <FieldRef ID="80ebbe40-8717-4fb8-bb06-9267221e59be" Name="GateKeeper_Threatlevel" DisplayName="GateKeeper Threatlevel" />
+          <FieldRef ID="19166a1e-21a4-4f19-a551-5c71d942df17" Name="GateKeeper_Visitortype" DisplayName="GateKeeper Visitortype" />
+          <FieldRef ID="fa6464cd-c130-4c82-a8fd-ecd2a700a465" Name="GateKeeper_LastActivity" DisplayName="GateKeeper Last Activity" />
+          <FieldRef ID="d2daf4d5-bc71-477a-82c2-fe8a327f0029" Name="GateKeeper_Useragent" DisplayName="GateKeeper Useragent" />
+          <FieldRef ID="5256cd66-f7c4-4323-8d74-c4a33b10be3d" Name="GateKeeper_Referrer" DisplayName="GateKeeper Referrer" />
+          <FieldRef ID="7CBE8238-FC84-4167-AD19-D3FEAC6317F2" Name="GateKeeper_Type" DisplayName="GateKeeper Type" DefaultValue="HTTP" />
+        </FieldRefs>
+        <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+            <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+              <Display>ListForm</Display>
+              <Edit>ListForm</Edit>
+              <New>ListForm</New>
+            </FormTemplates>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0100B153CB75BEE5844580A0A78C49EE8ABF" Name="Proxy Entry" Group="GateKeeper Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+        <FieldRefs>
+          <FieldRef ID="094b46c7-bddb-44ab-b130-d84681c123d1" Name="GateKeeper_Date" DisplayName="GateKeeper Date" />
+          <FieldRef ID="6c804a8d-d9e7-46b6-adce-0e2bbd89aae4" Name="GateKeeper_IPAddress" DisplayName="GateKeeper IP address" />
+          <FieldRef ID="d2daf4d5-bc71-477a-82c2-fe8a327f0029" Name="GateKeeper_Useragent" DisplayName="GateKeeper Useragent" />
+          <FieldRef ID="5256cd66-f7c4-4323-8d74-c4a33b10be3d" Name="GateKeeper_Referrer" DisplayName="GateKeeper Referrer" />
+          <FieldRef ID="7CBE8238-FC84-4167-AD19-D3FEAC6317F2" Name="GateKeeper_Type" DisplayName="GateKeeper Type" DefaultValue="Proxy" />
+        </FieldRefs>
+        <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+            <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+              <Display>ListForm</Display>
+              <Edit>ListForm</Edit>
+              <New>ListForm</New>
+            </FormTemplates>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field
+  Type="Choice"
+  DisplayName="GateKeeper Type"
+  Group="GateKeeper Columns"
+  ID="{7CBE8238-FC84-4167-AD19-D3FEAC6317F2}"
+  StaticName="GateKeeper_Type"
+  Name="GateKeeper_Type" >
+        <CHOICES>
+          <CHOICE>Drone</CHOICE>
+          <CHOICE>Black</CHOICE>
+          <CHOICE>White</CHOICE>
+          <CHOICE>HoneyPot</CHOICE>
+          <CHOICE>HTTP</CHOICE>
+          <CHOICE>Proxy</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field
+  Type="DateTime"
+  DisplayName="GateKeeper Date"
+  Group="GateKeeper Columns"
+  ID="{094B46C7-BDDB-44AB-B130-D84681C123D1}"
+  StaticName="GateKeeper_Date"
+  Name="GateKeeper_Date" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper Comment"
+        Group="GateKeeper Columns"
+        ID="{47A32142-F196-44E7-BC50-02DDCF419E1B}"
+        StaticName="GateKeeper_Comment"
+        Name="GateKeeper_Comment" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper IP address"
+        Group="GateKeeper Columns"
+        ID="{6C804A8D-D9E7-46B6-ADCE-0E2BBD89AAE4}"
+        StaticName="GateKeeper_IPAddress"
+        Name="GateKeeper_IPAddress" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper Useragent"
+        Group="GateKeeper Columns"
+        ID="{D2DAF4D5-BC71-477A-82C2-FE8A327F0029}"
+        StaticName="GateKeeper_Useragent"
+        Name="GateKeeper_Useragent" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper Url"
+        Group="GateKeeper Columns"
+        ID="{890EA2DC-0209-4EFE-9A5A-3752D68BC373}"
+        StaticName="GateKeeper_Url"
+        Name="GateKeeper_Url" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper Referrer"
+        Group="GateKeeper Columns"
+        ID="{5256CD66-F7C4-4323-8D74-C4A33B10BE3D}"
+        StaticName="GateKeeper_Referrer"
+        Name="GateKeeper_Referrer" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper Threatlevel"
+        Group="GateKeeper Columns"
+        ID="{80EBBE40-8717-4FB8-BB06-9267221E59BE}"
+        StaticName="GateKeeper_Threatlevel"
+        Name="GateKeeper_Threatlevel" >
+      </Field>
+      <Field
+        Type="Text"
+        DisplayName="GateKeeper Visitortype"
+        Group="GateKeeper Columns"
+        ID="{19166A1E-21A4-4F19-A551-5C71D942DF17}"
+        StaticName="GateKeeper_Visitortype"
+        Name="GateKeeper_Visitortype" >
+      </Field>
+      <Field
+      Type="Text"
+      DisplayName="GateKeeper Last Activity"
+      Group="GateKeeper Columns"
+      ID="{FA6464CD-C130-4C82-A8FD-ECD2A700A465}"
+      StaticName="GateKeeper_LastActivity"
+      Name="GateKeeper_LastActivity" >
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <Toolbar Position="After" Type="Freeform">
+          <IfHasRights>
+            <RightsChoices>
+              <RightsGroup PermAddListItems="required" />
+            </RightsChoices>
+            <Then>
+              <Switch>
+                <Expr>
+                  <GetVar Name="MasterVersion" />
+                </Expr>
+                <Case Value="4">
+                  <HTML><![CDATA[<div class="tb"><img src="/_layouts/images/caladd.gif" alt="" />&#160;<a class="ms-addnew" id="idAddNewItem" href="]]></HTML>
+                  <URL Cmd="New" />
+                  <HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML>
+                  <ScriptQuote NotAddingQuote="TRUE">
+                    <URL Cmd="New" />
+                  </ScriptQuote>
+                  <HTML><![CDATA[', true);javascript:return false;" target="_self">]]></HTML>
+                  <HTML>$Resources:core,addnewitem;</HTML>
+                  <HTML><![CDATA[</a></div>]]></HTML>
+                </Case>
+                <Default>
+                  <HTML><![CDATA[ <table width="100%" cellpadding="0" cellspacing="0" border="0" > <tr> <td colspan="2" class="ms-partline"><img src="/_layouts/images/blank.gif" width='1' height='1' alt="" /></td> </tr> <tr> <td class="ms-addnew" style="padding-bottom: 3px"> <img src="/_layouts/images/rect.gif" alt="" />&#160;<a class="ms-addnew" id="idAddNewItem" href="]]></HTML>
+                  <URL Cmd="New" />
+                  <HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML>
+                  <ScriptQuote NotAddingQuote="TRUE">
+                    <URL Cmd="New" />
+                  </ScriptQuote>
+                  <HTML><![CDATA[', true);javascript:return false;" target="_self">]]></HTML>
+                  <HTML>$Resources:core,addnewitem;</HTML>
+                  <HTML><![CDATA[</a> </td> </tr> <tr><td><img src="/_layouts/images/blank.gif" width='1' height='5' alt="" /></td></tr> </table>]]></HTML>
+                </Default>
+              </Switch>
+            </Then>
+          </IfHasRights>
+        </Toolbar>
+        <RowLimit>20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu">
+          </FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <Toolbar Type="Standard" />
+        <ViewFields>
+          <FieldRef Name="Attachments">
+          </FieldRef>
+          <FieldRef Name="LinkTitle">
+          </FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

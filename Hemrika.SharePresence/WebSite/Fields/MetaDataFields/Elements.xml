@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Note" DisplayName="$Resources:column_abstract_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="4" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{f1bacb96-3e59-4ea8-830f-fd28041f3074}"  StaticName="abstract" Name="abstract" ></Field>
+  <Field Type="Text" DisplayName="$Resources:column_author_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{9fd91c44-7daf-4a56-8a4a-e0936c1f6993}"  StaticName="author" Name="author" >
+    <Default>Rutger Hemrika</Default>
+  </Field>
+  <Field Type="Note" DisplayName="$Resources:column_description_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" MaxLength="255" RichText="FALSE" Sortable="FALSE" Group="$Resources:group_metadatacolumns;" ID="{993bd331-87aa-470a-a44a-b6d0c91e0d2f}"  StaticName="description" Name="description" ></Field>
+  <Field Type="Text" DisplayName="$Resources:column_googlebot_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{4fc15913-0364-4949-9cc3-fad55a94a34b}"  StaticName="googlebot" Name="googlebot" >
+    <Default>index</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_keywords_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{132a3105-5fc1-42d6-b931-e46bf9cc75e1}"  StaticName="keywords" Name="keywords" ></Field>
+  <Field  Type="Text" DisplayName="$Resources:column_language_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{1969e153-e963-4173-93b9-ec5b2eee8c3b}"  StaticName="language" Name="language">
+    <Default>NL</Default>
+  </Field>
+  <Field Type="Choice" DisplayName="$Resources:column_rating_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{6a532370-c1b3-4af5-a506-ce67545c606f}"  StaticName="rating" Name="rating" >
+    <CHOICES>
+      <CHOICE>general</CHOICE>
+      <CHOICE>mature</CHOICE>
+      <CHOICE>restricted</CHOICE>
+      <CHOICE>14 years</CHOICE>
+      <CHOICE>safe for kids</CHOICE>
+    </CHOICES>
+    <Default>general</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_revisit_after_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{c16ced85-2555-49a9-a775-4eb1da90dd53}"  StaticName="revisit-after" Name="revisit-after" >
+    <Default>7 days</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_robots_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{8ae52aa5-3eb2-41e3-a862-d97f63aab283}"  StaticName="robots" Name="robots" >
+    <Default>index, follow,noimageindex</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_web_author_displayname;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{5570a658-5f98-467c-b046-c5cd14748835}"  StaticName="web_author" Name="web_author" >
+    <Default>Rutger Hemrika</Default>
+  </Field>
+  <Field Type="Choice" DisplayName="$Resources:column_new_genres_displayname;" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{E4C27D5D-E49B-4F28-BB0C-A2B089337EAF}"  StaticName="news_genres" Name="News Genres" >
+    <CHOICES>
+      <CHOICE>PressRelease</CHOICE>
+      <CHOICE>Satire</CHOICE>
+      <CHOICE>Blog</CHOICE>
+      <CHOICE>OpEd</CHOICE>
+      <CHOICE>Opinion</CHOICE>
+      <CHOICE>UserGenerated</CHOICE>
+    </CHOICES>
+    <Default>UserGenerated</Default>
+  </Field>
+</Elements>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<FieldTypes>
+	<FieldType>
+		<Field
+			Name="TypeName">PublishingPageDesignFieldType</Field>
+		<Field
+			Name="ParentType">MultiColumn</Field>
+		<Field
+			Name="TypeDisplayName">$Resources:Hemrika.SharePresence.WebSite,PublishingPageDesign_DisplayName;</Field>
+		<Field
+			Name="TypeShortDescription">$Resources:Hemrika.SharePresence.WebSite,PublishingPageDesign_Description;</Field>
+		<Field
+			Name="UserCreatable">TRUE</Field>
+		<Field
+			Name="ShowInListCreate">TRUE</Field>
+		<Field
+			Name="ShowInDocumentLibraryCreate">FALSE</Field>
+		<Field
+			Name="ShowInSurveyCreate">FALSE</Field>
+		<Field
+			Name="ShowInColumnTemplateCreate">TRUE</Field>
+		<Field
+			Name="FieldTypeClass">Hemrika.SharePresence.WebSite.FieldTypes.PublishingPageDesign, Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Field>
+    <RenderPattern Name="DisplayPattern">
+      <Switch>
+        <Expr>
+          <Column/>
+        </Expr>
+        <Case Value="">
+        </Case>
+        <Default>
+          <HTML><![CDATA[<a href="]]></HTML>
+          <HttpVDir/>
+          <HTML><![CDATA[/_layouts/ManageContentType.aspx?ctype=]]></HTML>
+          <Column SubColumnNumber="1" HTMLEncode="TRUE"/>
+          <HTML><![CDATA[">]]></HTML>
+          <Column SubColumnNumber="2" HTMLEncode="TRUE"/>
+          <HTML><![CDATA[</a>]]></HTML>
+        </Default>
+      </Switch>
+    </RenderPattern>
+  </FieldType>
+</FieldTypes>

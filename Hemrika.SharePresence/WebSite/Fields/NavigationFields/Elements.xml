@@ -1,0 +1,66 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field 
+    Type="Text" 
+    DisplayName="Breadcrumb" 
+    Required="FALSE" 
+    EnforceUniqueValues="FALSE" 
+    Indexed="FALSE" 
+    MaxLength="255" 
+    Group="Navigation Columns" 
+    ID="{0038d6d0-a671-4b8a-ac4d-8ee95bad41fc}" 
+    StaticName="Breadcrumb" 
+    Name="Breadcrumb" >
+  </Field>
+  <Field 
+    Type="Boolean" 
+    DisplayName="Enabled" 
+    Required="FALSE" 
+    EnforceUniqueValues="FALSE" 
+    Indexed="FALSE" 
+    MaxLength="255" 
+    Group="Navigation Columns" 
+    ID="{49e684d1-8b7a-4179-9787-167ee1b6e1de}" 
+    StaticName="Enabled" 
+    Name="Enabled" >
+  </Field>
+  <Field 
+    Type="Text" 
+    DisplayName="Icon" 
+    Required="FALSE" 
+    EnforceUniqueValues="FALSE" 
+    Indexed="FALSE" 
+    MaxLength="255" 
+    Group="Navigation Columns" 
+    ID="{a09c4b56-c415-4137-b1d0-f9833be7febc}" 
+    StaticName="Icon" 
+    Name="Icon" >
+  </Field>
+  <Field
+    Type="Number"
+    DisplayName="Position"
+    Required="FALSE"
+    Name="Position"
+    Group="Navigation Columns"
+    ID="{2f2b9d2d-283c-4608-a7aa-8e3aedbc0dc6}"
+    StaticName="Position">    
+  </Field> 
+  <Field Type="Text" DisplayName="LargeImage" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Navigation Columns" ID="{4af17ff8-b4e4-498e-ad7f-a60165d0475c}" StaticName="LargeImage" Name="LargeImage" ></Field>
+  <Field Type="Text" DisplayName="Selected" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Navigation Columns" ID="{ec5f1b12-3ad8-46f7-b01e-e38c820909a7}" StaticName="Selected" Name="Selected" ></Field>
+  <Field Type="Text" DisplayName="Separator" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Navigation Columns" ID="{815de444-cec3-4c58-97c6-1af175aedb00}" StaticName="Separator" Name="Separator" ></Field>
+  <Field
+    Type="Lookup"
+    DisplayName="Parent"
+    Required="FALSE"
+    EnforceUniqueValues="FALSE"
+    List="SiteMap"
+    ShowField="Title"
+    Group="Navigation Columns"
+    ID="{e64690c4-3b1a-4fe4-9b72-1d042f07d074}"
+    StaticName="Parent"
+    Name="Parent"
+    PrependId="TRUE"
+    WebId="~sitecollection"
+    Overwrite="TRUE" AllowDeletion="TRUE"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3">
+  </Field>
+</Elements>

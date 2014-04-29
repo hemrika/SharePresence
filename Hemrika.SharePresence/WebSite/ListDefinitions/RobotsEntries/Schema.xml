@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RobotsEntries" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RobotsEntries" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100e4c8c759a0494725b6c8886aebfe5b60"
+               Name="RobotsEntry"
+               Group="Robots Content Types"
+               Description="Hemrika Robots Entries"
+               Inherits="FALSE"
+               Version="0">
+        <FieldRefs>
+          <FieldRef ID="733d9e48-5515-44cb-98a7-7869b68cfe70" Name="Follow" DisplayName="Follow" />
+          <FieldRef ID="a1012e42-3f5f-4ea0-9c88-bd1411765811" Name="User-agent" DisplayName="User-agent" />
+          <FieldRef ID="2c4e400c-924b-40a5-9043-00050eda6320" Name="Entry" DisplayName="Entry" />
+        </FieldRefs>
+        <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+            <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+              <Display>ListForm</Display>
+              <Edit>ListForm</Edit>
+              <New>ListForm</New>
+            </FormTemplates>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field Type="Text" DisplayName="Entry" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Hemrika Robots" ID="{2c4e400c-924b-40a5-9043-00050eda6320}" SourceID="{2e4b8da6-76a7-4f91-a917-0f7d6b36de33}" StaticName="Entry" Name="Entry">
+      </Field>
+      <Field Type="Choice" DisplayName="Follow" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Hemrika Robots" ID="{733d9e48-5515-44cb-98a7-7869b68cfe70}" SourceID="{2e4b8da6-76a7-4f91-a917-0f7d6b36de33}" StaticName="Follow" Name="Follow">
+    <Default>Allow</Default>
+    <CHOICES>
+      <CHOICE>Allow</CHOICE>
+      <CHOICE>Disallow</CHOICE>
+    </CHOICES>
+  </Field>
+      <Field Type="Choice" DisplayName="User-agent" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="TRUE" Group="Hemrika Robots" ID="{a1012e42-3f5f-4ea0-9c88-bd1411765811}" SourceID="{2e4b8da6-76a7-4f91-a917-0f7d6b36de33}" StaticName="User-agent" Name="User-agent">
+    <Default>*</Default>
+        <CHOICES>
+          <CHOICE>*</CHOICE>
+          <CHOICE>Googlebot</CHOICE>
+          <CHOICE>Googlebot-Mobile</CHOICE>
+          <CHOICE>Googlebot-Image</CHOICE>
+          <CHOICE>Adsbot-Google</CHOICE>
+          <CHOICE>Mediapartners-Google</CHOICE>
+          <CHOICE>MSNBot</CHOICE>
+          <CHOICE>BingBot</CHOICE>
+          <CHOICE>Slurp</CHOICE>
+          <CHOICE>Teoma</CHOICE>
+          <CHOICE>twiceler</CHOICE>
+          <CHOICE>Gigabot</CHOICE>
+          <CHOICE>Scrubby</CHOICE>
+          <CHOICE>Robozilla</CHOICE>
+          <CHOICE>Nutch</CHOICE>
+          <CHOICE>ia_archiver</CHOICE>
+          <CHOICE>baiduspider</CHOICE>
+          <CHOICE>naverbot</CHOICE>
+          <CHOICE>yeti</CHOICE>
+          <CHOICE>yahoo-mmcrawler</CHOICE>
+          <CHOICE>psbot</CHOICE>
+          <CHOICE>asterias</CHOICE>
+        </CHOICES>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu">
+          </FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Edit" DisplayName="Edit"/>
+          <FieldRef Name="Entry" DisplayName="Entry"/>
+        </ViewFields>
+        <Query>
+          <GroupBy>
+            <FieldRef Name="User-agent"/>
+            <FieldRef Name="Follow"/>
+          </GroupBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)"/>
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)"/>
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

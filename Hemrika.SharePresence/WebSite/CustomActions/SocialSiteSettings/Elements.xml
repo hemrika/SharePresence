@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Social-->
+  <CustomActionGroup
+		Id="Social"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="Social"
+		Sequence="20"
+		Description="SharePoint Social Settings."
+		ImageUrl="/_layouts/images/Hemrika/moss_ed.png" />
+  <CustomAction
+		Id="Social_Bookmark"
+		GroupId="Social"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Bookmark Settings"
+		Description="General Bookmark Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Social/BookmarkManage.aspx', title: 'Manage Bookmark Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  	<CustomAction
+		Id="Social_Rating"
+		GroupId="Social"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="20"
+		Title="Rating"
+		Description="General Rating Settings." >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Social/RatingManage.aspx', title: 'Manage Rating Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+  <CustomAction
+  Id="Social_Company"
+  GroupId="Social"
+  Location="Microsoft.SharePoint.SiteSettings"
+  Sequence="30"
+  Title="Company Settings"
+  Description="General Company Settings." >
+    <UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Company/CompanyManage.aspx', title: 'Manage Company Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+</Elements>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="HTML5\" Type="ElementManifest" />
+    <ProjectItemFile Source="Style\v5.css" Target="HTML5\Style\" Type="ElementFile" />
+    <ProjectItemFile Source="Script\v5.js" Target="HTML5\Script\" Type="ElementFile" />
+    <ProjectItemFile Source="Images\favicon.ico" Target="HTML5\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Images\search.png" Target="HTML5\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Images\v5.png" Target="HTML5\Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Masterpages\v5.master" Target="HTML5\Masterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="Masterpages\Two Rows.aspx" Target="HTML5\Masterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="Masterpages\One Column.aspx" Target="HTML5\Masterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="Script\jquery.migrate.min.js" Target="HTML5\Script\" Type="ElementFile" />
+    <ProjectItemFile Source="Script\jquery.min.js" Target="HTML5\Script\" Type="ElementFile" />
+    <ProjectItemFile Source="Masterpages\Simple.aspx" Target="HTML5\Masterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="Masterpages\Two Columns.aspx" Target="HTML5\Masterpages\" Type="ElementFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="MasterPageEntry" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="Hemrika.SharePresence.WebSite.Master" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

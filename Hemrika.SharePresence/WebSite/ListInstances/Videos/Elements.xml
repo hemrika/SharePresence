@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance
+		Title="$Resources:Videos_Title;"
+		Description="$Resources:Videos_Description;"
+		FeatureId="e9269d5f-39cd-40bb-8cdd-c80702707b73"
+		Id="C6F12E33-2CC3-4603-9D84-1C0F67DDAF67"
+		Url="Videos"
+		OnQuickLaunch="TRUE"
+		QuickLaunchUrl="Videos/AllItems.aspx"
+		RootWebOnly="FALSE"
+		TemplateType="20009" />
+</Elements>

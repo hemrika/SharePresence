@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100e4c8c759a0494725b6c8886aebfe5b60"
+               Name="RobotsEntry"
+               Group="Robots Content Types"
+               Description="Hemrika Robots Entries"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="733d9e48-5515-44cb-98a7-7869b68cfe70" Name="Follow" DisplayName="Follow" />
+      <FieldRef ID="a1012e42-3f5f-4ea0-9c88-bd1411765811" Name="User-agent" DisplayName="User-agent" />
+      <FieldRef ID="2c4e400c-924b-40a5-9043-00050eda6320" Name="Entry" DisplayName="Entry" />
+    </FieldRefs>
+    <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+          <Display>ListForm</Display>
+          <Edit>ListForm</Edit>
+          <New>ListForm</New>
+        </FormTemplates>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HTML5VideoDataSet" targetNamespace="http://tempuri.org/HTML5VideoDataSet.xsd" xmlns:mstns="http://tempuri.org/HTML5VideoDataSet.xsd" xmlns="http://tempuri.org/HTML5VideoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HTML5VideoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="HTML5VideoDataSet" msprop:Generator_UserDSName="HTML5VideoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HTML5Videos" msprop:Generator_TableClassName="HTML5VideosDataTable" msprop:Generator_TableVarName="tableHTML5Videos" msprop:Generator_TablePropName="HTML5Videos" msprop:Generator_RowDeletingName="HTML5VideosRowDeleting" msprop:Generator_UserTableName="HTML5Videos" msprop:Generator_RowChangingName="HTML5VideosRowChanging" msprop:Generator_RowEvHandlerName="HTML5VideosRowChangeEventHandler" msprop:Generator_RowDeletedName="HTML5VideosRowDeleted" msprop:Generator_RowEvArgName="HTML5VideosRowChangeEvent" msprop:Generator_RowChangedName="HTML5VideosRowChanged" msprop:Generator_RowClassName="HTML5VideosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VideoId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnVideoId" msprop:Generator_ColumnPropNameInRow="VideoId" msprop:Generator_ColumnPropNameInTable="VideoIdColumn" msprop:Generator_UserColumnName="VideoId" type="xs:string" />
+              <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnPropNameInTable="HeightColumn" msprop:Generator_UserColumnName="Height" type="xs:int" default="48" minOccurs="0" />
+              <xs:element name="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" msprop:Generator_UserColumnName="Width" type="xs:int" default="48" minOccurs="0" />
+              <xs:element name="Alt" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Alt" msprop:Generator_ColumnVarNameInTable="columnAlt" msprop:Generator_ColumnPropNameInTable="AltColumn" msprop:Generator_UserColumnName="Alt" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Src" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Src" msprop:Generator_ColumnVarNameInTable="columnSrc" msprop:Generator_ColumnPropNameInTable="SrcColumn" msprop:Generator_UserColumnName="Src" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Keywords" msprop:Generator_ColumnVarNameInTable="columnKeywords" msprop:Generator_ColumnPropNameInRow="Keywords" msprop:Generator_ColumnPropNameInTable="KeywordsColumn" msprop:Generator_UserColumnName="Keywords" type="xs:string" minOccurs="0" />
+              <xs:element name="Preview" msprop:Generator_ColumnVarNameInTable="columnPreview" msprop:Generator_ColumnPropNameInRow="Preview" msprop:Generator_ColumnPropNameInTable="PreviewColumn" msprop:Generator_UserColumnName="Preview" type="xs:string" minOccurs="0" />
+              <xs:element name="Web" msprop:Generator_ColumnVarNameInTable="columnWeb" msprop:Generator_ColumnPropNameInRow="Web" msprop:Generator_ColumnPropNameInTable="WebColumn" msprop:Generator_UserColumnName="Web" type="xs:string" minOccurs="0" />
+              <xs:element name="List" msprop:Generator_ColumnVarNameInTable="columnList" msprop:Generator_ColumnPropNameInRow="List" msprop:Generator_ColumnPropNameInTable="ListColumn" msprop:Generator_UserColumnName="List" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HTML5Videos" />
+      <xs:field xpath="mstns:VideoId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

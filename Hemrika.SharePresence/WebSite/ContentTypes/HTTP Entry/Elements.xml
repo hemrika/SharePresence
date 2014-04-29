@@ -1,0 +1,23 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x0100481213A85D86C04185CCC53E27B2E9DC" Name="HTTP Entry" Group="GateKeeper Content Types" Inherits="true" Hidden="false" ReadOnly="false" Sealed="false">
+    <FieldRefs>
+      <FieldRef ID="094b46c7-bddb-44ab-b130-d84681c123d1" Name="GateKeeper_Date" DisplayName="GateKeeper Date" />
+      <FieldRef ID="6c804a8d-d9e7-46b6-adce-0e2bbd89aae4" Name="GateKeeper_IPAddress" DisplayName="GateKeeper IP address" />
+      <FieldRef ID="80ebbe40-8717-4fb8-bb06-9267221e59be" Name="GateKeeper_Threatlevel" DisplayName="GateKeeper Threatlevel" />
+      <FieldRef ID="19166a1e-21a4-4f19-a551-5c71d942df17" Name="GateKeeper_Visitortype" DisplayName="GateKeeper Visitortype" />
+      <FieldRef ID="fa6464cd-c130-4c82-a8fd-ecd2a700a465" Name="GateKeeper_LastActivity" DisplayName="GateKeeper Last Activity" />
+      <FieldRef ID="d2daf4d5-bc71-477a-82c2-fe8a327f0029" Name="GateKeeper_Useragent" DisplayName="GateKeeper Useragent" />
+      <FieldRef ID="5256cd66-f7c4-4323-8d74-c4a33b10be3d" Name="GateKeeper_Referrer" DisplayName="GateKeeper Referrer" />
+      <FieldRef ID="7CBE8238-FC84-4167-AD19-D3FEAC6317F2" Name="GateKeeper_Type" DisplayName="GateKeeper Type" DefaultValue="HTTP" />
+    </FieldRefs>
+    <XmlDocuments xmlns="http://schemas.microsoft.com/sharepoint/">
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+          <Display>ListForm</Display>
+          <Edit>ListForm</Edit>
+          <New>ListForm</New>
+        </FormTemplates>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

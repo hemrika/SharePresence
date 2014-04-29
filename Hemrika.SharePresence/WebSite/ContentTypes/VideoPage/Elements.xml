@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType
+		ID="0x010100E2E99BB760B34490935A1126C04A810F002CEF2C33A1F4934CBB3C35977645B818"
+		Name="$Resources:VideoPage_ContentTypeName;"
+		Description="$Resources:VideoPage_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    NewDocumentControl="WebSite.WebSitePage"
+    ProgId="WebSite.WebSitePage"
+		Inherits="TRUE" 
+    Overwrite="TRUE">
+		<FieldRefs>
+      <FieldRef ID="87a3a617-6fcb-4363-8f58-faef367251e8" Name="HTML5 Title" DisplayName="HTML5 Title" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="8a489a31-2931-43b1-b80f-2a309a44fd19" Name="HTML5 Date" DisplayName="HTML5 Date" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="6b16c783-5f64-4b2d-8d2b-0379ade9ee2f" Name="HTML5 Rating" DisplayName="HTML5 Rating" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="00bfefe9-dba7-4987-a135-cd3377ca1ff2" Name="HTML5 Bookmark" DisplayName="HTML5 Bookmark" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="baf9ab8f-ca5b-468e-ab83-150edc0b469b" Name="HTML5 Header" DisplayName="HTML5 Header" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="bb9481c4-411d-46ab-ba9c-361abc6982c2" Name="HTML5 Section" DisplayName="HTML5 Section" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="d3e801cf-6059-4a88-9bd6-011c7fcf47cd" Name="HTML5 Footer" DisplayName="HTML5 Footer" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="6652B606-AC4F-4434-8375-2E3076D850ED" Name="HTML5 Video" DisplayName="HTML5 Video" Required="FALSE" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>      
+      <FieldRef ID="E4C27D5D-E49B-4F28-BB0C-A2B089337EAF" Name="News Genres" DisplayName="News Genres"  Required="FALSE" DefaultValue="UserGenerated" ShowInDisplayForm="FALSE"  ShowInEditForm="FALSE" ShowInNewForm="FALSE"/>
+      <FieldRef ID="FD160718-1FCB-4AD2-A87E-B884D7362BB4" Name="Schema.Org Type" DisplayName="Schema.Org Type" Required="FALSE" DefaultValue="http://schema.org/WebPage"/>
+		</FieldRefs>
+		<DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/CreateWebPage.aspx?contentype={0x010100E2E99BB760B34490935A1126C04A810F002CEF2C33A1F4934CBB3C35977645B818}" />
+		<XmlDocuments>
+			<XmlDocument
+				NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+				<FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+					<Display>DocumentLibraryForm</Display>
+					<Edit>DocumentLibraryForm</Edit>
+					<New>DocumentLibraryForm</New>
+				</FormTemplates>
+			</XmlDocument>
+			<XmlDocument
+				NamespaceURI="http://schemas.microsoft.com/sharepoint/events">
+				<spe:Receivers xmlns:spe="http://schemas.microsoft.com/sharepoint/events">
+					<spe:Receiver>
+						<spe:Name>VideoPage_ItemAddedReceiver</spe:Name>
+						<spe:Type>ItemAdded</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.VideoPageEventReceivers</spe:Class>
+					</spe:Receiver>
+					<spe:Receiver>
+						<spe:Name>VideoPage_ItemUpdatedReceiver</spe:Name>
+						<spe:Type>ItemUpdated</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.VideoPageEventReceivers</spe:Class>
+					</spe:Receiver>
+					<spe:Receiver>
+						<spe:Name>VideoPage_ItemDeletedReceiver</spe:Name>
+						<spe:Type>ItemDeleted</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.VideoPageEventReceivers</spe:Class>
+					</spe:Receiver>
+				</spe:Receivers>
+			</XmlDocument>
+		</XmlDocuments>
+	</ContentType>
+  <CustomAction
+  Id="CreateVideoPage"
+  Title="Video Page"
+  Description="Creates a Video Page."
+  GroupId="WebPages"
+  Location="Microsoft.SharePoint.Create"
+  ImageUrl="/_layouts/images/ltsmrtpg.png">
+    <UrlAction Url="/_layouts/Hemrika/Content/CreateWebPage.aspx?contentype={0x010100E2E99BB760B34490935A1126C04A810F002CEF2C33A1F4934CBB3C35977645B818}"/>
+  </CustomAction>
+</Elements>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Navigation-->
+  <CustomActionGroup
+		Id="Navigation"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="Navigation"
+		Sequence="20"
+		Description="SharePoint Navigation Settings."
+		ImageUrl="/_layouts/images/Hemrika/moss_ui.png" />
+  <CustomAction
+		Id="Navigation_Settings"
+		GroupId="Navigation"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Settings"
+		Description="General Navigation Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Navigation/NavigationManage.aspx', title: 'Manage Bookmark Settings', allowMaximize: false, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+  Id="Navigation_TopMenu"
+  GroupId="Navigation"
+  Location="Microsoft.SharePoint.SiteSettings"
+  Sequence="20"
+  Title="Menu Items"
+  Description="Manage Menu Items" >
+    <UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/navigation/MenuItemsManage.aspx', title: 'Manage Rating Settings', allowMaximize: false, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <HideCustomAction
+		Id="SimplifySiteSettings_TopNav"
+		GroupId="Customization"
+		HideActionId="TopNav"
+		Location="Microsoft.SharePoint.SiteSettings"/>
+  <HideCustomAction
+		Id="SimplifySiteSettings_DeleteWeb"
+		GroupId="SiteTasks"
+		HideActionId="DeleteWeb"
+		Location="Microsoft.SharePoint.SiteSettings"/>
+  <HideCustomAction
+		Id="SimplifySiteSettings_ReGhost"
+		GroupId="SiteTasks"
+		HideActionId="ReGhost"
+		Location="Microsoft.SharePoint.SiteSettings"/>
+  <HideCustomAction
+		Id="SimplifySiteSettings_QuickLaunch"
+		GroupId="Customization"
+		HideActionId="QuickLaunch"
+		Location="Microsoft.SharePoint.SiteSettings"/>
+</Elements>

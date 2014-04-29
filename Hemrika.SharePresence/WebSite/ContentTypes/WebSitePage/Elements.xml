@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType
+		ID="0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165"
+		Name="$Resources:WebSitePage_ContentTypeName;"
+		Description="$Resources:WebSitePage_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+		NewDocumentControl="WebSite.WebSitePage"
+		ProgId="WebSite.WebSitePage"
+		Inherits="TRUE"
+		Overwrite="TRUE">
+    <FieldRefs>
+      <FieldRef
+				ID="87a3a617-6fcb-4363-8f58-faef367251e8"
+				Name="HTML5 Title"
+				DisplayName="HTML5 Title"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="8a489a31-2931-43b1-b80f-2a309a44fd19"
+				Name="HTML5 Date"
+				DisplayName="HTML5 Date"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="6b16c783-5f64-4b2d-8d2b-0379ade9ee2f"
+				Name="HTML5 Rating"
+				DisplayName="HTML5 Rating"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="00bfefe9-dba7-4987-a135-cd3377ca1ff2"
+				Name="HTML5 Bookmark"
+				DisplayName="HTML5 Bookmark"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="baf9ab8f-ca5b-468e-ab83-150edc0b469b"
+				Name="HTML5 Header"
+				DisplayName="HTML5 Header"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="bb9481c4-411d-46ab-ba9c-361abc6982c2"
+				Name="HTML5 Section"
+				DisplayName="HTML5 Section"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="d3e801cf-6059-4a88-9bd6-011c7fcf47cd"
+				Name="HTML5 Footer"
+				DisplayName="HTML5 Footer"
+				Required="FALSE"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="BD06355A-ECBD-486E-8720-EDBC8E200AB5"
+				Name="HTML5 Image"
+				DisplayName="HTML5 Image"
+				Required="FALSE"
+				DefaultValue="UserGenerated"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="E4C27D5D-E49B-4F28-BB0C-A2B089337EAF"
+				Name="News Genres"
+				DisplayName="News Genres"
+				Required="FALSE"
+				DefaultValue="UserGenerated"
+				ShowInDisplayForm="FALSE"
+				ShowInEditForm="FALSE"
+				ShowInNewForm="FALSE" />
+      <FieldRef
+				ID="FD160718-1FCB-4AD2-A87E-B884D7362BB4"
+				Name="Schema.Org Type"
+				DisplayName="Schema.Org Type"
+				Required="FALSE"
+				DefaultValue="http://schema.org/WebPage" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/CreateWebPage.aspx?contentype={0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165}" />
+    <XmlDocuments>
+      <XmlDocument
+				NamespaceURI="http://schemas.microsoft.com/sharepoint/events">
+        <Receivers xmlns:spe="http://schemas.microsoft.com/sharepoint/events">
+          <Receiver>
+            <Name>WebSitePage_ItemAddedReceiver</Name>
+            <Type>ItemAdded</Type>
+            <SequenceNumber>10000</SequenceNumber>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
+            <Data></Data>
+            <Filter></Filter>
+          </Receiver>
+          <Receiver>
+            <Name>WebSitePage_ItemFileMovedReceiver</Name>
+            <Type>ItemFileMoved</Type>
+            <SequenceNumber>10000</SequenceNumber>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
+            <Data></Data>
+            <Filter></Filter>
+          </Receiver>
+          <Receiver>
+            <Name>WebSitePage_ItemUpdatedReceiver</Name>
+            <Type>ItemUpdated</Type>
+            <SequenceNumber>10000</SequenceNumber>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
+            <Data></Data>
+            <Filter></Filter>
+          </Receiver>
+          <Receiver>
+            <Name>WebSitePage_ItemDeletedReceiver</Name>
+            <Type>ItemDeleted</Type>
+            <SequenceNumber>10000</SequenceNumber>
+            <Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+            <Class>Hemrika.SharePresence.WebSite.WebSitePageEventReceivers</Class>
+            <Data></Data>
+            <Filter></Filter>
+          </Receiver>
+        </Receivers>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+	<CustomAction
+		Id="CreateWebSitePage"
+		Title="WebSite Page"
+		Description="Creates a WebSite Page."
+		GroupId="WebPages"
+		Location="Microsoft.SharePoint.Create"
+		ImageUrl="/_layouts/images/ltsmrtpg.png">
+		<UrlAction
+			Url="/_layouts/Hemrika/Content/CreateWebPage.aspx?contentype={0x010100E2E99BB760B34490935A1126C04A810F00A825C106CE14487CAAF9E6EA127B8165}" />
+	</CustomAction>
+	<HideCustomAction
+		Id="HideWikiPage"
+		HideActionId="WikiPage"
+		GroupId="WebPages"
+		Location="Microsoft.SharePoint.Create" />
+	<HideCustomAction
+		Id="HideWebPartPage"
+		HideActionId="WebPartPage"
+		GroupId="WebPages"
+		Location="Microsoft.SharePoint.Create" />
+</Elements>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Design-->
+  <CustomActionGroup
+		Id="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="Design"
+		Sequence="10"
+		Description="SharePoint Design Settings."
+		ImageUrl="/_layouts/images/Hemrika/moss_design.png" />
+  <CustomAction
+		Id="Design_Editor"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Editor Settings"
+		Description="Modify Editor Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Content/AlohaEditor.aspx', title: 'Editor Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+		Id="Design_SharePointDesignerSettings"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="20"
+		Title="SharePoint Designer Settings"
+		Description="Modify SharePoint Designer Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/SharePointDesignerSettings.aspx', title: 'SharePoint Designer Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+		Id="Design_Theme"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="30"
+		Title="Theme Settings"
+		Description="Modify SharePoint Theme Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/themeweb.aspx', title: 'SharePoint Theme Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+		Id="Design_MasterPage"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="40"
+		Title="Create MasterPage"
+		Description="Create MasterPage" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Catalog/CreateMasterPage.aspx', title: 'Create MasterPage', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+		Id="Design_PageLayout"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="50"
+		Title="Create PageLayout"
+		Description="Create PageLayout" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Catalog/CreatePageLayout.aspx', title: 'Create PageLayout', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+		Id="Design_MasterPageSettings"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="60"
+		Title="MasterPage Settings"
+		Description="General MasterPage Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Catalog/ManageMasterPages.aspx', title: 'Manage MasterPage Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+    <CustomAction
+		Id="Design_PageLayoutSettings"
+		GroupId="Design"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="70"
+		Title="PageLayout Settings"
+		Description="General PageLayout Settings" >
+    <UrlAction
+				Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Catalog/ManagePageLayouts.aspx', title: 'Manage PageLayout Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+</Elements>

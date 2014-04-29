@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_title;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{CECF1FE3-28C9-45A4-B1BA-BB7A3B23CB24}"  StaticName="og:title" Name="og:title" >
+    <Default>[Title]</Default>
+  </Field>
+  <Field Type="Choice" DisplayName="$Resources:column_OpenGraph_type;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{9214A4AE-9DFD-41B0-9CBF-856FCEA8D3DA}"  StaticName="og:type" Name="og:type" >
+    <CHOICES>
+      <CHOICE>article</CHOICE>
+      <CHOICE>book</CHOICE>
+      <CHOICE>profile</CHOICE>
+      <CHOICE>video</CHOICE>
+      <CHOICE>music</CHOICE>
+      <CHOICE>website</CHOICE>
+    </CHOICES>
+    <Default>website</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_url;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{E8B3E559-9E5A-4D2A-9638-24F78F9FAB42}"  StaticName="og:url" Name="og:url" >
+    <Default>[URL]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_description;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{87E45052-93A1-42BC-AEA3-ECEFC3FDCE36}"  StaticName="og:description" Name="og:description" >
+    <Default>[Description]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_site_name;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{A8B8FF61-517E-496A-BE1E-74E1DA009EA8}"  StaticName="og:site_name" Name="og:site_name" >
+    <Default>[SITE]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_image;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{CAF88A78-87E1-4FAC-91FE-8A7D64D0E38F}"  StaticName="og:image" Name="og:image" >
+    <Default>[HTML5_x0020_Image]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_article_published;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{3E82649D-A776-4E67-A205-0CE4EC737F5F}"  StaticName="og:article:published_time" Name="og:article:published_time" >
+    <Default>[Published]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_acticle_modified;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{4FFD7705-530E-4AF7-B035-F6D9AAE2805A}"  StaticName="og:article:modified_time" Name="og:article:modified_time" >
+    <Default>[Last_x0020_Modified]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_article_expiration;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{B1AF6A68-833D-48D6-94A4-946F1DC604BF}"  StaticName="og:article:expiration_time" Name="og:article:expiration_time" >
+    <Default>[Expires]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_article_author;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{C99F145B-6BC9-4847-8A80-604B6D2C63D5}"  StaticName="og:article:author" Name="og:article:author" >
+    <Default>[Created_x0020_By]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_article_publisher;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{9B72C505-3A44-48E5-B197-6852166954D9}"  StaticName="og:article:publisher" Name="og:article:publisher" >
+    <Default>[Modified_x0020_By]</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_article_section;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{54B1B0EF-DAFA-40B7-99EC-B668FEA28AD5}"  StaticName="og:article:section" Name="og:article:section" >
+    <Default>Enter your specification here.</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_article_tag;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{BBC85D1E-5832-4815-96AD-34D4401B6A5D}"  StaticName="og:article:tag" Name="og:article:tag" >
+    <Default>Add your tags here.</Default>
+  </Field>
+</Elements>

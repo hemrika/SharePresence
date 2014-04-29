@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Text" DisplayName="Keywords" Required="FALSE" EnforceUniqueValues="TRUE" Indexed="FALSE" MaxLength="255" Group="Keyword Columns" ID="{2314830A-DAD2-4CF2-BC7F-DFFF364DC183}" StaticName="Keyword_Words" Name="Keyword_Words" ></Field>
+</Elements>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--
+    ************************************************************************
+       Application: Hemrika.SharePresence
+      Created date: 2012-01-11 14:56:43Z
+        Created by: MARKETING\Administrator
+              Name: PublishingPageTemplate
+       Description: PublishingPageTemplate Description
+           History: Initial Version 0
+    ************************************************************************
+    -->
+	<!-- Parent ContentType Document -->
+  <ContentType
+		ID="0x010100E2E99BB760B34490935A1126C04A810F"
+		Name="$Resources:PublishingPageTemplate_ContentTypeName;"
+		Description="$Resources:PublishingPageTemplate_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0" 
+    Hidden="TRUE"
+    ProgId="WebSite.WebSitePage"
+		Inherits="TRUE" 
+    Overwrite="TRUE" >
+    <FieldRefs>
+      <FieldRef
+				ID="9da97a8a-1da5-4a77-98d3-4bc10456e700"
+				Name="Comments"
+				Required="FALSE" />
+      <FieldRef
+        ID="C5EC9DDF-5436-4D9E-8CF1-4D143E8FBD39"
+        Name="PublishingPageDesign"
+        Required="FALSE" />
+    </FieldRefs>
+		<DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/CreateWebPage.aspx" />
+	</ContentType>
+</Elements>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ListInstance
+		Title="Keyword"
+		Description="Keyword noise entries."
+		FeatureId="963a92de-62b1-4da6-b084-81815ffc1017"
+		Id="3DD0E7E1-C871-4D91-AFB2-C3D0A333309B"
+		Url="Keyword"
+		RootWebOnly="TRUE"
+		TemplateType="20007">
+    <Data>
+      <Rows>
+        <Row >
+          <Field Name="Title">None a1</Field>
+          <Field Name="Keywords">a|aboard|about|above|absent|according\sto|across|after|against|ago|ahead\sof|ain't|all|along|alongside</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None a2</Field>
+          <Field Name="Keywords">also|although|am|amid|amidst|among|amongst|an|and|anti|any|anybody|anyone|anything|apart|apart\sfrom|are|been</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None a3</Field>
+          <Field Name="Keywords">aren't|around|as|as\sfar\sas|as\ssoon\sas|as\swell\sas|aside|at|atop|away|be|because|because\sof|before</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None b</Field>
+          <Field Name="Keywords">behind|below|beneath|beside|besides|between|betwixt|beyond|but|by|by\smeans\sof|by\sthe\stime|can|cannot</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None c</Field>
+          <Field Name="Keywords">circa|close\sto|com|concerning|considering|could|couldn't|cum</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None d</Field>
+          <Field Name="Keywords">'d|despite|did|didn't|do|does|doesn't|don't|down|due\sto|during|down|due\sto|during</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None e</Field>
+          <Field Name="Keywords">each_other|'em|even|even\sif|even\sthough|ever|every|every\stime|everybody|everyone|each_other|'em|even\sif|even\sthough|ever|every|every\stime|everybody|everyone|everything|except</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None f</Field>
+          <Field Name="Keywords">far\sfrom|few|first\stime|following|for|from|get|got|had|hadn't|has|hasn't|have</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None g</Field>
+          <Field Name="Keywords">get|got</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None h</Field>
+          <Field Name="Keywords">had|hadn't|has|hasn't|have|haven't|he|hence|her|here|hers|herself|him|himself|his|how</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None i</Field>
+          <Field Name="Keywords">i|if|in|in\saccordance\swith|in\saddition\sto|in\scase|in\sfront\sof|in\slieu\sof|in\splace\sof|in\sspite\sof|in\sthe\sevent\sthat|in\sto|inside|inside\sof|instead\sof|into|is|isn't|it|itself|its</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None j</Field>
+          <Field Name="Keywords">just\sin\scase</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None k</Field>
+          <Field Name="Keywords"></Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None l</Field>
+          <Field Name="Keywords">like|'ll|lots</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None m</Field>
+          <Field Name="Keywords">may|me|mere|mid|might|mightn't|mine|more|most|must|mustn't|myself</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None n</Field>
+          <Field Name="Keywords">near|near\sto|nearest|new|no|no\sone|nobody|none|not|nothing|notwithstanding|now\sthat|of</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None o</Field>
+          <Field Name="Keywords">off|on|on\sbehalf\sof|on\sto|on\stop\sof|once|one|one\sanother|only\sif|onto|only|opposite|or|org|other|our|ours|ourselves|out|out\sof|outside|outside\sof|over</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None p</Field>
+          <Field Name="Keywords">past|per|plenty|plus|prior\sto</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None q</Field>
+          <Field Name="Keywords">qua</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None r</Field>
+          <Field Name="Keywords">re|'re|really|regarding|round</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None s</Field>
+          <Field Name="Keywords">set|'s|said|sans|save|say|says|shall|shan't|she|should|shouldn't|since|so|somebody|someone|something</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None t</Field>
+          <Field Name="Keywords">than|that|the|thee|their|theirs|them|themselves|there|these|they|thine|things|this|thou|though|through|throughout|till|to|toward|towards</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None u</Field>
+          <Field Name="Keywords">under|underneath|unless|unlike|until|unto|up|upon|using|us</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None v</Field>
+          <Field Name="Keywords">versus|via</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None w</Field>
+          <Field Name="Keywords">was|wasn't|we|were|weren't|what|when|whenever|where|whereas|whether\sor\snot|which|while|who|whoever|whom|why|will|with|with\sregard\sto|withal|within|without|won't|would|wouldn't</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None x</Field>
+          <Field Name="Keywords"></Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None y</Field>
+          <Field Name="Keywords">ya|ye|yes|you|your|yours|yourself</Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None z</Field>
+          <Field Name="Keywords"></Field>
+        </Row>
+        <Row >
+          <Field Name="Title">None char</Field>
+          <Field Name="Keywords">'ve</Field>
+        </Row>
+      </Rows>
+    </Data>   
+  </ListInstance>
+</Elements>

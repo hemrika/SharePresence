@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance
+		Title="Noise"
+		Url="Noise"
+    Description="Noise Entries"
+		OnQuickLaunch="FALSE"
+		RootWebOnly="TRUE"
+		TemplateType="20006"
+    Hidden="TRUE" />
+</Elements>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <TypeName>Hemrika.SharePresence.WebSite.WebParts.ContentWebPart</TypeName>
+      <type name="Hemrika.SharePresence.WebSite.WebParts.ContentWebPart, $SharePoint.Project.AssemblyFullName$" />
+      <Title>Design WebPart</Title>
+      <Description>Content WebPart for rich HTML5</Description>
+      <PartImageLarge>/_layouts/images/msxmll.gif</PartImageLarge>      
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Content WebPart</property>
+        <property name="Description" type="string">Content WebPart for rich HTML5</property>
+				<property name="CatalogIconImageUrl" type="string">/_layouts/images/Company_Application1/WebPartIcon_VisualWebPart1.gif</property>
+				<property name="TitleIconImageUrl" type="string">/_layouts/images/Company_Application1/WebPartIcon_VisualWebPart1.gif</property>        
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Robots"
+                OnQuickLaunch="FALSE"
+                Hidden="TRUE"
+                TemplateType="20003"
+                Url="Robots"
+                Description="Robots Entries" >
+    <Data>
+      <Rows>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/_layouts/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/_cts/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/_private/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/_app_bin/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/_vti_pvt/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/aspnet_client/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/App_Browsers/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/App_GlobalResources/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/Forms/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/WorkflowTasks/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/WorkflowHistory/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/ReusableContent/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/AnalyticsReports/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/Reports List/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/DropOffLibrary/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/FormServerTemplates/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/HoldReports/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/IWConvertedForms/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/Long Running Operation Status/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/Notification Pages/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/SiteAssets/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/SiteCollectionDocuments/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/SiteCollectionImages/</Field>
+        </Row>
+        <Row >
+          <Field Name="User-agent">*</Field>
+          <Field Name="Follow">Disallow</Field>
+          <Field Name="Entry">/Style Library/</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

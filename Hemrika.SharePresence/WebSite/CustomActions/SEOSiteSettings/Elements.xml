@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+		<!-- SEO -->
+	<CustomActionGroup
+		Id="SEO"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Title="Search en Web Optimization "
+		Sequence="10"
+		Description="Search Engine Optimalisation"
+		ImageUrl="/_layouts/images/Hemrika/moss_seo.png" />
+	<CustomAction
+		Id="SEO_Robots"
+		GroupId="SEO"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="20"
+		Title="Robots Settings"
+		Description="Robots.txt Settings" >
+		<UrlAction Url="javascript:(function () { var options = { url:'/Robots/AllItems.aspx', title: 'Manage Robots.txt Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();" />
+	</CustomAction>
+  <CustomAction
+		Id="SEO_Google"
+		GroupId="SEO"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="30"
+		Title="Google Settings"
+		Description="Google Settings." >
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Analytics/ManageGoogleAccountSettings.aspx', title: 'Manage Google Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction
+		Id="SEO_Bing"
+		GroupId="SEO"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="40"
+		Title="Bing Settings" 
+		Description="Bing Settings." >
+			<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Bing/BingManage.aspx', title: 'Manage Bing Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction 
+		Description="MetaData Settings"
+		GroupId="SEO"
+		Id="SEO_MetaData"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="50"
+		Title="MetaData Settings">
+			<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/MetaData/MetaDataManage.aspx', title: 'Manage MetaData Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+	<CustomAction 
+		Description="Keyword Settings"
+		GroupId="SEO"
+		Id="SEO_Keyword"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="60"
+		Title="Keyword Settings">
+			<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/MetaData/KeywordManage.aspx', title: 'Manage Keyword Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+	</CustomAction>
+  <CustomAction
+		GroupId="SEO"
+		Id="SEO_SiteMap"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="70"
+		Title="SiteMap Settings"
+    Description="SiteMap Settings">
+    <UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/SiteMap/SiteMapManage.aspx', title: 'Manage SiteMap Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+		Description="Regional settings"
+		GroupId="SEO"
+		Id="SEO_Regional"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="80"
+		Title="Regional Settings">
+    <UrlAction Url="javascript:(function () { var options = { url:'/_layouts/regionalsetng.aspx', title: 'Regional Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+  <CustomAction
+    Id="SEO_LanguageSettings"
+    GroupId="SEO"
+    Location="Microsoft.SharePoint.SiteSettings"
+    Sequence="90"
+    Title="Language Settings"
+    Description="$Resources:core,SiteSettings_LanguageSettings_Tooltip;">
+    <UrlAction Url="javascript:(function () { var options = { url:'/_layouts/muisetng.aspx', title: 'Language Settings', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();"/>
+  </CustomAction>
+</Elements>

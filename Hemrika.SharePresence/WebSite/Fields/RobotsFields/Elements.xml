@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Choice" DisplayName="User-agent" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="TRUE" Group="Robots Columns" ID="{a1012e42-3f5f-4ea0-9c88-bd1411765811}" StaticName="User-agent" Name="User-agent" >
+    <Default>*</Default>
+    <CHOICES>
+      <CHOICE>*</CHOICE>
+      <CHOICE>Googlebot</CHOICE>
+      <CHOICE>Googlebot-Mobile</CHOICE>
+      <CHOICE>Googlebot-Image</CHOICE>
+      <CHOICE>Adsbot-Google</CHOICE>
+      <CHOICE>Mediapartners-Google</CHOICE>
+      <CHOICE>MSNBot</CHOICE>
+      <CHOICE>BingBot</CHOICE>
+      <CHOICE>Slurp</CHOICE>
+      <CHOICE>Teoma</CHOICE>
+      <CHOICE>twiceler</CHOICE>
+      <CHOICE>Gigabot</CHOICE>
+      <CHOICE>Scrubby</CHOICE>
+      <CHOICE>Robozilla</CHOICE>
+      <CHOICE>Nutch</CHOICE>
+      <CHOICE>ia_archiver</CHOICE>
+      <CHOICE>baiduspider</CHOICE>
+      <CHOICE>naverbot</CHOICE>
+      <CHOICE>yeti</CHOICE>
+      <CHOICE>yahoo-mmcrawler</CHOICE>
+      <CHOICE>psbot</CHOICE>
+      <CHOICE>asterias</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Choice" DisplayName="Follow" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Robots Columns" ID="{733d9e48-5515-44cb-98a7-7869b68cfe70}" StaticName="Follow" Name="Follow" Version="1" >
+    <Default>Allow</Default>
+    <CHOICES>
+      <CHOICE>Allow</CHOICE>
+      <CHOICE>Disallow</CHOICE>
+    </CHOICES>
+  </Field>
+  <Field Type="Text" DisplayName="Entry" Required="TRUE" EnforceUniqueValues="TRUE" Indexed="FALSE" MaxLength="255" Group="Robots Columns" ID="{2c4e400c-924b-40a5-9043-00050eda6320}" StaticName="Entry" Name="Entry" ></Field>
+</Elements>

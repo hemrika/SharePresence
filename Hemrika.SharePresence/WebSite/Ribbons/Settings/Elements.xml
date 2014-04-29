@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+		Id="Ribbon.Hemrika.SharePresence.Settings"
+		Location="CommandUI.Ribbon"
+		Title="Settings" >
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+            <Layout Title="Large" >
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="Medium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumTwoRow">
+              <OverflowSection Type="TwoRow" TemplateAlias="o1" DisplayMode="Medium" />
+            </Layout>
+            <Layout Title="Small">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small" />
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="Large" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children" >
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible2">
+            <Layout Title="LargeLarge">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="LargeMedium">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="LargeSmall">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="MediumLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="MediumMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="SmallLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="SmallMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="SmallSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="LargeMedium" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition
+					Location="Ribbon.Tabs._children">
+          <Tab
+						Id="Ribbon.Hemrika.SharePresence.Settings"
+						Title="Settings"
+						Description="Common Settings and Configuration Options"
+						Sequence="150">
+            <Scaling Id="Ribbon.Hemrika.SharePresence.Scaling._children">
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Settings.PageGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Settings.PageGroup"
+								Size="Large" Sequence="10" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Settings.ListGroup"
+								Size="Large" Sequence="20" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Settings.WebGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Settings.WebGroup"
+								Size="Large" Sequence="30" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Settings.SiteGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Settings.SiteGroup"
+								Size="Large" Sequence="40" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup"
+								Size="Large" Sequence="50" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Settings.PageGroup.Scaling.Large"
+									GroupId="Ribbon.Hemrika.SharePresence.Settings.PageGroup"
+									Size="Large" Sequence="60" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.Scaling.Large"
+									GroupId="Ribbon.Hemrika.SharePresence.Settings.ListGroup"
+									Size="Large" Sequence="70" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Settings.WebGroup.Scaling.Large"
+									GroupId="Ribbon.Hemrika.SharePresence.Settings.WebGroup"
+									Size="Large" Sequence="80" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Settings.SiteGroup.Scaling.Large"
+									GroupId="Ribbon.Hemrika.SharePresence.Settings.SiteGroup"
+									Size="Large" Sequence="90" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup.Scaling.Large"
+									GroupId="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup"
+									Size="Large" Sequence="100" />
+            </Scaling>
+            <Groups
+							Id="Ribbon.Hemrika.SharePresence.Settings.Groups">
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Settings.PageGroup"
+								Description="Page Settings"
+								Title="Page Settings"
+								Sequence="10"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Settings.PageGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.PageGroup.Versions"
+										Command="Hemrika.SharePresence.Settings.OpenPageVersions"
+										Sequence="15"
+										Description="Version History"
+										LabelText="Versions"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_versions.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_versions.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.PageGroup.Permissions"
+										Command="Hemrika.SharePresence.Settings.OpenPagePermissions"
+										Sequence="17"
+										Description="Check Page Permissions"
+										LabelText="Permissions"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_permissions.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_permissions.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup"
+								Description="List Settings"
+								Title="List Settings"
+								Sequence="20"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.ListSettings"
+										Command="Hemrika.SharePresence.Settings.OpenListSettings"
+										Sequence="15"
+										Description="List Settings"
+										LabelText="List Settings"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_settings.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_settings.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.Versioning"
+										Command="Hemrika.SharePresence.Settings.OpenListVersioning"
+										Sequence="17"
+										Description="Versioning Settings"
+										LabelText="Versioning"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_versioning.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_versioning.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.ContentType"
+										Command="Hemrika.SharePresence.Settings.OpenListContentType"
+										Sequence="19"
+										Description="Add ContentType"
+										LabelText="Add ContentType"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_contenttype.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_contenttype.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.ListGroup.Columns"
+										Command="Hemrika.SharePresence.Settings.OpenListColumns"
+										Sequence="21"
+										Description="Add Columns"
+										LabelText="Add Columns"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_contenttype.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_contenttype.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Settings.WebGroup"
+								Description="Web Settings"
+								Title="Web Settings"
+								Sequence="30"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Settings.WebGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.WebGroup.WebSettings"
+										Command="Hemrika.SharePresence.Settings.OpenWebSettings"
+										Sequence="15"
+										Description="Web Settings"
+										LabelText="Web Settings"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_settings.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_settings.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.WebGroup.WebFeatures"
+										Command="Hemrika.SharePresence.Settings.OpenWebFeatures"
+										Sequence="17"
+										Description="Web Features"
+										LabelText="Web Features"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_features_web.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_features_web.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Settings.SiteGroup"
+								Description="Site Settings"
+								Title="Site Settings"
+								Sequence="40"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Settings.SiteGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.SiteGroup.SiteSettings"
+										Command="Hemrika.SharePresence.Settings.OpenSiteSettings"
+										Sequence="15"
+										Description="Open Site Settings."
+										LabelText="Site Settings"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_settings.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_settings.png"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.SiteGroup.SiteFeatures"
+										Command="Hemrika.SharePresence.Settings.OpenSiteFeatures"
+										Sequence="17"
+										Description="Site Features"
+										LabelText="Site Features"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_features_site.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_features_site.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup"
+								Description="Company Settings"
+								Title="Company Settings"
+								Sequence="50"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.CompanyGroup.CompanySettings"
+										Command="CompanySettings"
+										Sequence="15"
+										Description="Open Company Settings."
+										LabelText="Company Settings"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_company.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_company.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Settings.NavigationGroup"
+								Description="Navigation Settings"
+								Title="Navigation Settings"
+								Sequence="60"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Settings.Flexible">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Settings.NavigationGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Settings.NavigationGroup.NavigationSettings"
+										Command="NavigationSettings"
+										Sequence="16"
+										Description="Open Navigation Settings."
+										LabelText="Navigation Settings"
+										Image16by16="/_layouts/images/Hemrika/Settings/16/RibbonIcon_Settings_navigation.png"
+										Image32by32="/_layouts/images/Hemrika/Settings/32/RibbonIcon_Settings_navigation.png"
+										TemplateAlias="o1" />
+                </Controls>
+              </Group>
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+					 Command="Hemrika.SharePresence.Settings.OpenSiteSettings"
+						CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+            //var site = ctx.get_site();
+            //ctx.load(site, 'Url');
+            //var site= site.get_url(); //'{SiteUrl}'; 
+            var site = _spPageContextInfo.siteServerRelativeUrl;
+            var url = site + '_Layouts/Settings.aspx';
+            var options = 
+						{
+            url: url,
+						titel: 'Site Settings',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+					 Command="Hemrika.SharePresence.Settings.OpenWebSettings"
+					 CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+						var options = {
+						url: SP.Utilities.Utility.getLayoutsPageUrl('Settings.aspx'),
+						tite: 'Web Settings',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+					 Command="Hemrika.SharePresence.Settings.OpenSiteFeatures"
+					 CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+            //var site='{SiteUrl}'; 
+            //var url = site + SP.Utilities.Utility.getLayoutsPageUrl('ManageFeatures.aspx?Scope=Site');
+            var url = SP.Utilities.Utility.getLayoutsPageUrl('ManageFeatures.aspx?Scope=Site');
+						var options = {
+						url: url,
+						tite: 'Site Features',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+					 Command="Hemrika.SharePresence.Settings.OpenWebFeatures"
+					 CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+						var options = {
+						url: SP.Utilities.Utility.getLayoutsPageUrl('ManageFeatures.aspx?Scope=Web'),
+						tite: 'Web Features',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+           Command="Hemrika.SharePresence.Settings.OpenListSettings"
+           CommandAction="javascript:            
+						var ctx = SP.ClientContext.get_current();
+            var listId = _spPageContextInfo.pageListId;
+            var layoutsUrl = SP.Utilities.Utility.getLayoutsPageUrl('listedit.aspx');
+            var urlBuilder = new SP.Utilities.UrlBuilder(layoutsUrl);
+            urlBuilder.addKeyValueQueryString('List', listId.toString('B'));
+						var options = {
+						url: urlBuilder.get_url(),
+						tite: 'List Settings',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+           Command="Hemrika.SharePresence.Settings.OpenListVersioning"
+           CommandAction="javascript:		
+						var ctx = SP.ClientContext.get_current();
+            var listId = _spPageContextInfo.pageListId;
+            var layoutsUrl = SP.Utilities.Utility.getLayoutsPageUrl('LstSetng.aspx');
+            var urlBuilder = new SP.Utilities.UrlBuilder(layoutsUrl);
+            urlBuilder.addKeyValueQueryString('List', listId.toString('B'));
+						var options = {
+						url: urlBuilder.get_url(),
+						tite: 'List Versioning',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+           Command="Hemrika.SharePresence.Settings.OpenListContentType"
+           CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+            var listId = _spPageContextInfo.pageListId;
+            var layoutsUrl = SP.Utilities.Utility.getLayoutsPageUrl('AddContentTypeToList.aspx');
+            var urlBuilder = new SP.Utilities.UrlBuilder(layoutsUrl);
+            urlBuilder.addKeyValueQueryString('List', listId.toString('B'));
+						var options = {
+						url: urlBuilder.get_url(),
+						tite: 'List ContentTypes',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+           Command="Hemrika.SharePresence.Settings.OpenListColumns"
+           CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+            var listId = _spPageContextInfo.pageListId;
+            var layoutsUrl = SP.Utilities.Utility.getLayoutsPageUrl('AddFieldFromTemplate.aspx');
+            var urlBuilder = new SP.Utilities.UrlBuilder(layoutsUrl);
+            urlBuilder.addKeyValueQueryString('List', listId.toString('B'));
+						var options = {
+						url: urlBuilder.get_url(),
+						tite: 'List Columns',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+           Command="Hemrika.SharePresence.Settings.OpenPageVersions"
+           CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+            var layoutsUrl = SP.Utilities.Utility.getLayoutsPageUrl('Versions.aspx');            
+            var urlBuilder = new SP.Utilities.UrlBuilder(layoutsUrl);
+            urlBuilder.addKeyValueQueryString('List', (new SP.Guid(_spPageContextInfo.pageListId)).toString());
+            urlBuilder.addKeyValueQueryString('ID', _spPageContextInfo.pageItemId.toString());
+						var options = {
+						url: urlBuilder.get_url(),
+						tite: 'Page Versions',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+        <CommandUIHandler
+           Command="Hemrika.SharePresence.Settings.OpenPagePermissions"
+           CommandAction="javascript:
+						var ctx = SP.ClientContext.get_current();
+            var layoutsUrl = SP.Utilities.Utility.getLayoutsPageUrl('chkperm.aspx');            
+            var urlBuilder = new SP.Utilities.UrlBuilder(layoutsUrl);
+            var query = _spPageContextInfo.pageListId.toString('B')+','+_spPageContextInfo.pageItemId.toString()+',DOCUMENT';
+            urlBuilder.addKeyValueQueryString('obj',query);
+						var options = {
+						url: urlBuilder.get_url(),
+						tite: 'Page Versions',
+						allowMaximize: true,
+						showClose: true,
+						width: 800,
+						height: 600
+            };
+																				
+						SP.UI.ModalDialog.showModalDialog(options);"
+					 />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

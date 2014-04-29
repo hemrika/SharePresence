@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--BlogPage-->
+  <ContentTypeBinding
+     ContentTypeId="0x010100E2E99BB760B34490935A1126C04A810F00DEE5CA4621DECB44A434B4589E0FF4EC"
+     ListUrl="Pages" />
+</Elements>

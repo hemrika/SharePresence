@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+		Id="Ribbon.Hemrika.SharePresence.SEO"
+		Location="CommandUI.Ribbon"
+		Title="SEO">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+					Location="Ribbon.Tabs._children">
+          <Tab
+						Id="Ribbon.Hemrika.SharePresence.SEO"
+						Title="SEO"
+						Description="Page SEO"
+						Sequence="130">
+            <Scaling
+							Id="Ribbon.Hemrika.SharePresence.SEO.Scaling">
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup"
+								Size="LargeLarge" Sequence="10" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup"
+								Size="LargeLarge" Sequence="20" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup"
+								Size="LargeLarge" Sequence="30" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup"
+								Size="LargeLarge" Sequence="40" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup"
+									Size="LargeLarge" Sequence="40" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup"
+									Size="LargeLarge" Sequence="50" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup"
+									Size="LargeLarge" Sequence="60" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup"
+									Size="LargeLarge" Sequence="70" />
+            </Scaling>
+            <Groups
+							Id="Ribbon.Hemrika.SharePresence.SEO.Groups">
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup"
+								Description="MetaData Settings"
+								Title="MetaData"
+								Sequence="10"
+								Template="Ribbon.Templates.Hemrika.SharePresence.SEO.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.Controls">
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.EditMetaDataButton"
+													Command="EditMetaData"
+													Image16by16="/_layouts/images/Hemrika/MetaData/16/RibbonIcon_MetaData.png"
+													Image32by32="/_layouts/images/Hemrika/MetaData/32/RibbonIcon_MetaData.png"
+													LabelText="Edit MetaData"
+													ToolTipTitle="Edit MetaData"
+													ToolTipDescription="Edit MetaData for this page."
+													TemplateAlias="o1"
+													Sequence="1"/>
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.EditOpengraphButton"
+													Command="EditOpenGraph"
+													Image16by16="/_layouts/images/Hemrika/MetaData/16/RibbonIcon_MetaData_Opengraph.png"
+													Image32by32="/_layouts/images/Hemrika/MetaData/32/RibbonIcon_MetaData_Opengraph.png"
+													LabelText="Edit OpenGraph"
+													ToolTipTitle="Edit OpenGraph"
+													ToolTipDescription="Edit OpenGraph for this page."
+													TemplateAlias="o1"
+													Sequence="2"/>
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.EditFaceBookButton"
+													Command="EditFaceBook"
+													Image16by16="/_layouts/images/Hemrika/MetaData/16/RibbonIcon_MetaData_FaceBook.png"
+													Image32by32="/_layouts/images/Hemrika/MetaData/32/RibbonIcon_MetaData_FaceBook.png"
+													LabelText="Edit FaceBook"
+													ToolTipTitle="Edit FaceBook"
+													ToolTipDescription="Edit FaceBook for this page."
+													TemplateAlias="o1"
+													Sequence="3"/>
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.EditTwitterButton"
+													Command="EditTwitter"
+													Image16by16="/_layouts/images/Hemrika/MetaData/16/RibbonIcon_MetaData_Twitter.png"
+													Image32by32="/_layouts/images/Hemrika/MetaData/32/RibbonIcon_MetaData_Twitter.png"
+													LabelText="Edit Twitter"
+													ToolTipTitle="Edit Twitter"
+													ToolTipDescription="Edit Twitter for this page."
+													TemplateAlias="o1"
+													Sequence="4"/>
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.MetaDataGroup.SettingsMetaDataButton"
+													Command="SettingsMetaData"
+													Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-224"
+													Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-96"
+													LabelText="Settings"
+													ToolTipTitle="Edit Global MetaData Settings"
+													ToolTipDescription="Edit the global MetaData Settings."
+													TemplateAlias="o1"
+													Sequence="5"/>
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup"
+								Description="Semantic Settings"
+								Title="Semantic"
+								Sequence="20"
+								Template="Ribbon.Templates.Hemrika.SharePresence.SEO.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup.Controls">
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.SemanticGroup.EditSemanticButton"
+													Command="EditSemantic"
+													Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-224"
+													Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-96"
+													LabelText="Semantic Url"
+													ToolTipTitle="Edit Semantic Url"
+													ToolTipDescription="Edit Semantic urls for this page."
+													TemplateAlias="o1"
+													Sequence="1"/>
+                </Controls>
+              </Group>
+              <Group
+                Id="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup"
+                Description="SiteMap Settings"
+                Title="SiteMap"
+                Sequence="30"
+                Template="Ribbon.Templates.Hemrika.SharePresence.SEO.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup.Controls">
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.SiteMapGroup.SettingsSiteMapButton"
+													Command="SettingsSiteMap"
+													Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-224"
+													Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-96"
+													LabelText="SiteMap Settings"
+													ToolTipTitle="Edit the Global SiteMap Settings"
+													ToolTipDescription="Edit the global sitemap Settings for the site."
+													TemplateAlias="o1"
+													Sequence="1"/>
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup"
+								Description="Robots.txt Settings"
+								Title="Robots"
+								Sequence="40"
+								Template="Ribbon.Templates.Hemrika.SharePresence.SEO.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup.Controls">
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup.NewRobotsButton"
+													Command="NewRobotsButton"
+													Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-224"
+													Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-96"
+													LabelText="Add Rule"
+													ToolTipTitle="Create a rule for the Robots.txt"
+													ToolTipDescription="Create a rule for the Robots.txt"
+													TemplateAlias="o1"
+													Sequence="1"/>
+                  <Button Id="Ribbon.Hemrika.SharePresence.SEO.RobotsGroup.EditRobotsButton"
+													Command="EditRobotsButton"
+													Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-224"
+													Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-96"
+													LabelText="Edit Rule"
+													ToolTipTitle="Edit the Rule in Robots.txt"
+													ToolTipDescription="Edit the Rule in Robots.txt"
+													TemplateAlias="o1"
+													Sequence="2"/>
+                </Controls>
+              </Group>
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.SEO.Flexible">
+            <Layout Title="Large" >
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="Medium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumTwoRow">
+              <OverflowSection Type="TwoRow" TemplateAlias="o1" DisplayMode="Medium" />
+            </Layout>
+            <Layout Title="Small">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small" />
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="Large" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children" >
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.SEO.Flexible2">
+            <Layout Title="LargeLarge">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="LargeMedium">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="LargeSmall">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="MediumLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="MediumMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="SmallLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="SmallMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="SmallSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="LargeMedium" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Ribbon.Hemrika.SEO.RobotsGroup"  CommandAction="" EnabledScript="return true;" />
+        <CommandUIHandler Command="Ribbon.Hemrika.SEO.RobotsGroup.NewRobotsButton" CommandAction="javascript:NewRobotsItem();" EnabledScript="javascript:ToggleRobotsButtons('New');" />
+        <CommandUIHandler Command="Ribbon.Hemrika.SEO.RobotsGroup.EditRobotsButton" CommandAction="javascript:EditRobotsItem();" EnabledScript="javascript:ToggleRobotsButtons('Edit');" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

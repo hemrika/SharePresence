@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListTemplate
+		Name="SiteMapEntries"
+		DisplayName="SiteMapEntries"
+		Description="Navigation Entries List"
+		Type="20005"
+		BaseType="0"
+		SecurityBits="11"
+		Sequence="420"
+    DisableAttachments="TRUE"    
+    NoCrawl="TRUE"
+    Category="Tracking"
+		Image="/_layouts/Images/Hemrika/GenericFeature.gif"/>
+</Elements>

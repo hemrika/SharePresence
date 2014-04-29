@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+************************************************************************
+       Company: Hemrika
+   Application: Hemrika.SharePresence
+  Created date: 2011-10-22 19:52:44Z
+    Created by: MARKETING\Administrator
+  Feature Name: WebSiteServices
+ Feature Title: WebSiteServices
+   Description: WebSiteServices Description
+       History: Initial Version 1.0.0.0 
+************************************************************************
+-->
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ElementManifests></ElementManifests>
+</Feature>

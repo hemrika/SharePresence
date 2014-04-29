@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--
+    ************************************************************************
+       Application: Hemrika.SharePresence
+      Created date: 2012-02-13 12:46:48Z
+        Created by: MARKETING\Administrator
+              Name: PublishingContent
+       Description: PublishingContent Description
+           History: Initial Version 0
+    ************************************************************************
+    -->
+	<!-- Parent ContentType Document -->
+	<ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B795"
+		Name="$Resources:PublishingContent_ContentTypeName;"
+		Description="$Resources:PublishingContent_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+		Hidden="TRUE"
+    ProgId="WebSite.Content"
+		Inherits="TRUE">
+		<FieldRefs>
+      <FieldRef Name="FileType" ID="{c53a03f3-f930-4ef2-b166-e0f2210c13c0}"/>
+      <FieldRef Name="NameOrTitle" ID="{76d1cc87-56de-432c-8a2a-16e5ba5331b3}"/>
+      <FieldRef Sealed="TRUE" Name="Keywords" ID="{b66e9b50-a28e-469b-b1a0-af0e45486874}" Description="For example: scenery, mountains, trees, nature" ShowInNewForm="FALSE" ShowInFileDlg="FALSE" Sortable="FALSE"/>
+      <FieldRef Name="Description" ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" />      
+    </FieldRefs>
+		<DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadContent.aspx" />
+	</ContentType>
+	<!-- Parent ContentType PublishingContent_ContentTypeName -->
+	<ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500745355C921FB48549146166307BB4ED1"
+		Name="$Resources:Video_ContentTypeName;"
+		Description="$Resources:Video_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+		ProgId="WebSite.Video"
+    Inherits="TRUE" >
+    <FieldRefs>
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Buffer" ID="{F522CAF4-9CB2-4599-BA89-B71DFB4BCE92}" DefaultValue="TRUE" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Loop" ID="{C89BB975-9279-417F-AE91-A7683ECC0686}" DefaultValue="FALSE" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content AutoPlay" ID="{03C33677-8271-42E2-BC6A-6F241BA61E27}" DefaultValue="FALSE" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Controls" ID="{457D932B-7F3F-459B-A94C-98A0517E0B4E}"  DefaultValue="FALSE" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+		<DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/CreateVideo.aspx" />
+	</ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500EB58EBAF84C84E7E9EC6662CD91C0D9E"
+		Name="$Resources:MP4Video_ContentTypeName;"
+		Description="$Resources:MP4Video_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B795001D9735D7D3274B39BE63E7481AC721DD"
+		Name="$Resources:FLVVideo_ContentTypeName;"
+		Description="$Resources:FLVVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500E1BB3FAC3C6942C8BB1094C63924AED2"
+		Name="$Resources:AVIVideo_ContentTypeName;"
+		Description="$Resources:AVIVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B795000FA90D277C8F47D18BCEEC8C17129A3D"
+		Name="$Resources:MOVVideo_ContentTypeName;"
+		Description="$Resources:MOVVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+    ProgId="WebSite.Video"
+		Version="0"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500BB7672E7108E47C0BC018742B601D7B0"
+		Name="$Resources:MPGVideo_ContentTypeName;"
+		Description="$Resources:MPGVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500EA53A380C5304FCE9B994E17FB5DFDA0"
+		Name="$Resources:WMVVideo_ContentTypeName;"
+		Description="$Resources:WMVVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500C30D8C4A5CF549198D36E68DF6895910"
+		Name="$Resources:WebMVideo_ContentTypeName;"
+		Description="$Resources:WebMVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B7950043719C81EE934057ACCAD438B8B9A5B5"
+		Name="$Resources:OGGVideo_ContentTypeName;"
+		Description="$Resources:OGGVideo_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Content Duration" ID="{E8985BC3-6B9A-4477-B090-CB22EC2D88D2}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Width" ID="{208A8EE7-3397-404D-AF5D-35C5B4852DA5}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Height" ID="{EE538D0E-28BC-420E-A166-291FABC0D286}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Content Bitrate" ID="{D4BD8AEA-045E-47EF-8BED-CCCFE1B44D6A}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Video Format" ID="{5EA75FF2-A707-46BA-BC46-3AFA00F8EA6D}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Audio Format" ID="{C634790B-3CAD-4496-B1F8-6A09074B962B}" ShowInDisplayForm="TRUE" ShowInEditForm="FALSE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Media Query" ID="{D3644DFD-480C-436C-86D2-965084114B0A}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+  <!-- Parent ContentType PublishingContent_ContentTypeName -->
+  <ContentType
+		ID="0x010100DE7C86B75EA34F7EBC0D42B490F2B79500487D920FBFD74147939AF1E6CE85652E"
+		Name="$Resources:Caption_ContentTypeName;"
+		Description="$Resources:Caption_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    ProgId="WebSite.Video"
+		Inherits="TRUE">
+    <FieldRefs>
+      <FieldRef Name="Track Type" ID="{2BF1B941-D653-4C09-B33B-A3450ADB5371}" DefaultValue="Captions" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Track Language" ID="{C1FA5C5E-ABA5-4B82-9AFA-E862F4BA362E}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef Name="Track Label" ID="{16103487-CE5F-44E9-8C51-E8B4250ACA63}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" ShowInFileDlg="FALSE" />
+    </FieldRefs>
+    <DocumentTemplate
+			TargetName="/_layouts/Hemrika/Content/UploadVideo.aspx" />
+  </ContentType>
+</Elements>

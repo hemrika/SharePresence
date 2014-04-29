@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Use this file to re-import the lists for LINQ to SharePoint
+Imported from URL: http://development/
+Call to SPMetal: "C:\Program Files\Common Files\Microsoft Shared\web server extensions\14\BIN\spmetal.exe" /web:"http://development/" /parameters:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Hemrika.SharePresence\WebSite\HTTPModules\GateKeeper\SPGateKeeper\SPGateKeeperContext.xml" /language:csharp /namespace:Hemrika.SharePresence.WebSite.Modules.GateKeeper /code:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Hemrika.SharePresence\WebSite\HTTPModules\GateKeeper\SPGateKeeper\SPGateKeeperContext.designer.cs"
+-->
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Web
+	AccessModifier="Public"
+	Class="SPGateKeeperContext" xmlns="http://schemas.microsoft.com/SharePoint/2009/spmetal">
+	<List
+		Name="GateKeeper">
+		<ContentType
+			Name="Drone Entry">
+			<Column
+				Name="GateKeeper_Date" />
+			<Column
+				Name="GateKeeper_IPAddress" />
+			<Column
+				Name="GateKeeper_Useragent" />
+			<Column
+				Name="GateKeeper_Referrer" />
+      <Column 
+        Name="GateKeeper_Type" />
+			<ExcludeOtherColumns />
+		</ContentType>
+		<ContentType
+			Name="GateKeeper Entry">
+			<Column
+				Name="GateKeeper_IPAddress" />
+			<Column
+				Name="GateKeeper_Useragent" />
+			<Column
+				Name="GateKeeper_Url" />
+			<Column
+				Name="GateKeeper_Date" />
+			<Column
+				Name="GateKeeper_Comment" />
+      <Column
+        Name="GateKeeper_Type" />
+      <ExcludeOtherColumns />
+		</ContentType>
+		<ContentType
+			Name="HoneyPot Entry">
+			<Column
+				Name="GateKeeper_Date" />
+			<Column
+				Name="GateKeeper_IPAddress" />
+			<Column
+				Name="GateKeeper_Useragent" />
+			<Column
+				Name="GateKeeper_Referrer" />
+			      <Column 
+        Name="GateKeeper_Type" />
+      <ExcludeOtherColumns />
+		</ContentType>
+		<ContentType
+			Name="HTTP Entry">
+			<Column
+				Name="GateKeeper_Date" />
+			<Column
+				Name="GateKeeper_IPAddress" />
+			<Column
+				Name="GateKeeper_Threatlevel" />
+			<Column
+				Name="GateKeeper_Visitortype" />
+			<Column
+				Name="GateKeeper_LastActivity" />
+			<Column
+				Name="GateKeeper_Useragent" />
+			<Column
+				Name="GateKeeper_Referrer" />
+      <Column
+        Name="GateKeeper_Type" />
+      <ExcludeOtherColumns />
+		</ContentType>
+		<ContentType
+			Name="Proxy Entry">
+			<Column
+				Name="GateKeeper_Date" />
+			<Column
+				Name="GateKeeper_IPAddress" />
+			<Column
+				Name="GateKeeper_Useragent" />
+			<Column
+				Name="GateKeeper_Referrer" />
+      <Column
+        Name="GateKeeper_Type" />
+      <ExcludeOtherColumns />
+		</ContentType>
+	</List>
+	<ExcludeOtherLists />
+	<ExcludeOtherContentTypes />
+</Web>

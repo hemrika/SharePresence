@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module
+		Name="ErrorPagesContent"
+		Path="ErrorPagesContent"
+		Url="Error" RootWebOnly="TRUE">
+    <File Url="NotFound.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="404 - Not Found"/>
+      <Property Name="Comments" Value="The page was not found."/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​404</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="RequestedRangeNotSatisfiable.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="416 - Requested Range Not Satisfiable"/>
+      <Property Name="Comments" Value="Requested Range Not Satisfiable"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​416</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="Forbidden.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE">
+      <Property Name="Title" Value="403 - Forbidden"/>
+      <Property Name="Comments" Value="Forbidden"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​403</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="Unauthorized.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE">
+      <Property Name="Title" Value="401 - Unauthorized"/>
+      <Property Name="Comments" Value="Unauthorized"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​401</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="BadRequest.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="400 - Bad Request"/>
+      <Property Name="Comments" Value="Bad Request"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​400</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="PreconditionFailed.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="412 - Precondition Failed"/>
+      <Property Name="Comments" Value="Precondition Failed"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​412</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="NotAcceptable.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="406 - Not Acceptable"/>
+      <Property Name="Comments" Value="Not Acceptable"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​406</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="LengthRequired.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="411 - Length Required"/>
+      <Property Name="Comments" Value="Length Required"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​411</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="PaymentRequired.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="402 - Payment Required"/>
+      <Property Name="Comments" Value="Payment Required"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​402</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="RequestTimeout.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="408 - Request Timeout"/>
+      <Property Name="Comments" Value="Request Timeout"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​408</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="RequestEntityTooLarge.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="413 - Request Entity Too Large"/>
+      <Property Name="Comments" Value="Request Entity Too Large"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​413</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="ProxyAuthenticationRequired.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="407 - Proxy Authentication Required"/>
+      <Property Name="Comments" Value="Proxy Authentication Required"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​407</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="Conflict.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="409 - Conflict"/>
+      <Property Name="Comments" Value="Conflict"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​409</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="MethodNotAllowed.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="405 - Method Not Allowed"/>
+      <Property Name="Comments" Value="Method Not Allowed"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​405</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="UnsupportedMediaType.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="415 - Unsupported MediaType"/>
+      <Property Name="Comments" Value="Unsupported MediaType"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​415</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="ExpectationFailed.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="417 - Expectation Failed"/>
+      <Property Name="Comments" Value="Expectation Failed"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​417</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="Gone.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="410 - Gone"/>
+      <Property Name="Comments" Value="Gone"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​410</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Url="RequestUriTooLong.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" >
+      <Property Name="Title" Value="414 - Request Uri Too Long"/>
+      <Property Name="Comments" Value="Request Uri Too Long"/>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="1">
+        <![CDATA[
+                   <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+                        <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                        <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+                        <FrameType>None</FrameType>
+                        <Title>$Resources:wp_SiteImage;</Title>
+                        <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+                        <iwp:ImageLink>/_layouts/images/homepage.gif</iwp:ImageLink>
+                        <iwp:AlternativeText>$Resources:core,sitelogo_wss;</iwp:AlternativeText>
+                   </WebPart>
+                   ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="2" >
+        <![CDATA[
+        <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Error Message</Title>
+          <FrameType>None</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <FrameState>Normal</FrameState>
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+          <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><Value>​414</Value></Content>
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+</Module>
+</Elements>

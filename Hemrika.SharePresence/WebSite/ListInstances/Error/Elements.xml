@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+		Title="$Resources:Hemrika.SharePresence.WebSite,Error_Title;"
+		Description="$Resources:Hemrika.SharePresence.WebSite,Error_Description;"
+		FeatureId="92074ec8-155d-4884-8509-069b5051ed0d"
+		Id="04C75CED-46E4-4EEA-B2BD-C47A5BA1DF1A"
+		Url="Error"
+		OnQuickLaunch="TRUE"
+		QuickLaunchUrl="Error/Forms/AllItems.aspx"
+		RootWebOnly="TRUE" 
+    Hidden="TRUE"
+		TemplateType="20001" />
+</Elements>

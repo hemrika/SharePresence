@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListTemplate
+		Name="ContentEntries"
+		DisplayName="$Resources:ContentEntries_ListTemplateDisplayName;"
+		Description="$Resources:ContentEntries_ListTemplateDescription;"
+		Type="20009"
+		BaseType="1"
+		Default="False"
+		OnQuickLaunch="FALSE"
+		Category="Libraries"
+		DisableAttachments="FALSE"
+		DisallowContentTypes="FALSE"
+		VersioningEnabled="FALSE"
+		FolderCreation="FALSE"
+		EnableModeration="False"
+		SecurityBits="11"
+		Sequence="1000"
+		Image="/_layouts/images/Hemrika/ListIcon_ContentEntries.gif"
+		Hidden="FALSE"
+		HiddenList="FALSE" />
+</Elements>

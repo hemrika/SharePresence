@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+************************************************************************
+       Company: Hemrika
+   Application: Hemrika.SharePresence
+  Created date: 2012-01-11 09:41:59Z
+    Created by: MARKETING\Administrator
+  Feature Name: WebSiteModifications
+ Feature Title: WebSiteModifications Title
+   Description: WebSiteModifications Description
+       History: Initial Version 1.0.0.0 
+************************************************************************
+-->
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/">
+<UpgradeActions>
+    <VersionRange EndVersion="1.0.0.1">
+    <ApplyElementManifests>
+      <ElementManifest Location="SimplifySiteSettings\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

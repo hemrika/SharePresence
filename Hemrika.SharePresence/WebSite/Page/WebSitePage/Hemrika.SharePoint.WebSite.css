@@ -1,0 +1,155 @@
+﻿/* dialogs */
+.html.ms-dialog body {
+	background: #fff !important;
+}
+.ms-dlgFrameContainer {
+	background-color: transparent !important;
+}
+.html.ms-dialog
+{
+	margin: 0;
+	background-color: #fff !important;
+    margin-top: 0px !important;
+	width: auto;
+	padding: 0px;
+	max-width: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+
+.ms-dlgFrame {
+	background-color: #fff !important;
+}
+
+/* set color of overlay */
+.ms-dlgOverlay {
+	background: #fff !important;
+}
+
+/* set rounded corners */
+.ms-dlgContent, .ms-dlgBorder, .ms-dlgTitle {
+	/*
+	-webkit-border-top-right-radius: 12px;
+	-webkit-border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+    */
+	-moz-background-clip: padding !important;
+	-webkit-background-clip: padding-box !important;
+	background-clip: padding-box !important;
+	background: #32aae4 !important;
+}
+/* give both divs a 1px border to erase strange padding */
+.ms-dlgBorder, .ms-dlgContent {
+	border: 1px solid #32aae4 !important;
+}
+/* add a drop shadow to the outermost div */
+.ms-dlgBorder {
+	-webkit-box-shadow: 3px 3px 10px -3px #32aae4 !important;
+	box-shadow: 3px 3px 10px -3px #32aae4 !important;
+}
+/* take away borders and thenadd back in a bottom border to separate title from ribbon */
+.ms-dlgTitle {
+	border: none !important;
+	border-bottom: 1px solid #fff !important;
+}
+/* color text of title of modal */
+.ms-dlgTitleText {
+	color: #fff !important;
+}
+/* fix the modal to resize correctly ********************************************************** */
+.ms-dialog body #s4-workspace {
+	padding: 0px !important;
+	overflow: visible !important;
+}
+.ms-dialog body #s4-ribbonrow {
+	position: relative !important;
+}
+.ms-dialog #isb-wrapper {
+	margin: 0px !important;
+}
+.ms-toolpanefooter  
+{
+    padding: 4px 15px !important;
+}
+#MSO_tblPageBody 
+{
+    height: auto !important;
+    }
+#MSOTlPn_Tbl 
+{
+    width: 100% !important;
+    }
+    
+.ms-dialog .ms-pageinformation 
+{
+    display:none !important;
+}
+
+.ms-formfieldlabelcontainer {
+	display:none;
+}
+.webpartmenu
+{
+    cursor: pointer;
+}
+
+.webpartmenu input
+{
+    cursor: pointer;
+    float: right;
+}
+
+.aloha-sidebar-bar {
+	display:none !important;
+}
+
+.ms-cui-modalDiv-ie 
+{
+    position:relative !important;
+}
+
+.ms-cui-glass-ie 
+{
+    background-color: transparent !important;
+}
+
+.ms-standardheader {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+	border-bottom-color: transparent !important;
+	border-bottom-width: 0px !important;
+	border-bottom-style: none !important;
+}
+
+.ms-WPHeader 
+{
+    background: #32aae4 !important;
+	border-bottom-color: #32aae4 !important;
+	border-top-color: #32aae4 !important;
+	border-left-color: #32aae4 !important;
+	border-right-color: #32aae4 !important;    
+}
+
+.ms-WPHeader TD
+{
+    background: #32aae4 !important;
+	border-bottom-color: #32aae4 !important;
+	border-top-color: #32aae4 !important;
+	border-left-color: #32aae4 !important;
+	border-right-color: #32aae4 !important;    
+}
+
+.ms-WPBorder {
+	border-bottom-color: #32aae4 !important;
+	border-top-color: #32aae4 !important;
+	border-left-color: #32aae4 !important;
+	border-right-color: #32aae4 !important;
+}
+
+.ms-WPTitle {
+	color: White !important;
+	font-size: 16pt !important;
+}

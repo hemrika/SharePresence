@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <TypeName>Hemrika.SharePresence.WebSite.WebParts.FormWebPart</TypeName>
+      <type name="Hemrika.SharePresence.WebSite.WebParts.FormWebPart, $SharePoint.Project.AssemblyFullName$" />
+      <Title>Form WebPart</Title>
+      <Description>Form WebPart uses the Style library for rendering lists as Forms</Description>
+      <PartImageLarge>/_layouts/images/msxmll.gif</PartImageLarge>
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Form WebPart</property>
+        <property name="Description" type="string">Uses the Style Library for rendering Forms</property>
+        <property name="ControlType" type="string">Form</property>
+        <property name="ControlStyle" type="string">Basic</property>
+        <!--
+        <property name="ListName" type="string">Basic</property>
+        <property name="ContentType" type="string">Basic</property>
+        <property name="Fields" type="string">Basic</property>
+        -->
+      </properties>
+    </data>
+  </webPart>
+</webParts>

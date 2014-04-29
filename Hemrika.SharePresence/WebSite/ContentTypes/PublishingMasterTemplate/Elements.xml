@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--
+    ************************************************************************
+       Application: Hemrika.SharePresence
+      Created date: 2012-01-11 14:14:40Z
+        Created by: MARKETING\Administrator
+              Name: PublishingMasterTemplate
+       Description: PublishingMasterTemplate Description
+           History: Initial Version 0
+    ************************************************************************
+    -->
+	<!-- Parent ContentType Master Page -->
+	<ContentType
+		ID="0x01010500AFA50A7CFA6B4D37AC006F4906166E4A"
+		Name="$Resources:PublishingMasterTemplate_ContentTypeName;"
+		Description="$Resources:PublishingMasterTemplate_ContentTypeDescription;"
+		Group="$Resources:group_publishingtypes;"
+		Version="0"
+    NewDocumentControl="WebSite.WebSitePageMaster"
+		ProgId="WebSite.WebSitePageMaster"
+		Hidden="TRUE"
+		Inherits="TRUE"
+		Overwrite="TRUE">
+		<FieldRefs></FieldRefs>
+		<XmlDocuments>
+			<XmlDocument
+				NamespaceURI="http://schemas.microsoft.com/sharepoint/events">
+				<spe:Receivers xmlns:spe="http://schemas.microsoft.com/sharepoint/events">
+					<spe:Receiver>
+						<spe:Name>PublishingMasterTemplate_ItemAddedReceiver</spe:Name>
+						<spe:Type>ItemAdded</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.PublishingMasterTemplateEventReceivers</spe:Class>
+					</spe:Receiver>
+					<spe:Receiver>
+						<spe:Name>PublishingMasterTemplate_ItemUpdatedReceiver</spe:Name>
+						<spe:Type>ItemUpdated</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.PublishingMasterTemplateEventReceivers</spe:Class>
+					</spe:Receiver>
+					<spe:Receiver>
+						<spe:Name>PublishingMasterTemplate_ItemDeletedReceiver</spe:Name>
+						<spe:Type>ItemDeleted</spe:Type>
+						<spe:Assembly>Hemrika.SharePresence.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</spe:Assembly>
+						<spe:Class>Hemrika.SharePresence.WebSite.PublishingMasterTemplateEventReceivers</spe:Class>
+					</spe:Receiver>
+				</spe:Receivers>
+			</XmlDocument>
+		</XmlDocuments>
+		<DocumentTemplate
+			TargetName="WebSiteMasterTemplate.master" />
+		<Folder
+			TargetName="PublishingMasterTemplate" />
+	</ContentType>
+	<Module
+		Name="Template_PublishingMasterTemplate"
+		Url="_cts/PublishingMasterTemplate"
+    Path="PublishingMasterTemplate"
+		RootWebOnly="TRUE">
+		<File
+			Url="WebSiteMasterTemplate.master"
+			Type="Ghostable" />
+	</Module>
+</Elements>

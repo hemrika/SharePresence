@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="BreadCrumb" Url="Style Library/Navigation/BreadCrumb"  Path="NavigationTemplates\BreadCrump" RootWebOnly="TRUE">
+    <File Url="breadcrumb.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="Breadcrumb.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  </Module>
+  <Module Name="DropDown" Url="Style Library/Navigation/DropDown"  Path="NavigationTemplates\DropDown" RootWebOnly="TRUE">
+    <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+    <File Url="Dropdown.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="DumpXML" Url="Style Library/Navigation/DumpXML"  Path="NavigationTemplates\DumpXML" RootWebOnly="TRUE">
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="DumpXML.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="Accordion" Url="Style Library/Navigation/Accordion"  Path="NavigationTemplates\Accordion" RootWebOnly="TRUE">
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="Accordion.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="tabs-accordion.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="MegaMenu" Url="Style Library/Navigation/MegaMenu"  Path="NavigationTemplates\MegaMenu" RootWebOnly="TRUE">
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="hoverIntent.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="MegaMenu.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="MegaMenu.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="MegaMenu.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="SiteMap" Url="Style Library/Navigation/SiteMap"  Path="NavigationTemplates\SiteMap" RootWebOnly="TRUE">
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="sitemap.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="sitemap.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="Superfish" Url="Style Library/Navigation/Superfish" Path="NavigationTemplates\Superfish" RootWebOnly="TRUE">
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="hoverIntent.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="jquery.bgiframe.min.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="shadow.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="superfish-navbar.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="superfish-vertical.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="superfish.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="superfish.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="Superfish.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="supersubs.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="arrows-ffffff.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="TreeView" Url="Style Library/Navigation/TreeView" RootWebOnly="TRUE" Path="NavigationTemplates\TreeView" >
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="file.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="folder-closed.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="folder.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="jquery.cookie.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="jquery.treeview.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="jquery.treeview.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="minus.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="plus.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="Template.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="TemplateHead.txt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-black-line.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-black.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-default-line.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-default.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-famfamfam-line.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-famfamfam.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-gray-line.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-gray.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-red-line.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="treeview-red.gif" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+<Module Name="ULXSLT" Url="Style Library/Navigation/ULXSLT" RootWebOnly="TRUE" Path="NavigationTemplates\ULXSLT">
+  <File Url="definition.xml" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+  <File Url="ULXSLT.xslt" Type="GhostableInLibrary" IgnoreIfAlreadyExists="true" />
+</Module>
+</Elements>

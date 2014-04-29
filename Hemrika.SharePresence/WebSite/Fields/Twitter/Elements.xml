@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Choice" DisplayName="$Resources:column_OpenGraph_twitter_card;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{A00661FA-DFBA-4BA1-A14E-FFC565CEE743}"  StaticName="twitter:card" Name="twitter:card" >
+    <CHOICES>
+      <CHOICE>summary_large_image</CHOICE>
+      <CHOICE>photo</CHOICE>
+      <CHOICE>gallery</CHOICE>
+      <CHOICE>app</CHOICE>
+      <CHOICE>player</CHOICE>
+      <CHOICE>product</CHOICE>
+      <CHOICE>summery</CHOICE>
+    </CHOICES>
+    <Default>summery</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_twitter_site;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{484C32F8-68CE-4E52-BB6A-13E26C29F7B1}"  StaticName="twitter:site" Name="twitter:site" >
+    <Default>Add your @username of website here.</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_twitter_site_id;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{0375EF24-954E-4CDA-8E48-E473A0CBB507}"  StaticName="twitter:site:id" Name="twitter:site:id" >
+    <Default>Add your Twitter ID here.</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_twitter_creator;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{AC825FB2-13B7-42C4-A840-D79D2D7626C8}"  StaticName="twitter:creator" Name="twitter:creator" >
+    <Default>Add your @username of content creator here.</Default>
+  </Field>
+  <Field Type="Text" DisplayName="$Resources:column_OpenGraph_twitter_creator_id;" Required="FALSE" Hidden="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="$Resources:group_metadatacolumns;" ID="{FD42A3FD-1CFE-4A19-95B9-08A32153904F}"  StaticName="twitter:creator:id" Name="twitter:creator:id" >
+    <Default>Add your Twitter user ID of content creator here.</Default>
+  </Field>
+</Elements>

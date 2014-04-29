@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+************************************************************************
+       Company: SharePresence
+   Application: Hemrika.SharePresence
+  Created date: 2013-04-11 12:45:26Z
+    Created by: MARKETING\Administrator
+  Feature Name: WebSiteBlog
+ Feature Title: WebSite Blog Settings
+   Description: A SharePresence feature which enables blogging infrastructure
+       History: Initial Version 1.0.0.0 
+************************************************************************
+-->
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ElementManifests></ElementManifests>
+</Feature>

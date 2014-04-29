@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Hemrika.SharePresence.WebSite.Modules.GateKeeper" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="GateKeeperType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Black" />
+      <xs:enumeration value="White" />
+      <xs:enumeration value="HoneyPot" />
+      <xs:enumeration value="HTTP" />
+      <xs:enumeration value="Proxy" />
+      <xs:enumeration value="Drone" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GateKeeperType" nillable="true" type="tns:GateKeeperType" />
+  <xs:simpleType name="GateKeeperListing">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="GateKeeper_IPAddress" />
+      <xs:enumeration value="GateKeeper_Url" />
+      <xs:enumeration value="GateKeeper_Useragent" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GateKeeperListing" nillable="true" type="tns:GateKeeperListing" />
+</xs:schema>

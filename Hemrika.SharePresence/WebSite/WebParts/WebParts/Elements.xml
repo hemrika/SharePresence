@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module
+		Name="PublishingWebParts"
+		List="113"
+		Url="_catalogs/wp">
+    <File
+			Path="WebParts\ContentWebPart.webpart"
+			Url="ContentWebPart.webpart"
+			Type="GhostableInLibrary">
+      <Property
+				Name="Group"
+				Value="Design" />
+      <Property
+				Name="QuickAddGroups"
+				Value="Design" />
+    </File>
+    <File
+			Path="WebParts\DesignWebPart.webpart"
+			Url="DesignWebPart.webpart"
+			Type="GhostableInLibrary">
+      <Property
+				Name="Group"
+				Value="Design" />
+      <Property
+				Name="QuickAddGroups"
+				Value="Design" />
+    </File>
+    <File
+			Path="WebParts\FormWebPart.webpart"
+			Url="FormWebPart.webpart"
+			Type="GhostableInLibrary">
+      <Property
+				Name="Group"
+				Value="Design" />
+      <Property
+				Name="QuickAddGroups"
+				Value="Design" />
+    </File>
+  </Module>
+</Elements>

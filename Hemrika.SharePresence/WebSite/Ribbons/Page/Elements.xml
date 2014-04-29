@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+		Id="Ribbon.Hemrika.SharePresence.Page"
+		Location="CommandUI.Ribbon"
+		Title="Page">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible">
+            <Layout Title="Large" >
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="Medium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumTwoRow">
+              <OverflowSection Type="TwoRow" TemplateAlias="o1" DisplayMode="Medium" />
+            </Layout>
+            <Layout Title="Small">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small" />
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="Large" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children" >
+          <GroupTemplate Id="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+            <Layout Title="LargeLarge">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="LargeMedium">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="LargeSmall">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="MediumLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="MediumMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="SmallLarge">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="OneRow" TemplateAlias="o2" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="SmallMedium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="SmallSmall">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small"/>
+              <OverflowSection Type="ThreeRow" TemplateAlias="o2" DisplayMode="Small"/>
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="LargeMedium" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition
+					Location="Ribbon.Tabs._children">
+          <Tab
+						Id="Ribbon.Hemrika.SharePresence.Page"
+						Title="$Resources:Page_Title;"
+						Description="$Resources:Page_Description;"
+						Sequence="101">
+            <Scaling Id="Ribbon.Hemrika.SharePresence.Scaling._children">
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup"
+								Size="LargeLarge" Sequence="10" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup"
+								Size="LargeLarge" Sequence="20" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup"
+								Size="LargeLarge" Sequence="30" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Page.PublishGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Page.PublishGroup"
+								Size="LargeLarge" Sequence="40" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup"
+								Size="LargeLarge" Sequence="50" />
+              <MaxSize
+								Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup.MaxSize"
+								GroupId="Ribbon.Hemrika.SharePresence.Page.NavigationGroup"
+								Size="LargeLarge" Sequence="60" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup"
+									Size="LargeLarge" Sequence="70" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup"
+									Size="LargeLarge" Sequence="80" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup"
+									Size="LargeLarge" Sequence="90" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Page.PublishGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup"
+									Size="LargeLarge" Sequence="100" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup"
+									Size="LargeLarge" Sequence="110" />
+              <Scale
+									Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup.Scaling.LargeLarge"
+									GroupId="Ribbon.Hemrika.SharePresence.Page.NavigationGroup"
+									Size="LargeLarge" Sequence="120" />
+            </Scaling>
+            <Groups
+							Id="Ribbon.Hemrika.SharePresence.Page.Groups">
+              <Group
+                Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup"
+                Description="Check In/Out"
+                Title="Check In/Out"
+                Sequence="10"
+                Command="EditAndCheckoutGroup"
+                Template="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.Controls">
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.Checkout"
+                    Sequence="10"
+                    Alt="$Resources:core,ButCheckout;"
+                    Command="PageStateGroupCheckout"
+                    CommandValueId="PageStateGroupCheckout"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-224" Image16by16Left="0"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-160" Image32by32Left="-160"
+                    LabelText="$Resources:core,ButCheckout;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.DiscardCheckout"
+                    Sequence="20"
+                    Alt="$Resources:core,ButDiscardCheckout;"
+                    Command="PageStateGroupDiscardCheckout"
+                    CommandValueId="PageStateDiscardCheckout"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-112" Image16by16Left="-48"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-416" Image32by32Left="-160"
+                    LabelText="$Resources:core,ButDiscardCheckout;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.OverrideCheckout"
+                    Sequence="30"
+                    Alt="$Resources:core,ButOverrideCheckout;"
+                    Command="PageStateGroupOverrideCheckout"
+                    CommandValueId="PageStateGroupOverrideCheckout"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-64" Image16by16Left="-240"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-448" Image32by32Left="-416"
+                    LabelText="$Resources:core,ButOverrideCheckout;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.CheckInOutGroup.Checkin"
+                    Sequence="40"
+                    Alt="$Resources:core,ButCheckin;"
+                    Command="PageStateGroupCheckin"
+                    CommandValueId="PageStateGroupCheckin"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-104" Image16by16Left="-32"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-416" Image32by32Left="-192"
+                    LabelText="$Resources:core,ButCheckin;"
+                    TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup"
+								Description="manage Properties"
+								Title="Properties"
+								Sequence="20"
+                Command="webPartPageManage"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup.Controls">
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup.ViewProperties"
+                    Sequence="10"
+                    Command="viewPageProperties"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-32" Image16by16Left="-80"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-96" Image32by32Left="-448"
+                    LabelText="$Resources:core,ButViewProperties;"
+                    ToolTipTitle="$Resources:core,ButViewProperties;"
+                    ToolTipDescription="$Resources:core,cui_STT_ButViewDocumentProperties;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.PropertiesGroup.EditProperties"
+                    Sequence="20"
+                    Command="editPageProperties"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-224"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-96"
+                    LabelText="$Resources:core,ButEditProperties;"
+                    ToolTipTitle="$Resources:core,ButEditProperties;"
+                    ToolTipDescription="$Resources:core,cui_STT_ButEditDocumentProperties;"
+                    TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup"
+								Description="Edit/Save Page"
+								Title="Edit/Save"
+								Sequence="30"
+                Command="EditAndCheckoutGroup"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.Controls">
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.Edit"
+                    Command="PageStateGroupEdit"
+                    CommandValueId="PageStateGroupEdit"
+										Sequence="30"
+										Description="Edit Page"
+										LabelText="Edit"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-144" Image16by16Left="-80"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-256" Image32by32Left="-32"
+										TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.StopEditing"
+                    Sequence="40"
+                    Alt="$Resources:core,stop_edit;"
+                    Command="PageStateGroupStopEditing"
+                    CommandValueId="PageStateGroupStopEditing"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-224" Image16by16Left="-16"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-160" Image32by32Left="-128"
+                    LabelText="$Resources:core,stop_edit;"
+                    TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.Save"
+                    Command="PageStateGroupSave"
+                    CommandValueId="PageStateGroupSave"
+										Sequence="50"
+										Description="Save current changes"
+										LabelText="Save changes"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-128" Image16by16Left="-16"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-160" Image32by32Left="-224"
+										TemplateAlias="o1" />
+                  <Button
+										Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.SaveAndStop"
+										Command="PageStateGroupSaveAndStop"
+                    CommandValueId="PageStateGroupSaveAndStop"
+										Sequence="60"
+										Description="Save and stop editing"
+										LabelText="Save and Stop"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-176" Image16by16Left="-96"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-320" Image32by32Left="0"
+										TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.DeletePage"
+                    Sequence="70"
+                    Alt="$Resources:core,DeletePage;"
+                    Command="DeletePage"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-112" Image16by16Left="-224"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-128" Image32by32Left="-128"
+                    LabelText="$Resources:core,DeletePage;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.EditSaveGroup.EditInDesigner"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-208" Image16by16Left="-192"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-384" Image32by32Left="-352"
+                    Sequence="80"
+                    Alt="$Resources:core,ButEditInDesigner;"
+                    Command="EditInDesigner"
+                    CommandValueId="EditInDesigner"
+                    LabelText="$Resources:core,ButEditInDesigner;"
+                    TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+								Id="Ribbon.Hemrika.SharePresence.Page.PublishGroup"
+								Description="Publish Page"
+								Title="Publish"
+								Sequence="40"
+                Command="ApproveGroup"
+								Template="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+                <Controls
+									Id="Ribbon.Hemrika.SharePresence.Page.PublishGroup.Controls">
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.PublishGroup.Publish"
+                    Sequence="10"
+                    Alt="$Resources:core,ButPublish;"
+                    Command="PageStateGroupPublish"
+                    CommandValueId="PageStateGroupPublish"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-112" Image16by16Left="-64"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-416" Image32by32Left="-128"
+                    LabelText="$Resources:core,ButPublish;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.PublishGroup.Unpublish"
+                    Sequence="20"
+                    Alt="$Resources:core,ButUnpublish;"
+                    Command="PageStateGroupUnpublish"
+                    CommandValueId="PageStateGroupUnpublish"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-240" Image16by16Left="-160"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-64" Image32by32Left="-64"
+                    LabelText="$Resources:core,ButUnpublish;"
+                    TemplateAlias="o1" />
+                </Controls>
+              </Group>
+              <Group
+                Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup"
+                Description="Publish Page"
+                Title="Approval"
+                Sequence="50"
+                Command="ApproveGroup"
+                Template="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+                <Controls
+                  Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.Controls">
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.SubmitForApproval"
+                    Sequence="10"
+                    Alt="$Resources:core,ButSubmitForApproval;"
+                    Command="PageStateGroupSubmitForApproval"
+                    CommandValueId="PageStateGroupSubmitForApproval"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-192" Image16by16Left="-208"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-32" Image32by32Left="-192"
+                    LabelText="$Resources:core,ButSubmitForApprovalLabelText;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.CancelApproval"
+                    Sequence="20"
+                    Alt="$Resources:core,ButCancelApproval;"
+                    Command="PageStateGroupCancelApproval"
+                    CommandValueId="PageStateGroupCancelApproval"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-32" Image16by16Left="0"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="0" Image32by32Left="0"
+                    LabelText="$Resources:core,ButCancelApproval;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.Approve"
+                    Sequence="30"
+                    Alt="$Resources:core,ButApprove;"
+                    Command="PageStateGroupApprove"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-48" Image16by16Left="-48"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="0" Image32by32Left="-96"
+                    LabelText="$Resources:core,ButApprove;"
+                    TemplateAlias="o2" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.ApprovalGroup.Reject"
+                    Sequence="40"
+                    Alt="$Resources:core,ButReject;"
+                    Command="PageStateGroupReject"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-32" Image16by16Left="-16"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="0" Image32by32Left="-32"
+                    LabelText="$Resources:core,ButReject;"
+                    TemplateAlias="o2" />
+                </Controls>
+              </Group>
+              <Group
+                Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup"
+                Description="Navigation Options"
+                Title="Navigation"
+                Sequence="60"
+                Template="Ribbon.Templates.Hemrika.SharePresence.Page.Flexible2">
+                <Controls
+                  Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup.Controls">
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup.MakeHomePage"
+                    Sequence="10"
+                    Command="PageStateGroupSetHomePage"
+                    CommandValueId="PageStateGroupSetHomePage"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-120" Image16by16Left="-32"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-192" Image32by32Left="-224"
+                    LabelText="$Resources:core,make_home_page;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup.IncomingLinks"
+                    Sequence="20"
+                    Alt="$Resources:core,cui_ButIncomingLinks;"
+                    Command="PageStateGroupIncomingLinks"
+                    CommandValueId="PageStateGroupIncomingLinks"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-32" Image16by16Left="-112"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-352" Image32by32Left="-416"
+                    LabelText="$Resources:core,cui_ButIncomingLinks;"
+                    TemplateAlias="o1" />
+                  <Button
+                    Id="Ribbon.Hemrika.SharePresence.Page.NavigationGroup.ViewAllPages"
+                    Sequence="40"
+                    Alt="$Resources:core,cui_ButViewAllPages;"
+                    Command="ViewAllPages"
+                    Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-208" Image16by16Left="-128"
+                    Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="-384" Image32by32Left="-224"
+                    LabelText="$Resources:core,cui_ButViewAllPages;"
+                    TemplateAlias="o1" />
+                </Controls>
+              </Group>
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

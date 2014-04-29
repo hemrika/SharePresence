@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <WebPartAdderExtension
+      Assembly="$SharePoint.Project.AssemblyFullName$"
+      Class="$SharePoint.Type.777bfd6c-0609-4b4c-8f37-72db4bf4209e.FullName$"/>
+    <Module Name="PagePart" List="113" Url="_catalogs/wp">
+    <File Path="PageParts\PagePart.webpart" Url="PagePart.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Page Parts" />
+    </File>
+  </Module>
+</Elements>

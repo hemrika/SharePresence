@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!-- Simplify SiteActions -->
+	<HideCustomAction
+		Id="SimplifySiteSettings_CreateDocLib" 
+		Location="Microsoft.SharePoint.StandardMenu" 
+		GroupId="SiteActions"
+		HideActionId="CreateDocLib"
+		/>
+	<HideCustomAction
+		Id="SimplifySiteSettings_Create"
+		Location="Microsoft.SharePoint.StandardMenu"
+		GroupId="SiteActions"
+		HideActionId="Create"
+		/>
+	<HideCustomAction
+	Id="SimplifySiteSettings_CreatePage"
+	Location="Microsoft.SharePoint.StandardMenu"
+	GroupId="SiteActions"
+	HideActionId="CreatePage"
+		/>
+	<HideCustomAction
+		Id="SimplifySiteSettings_CreateSite"
+		Location="Microsoft.SharePoint.StandardMenu"
+		GroupId="SiteActions"
+		HideActionId="CreateSite"
+		/>
+  <!-- Hide Customization Group-->
+  <HideCustomAction Id="SimplifySiteSettings_ProjectSettings" Location="Microsoft.SharePoint.SiteSettings" GroupId="Customization" HideActionId="ProjectSettings" />
+  <HideCustomAction Id="SimplifySiteSettings_QuickLaunch" Location="Microsoft.SharePoint.SiteSettings" GroupId="Customization" HideActionId="QuickLaunch" />
+  <HideCustomAction Id="SimplifySiteSettings_TopNav" Location="Microsoft.SharePoint.SiteSettings" GroupId="Customization" HideActionId="TopNav" />
+  <HideCustomAction Id="SimplifySiteSettings_NavOptions" Location="Microsoft.SharePoint.SiteSettings" GroupId="Customization" HideActionId="NavOptions" />
+  <HideCustomAction Id="SimplifySiteSettings_Theme" Location="Microsoft.SharePoint.SiteSettings" GroupId="Customization" HideActionId="Theme" />
+  <!-- Hide Galleries Group-->
+  <HideCustomAction Id="SimplifySiteSettings_MasterPageCatalog" Location="Microsoft.SharePoint.SiteSettings" GroupId="Galleries" HideActionId="MasterPageCatalog" />
+  <!-- Hide SiteTasks Group-->
+  <HideCustomAction Id="SimplifySiteSettings_SaveAsTemplate" Location="Microsoft.SharePoint.SiteSettings" GroupId="SiteTasks" HideActionId="SaveAsTemplate" />
+  <HideCustomAction Id="SimplifySiteSettings_ReGhost" Location="Microsoft.SharePoint.SiteSettings" GroupId="SiteTasks" HideActionId="ReGhost" />
+  <HideCustomAction Id="SimplifySiteSettings_DeleteWeb" Location="Microsoft.SharePoint.SiteSettings" GroupId="SiteTasks" HideActionId="DeleteWeb" />
+  <!-- Hide SiteCollectionAdmin Group  -->
+  <HideCustomAction Id="SimplifySiteSettings_Portal" Location="Microsoft.SharePoint.SiteSettings" GroupId="SiteCollectionAdmin" HideActionId="Portal" />
+  <HideCustomAction Id="SimplifySiteSettings_SharePointDesignerSettings" Location="Microsoft.SharePoint.SiteSettings" GroupId="SiteCollectionAdmin" HideActionId="SharePointDesignerSettings" />
+  <!-- Hide SiteAdministration Group  -->
+  <HideCustomAction Id="SimplifySiteSettings_RegionalSettings" Location="Microsoft.SharePoint.SiteSettings" GroupId="SiteAdministration" HideActionId="RegionalSettings" />
+
+  <CustomAction 
+		Id="SimplifySiteSetting_MenuItem_CreatePage" 
+		Location="Microsoft.SharePoint.StandardMenu" 
+		GroupId="SiteActions"
+		Sequence="100"
+		Title="Create WebPage" 
+		Description="Create a new WebPage" ShowInLists="True" ImageUrl="/_layouts/images/Hemrika/ListIcon_ContentPages.gif" Rights="AddListItems, EditListItems">
+		<UrlAction Url="javascript:(function () { var options = { url:'/_layouts/Hemrika/Content/CreateWebPage.aspx', title: 'Create WebSite Page', allowMaximize: true, showClose: true }; SP.UI.ModalDialog.showModalDialog(options); }) ();" />
+	</CustomAction>
+</Elements>
