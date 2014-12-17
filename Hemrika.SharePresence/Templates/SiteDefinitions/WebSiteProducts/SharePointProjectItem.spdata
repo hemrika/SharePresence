@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.SiteDefinition" DefaultFile="onet.xml" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Package" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="onet.xml" Target="SiteTemplates\WebSiteProducts\XML\" Type="TemplateFile" />
+    <ProjectItemFile Source="WEBTEMPWebSiteProducts.xml" Target="1033\XML\" Type="TemplateFile" />
+    <ProjectItemFile Source="WebSiteProducts.gif" Target="Images\Hemrika\" Type="TemplateFile" />
+    <ProjectItemFile Source="default.aspx" Target="SiteTemplates\WebSiteProducts\" Type="TemplateFile" />
+  </Files>
+</ProjectItem>

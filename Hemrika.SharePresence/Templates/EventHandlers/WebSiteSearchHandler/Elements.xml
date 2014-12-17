@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.2 , spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Receivers
+		Scope="Web">
+		<Receiver>
+			<Name>WebSiteSearchHandlerSiteDeleted</Name>
+			<Type>SiteDeleted</Type>
+			<SequenceNumber>100</SequenceNumber>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
+		</Receiver>
+		<Receiver>
+			<Name>WebSiteSearchHandlerWebDeleted</Name>
+			<Type>WebDeleted</Type>
+			<SequenceNumber>100</SequenceNumber>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
+		</Receiver>
+		<Receiver>
+			<Name>WebSiteSearchHandlerWebDeleting</Name>
+			<Type>WebDeleting</Type>
+			<SequenceNumber>100</SequenceNumber>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
+		</Receiver>
+		<Receiver>
+			<Name>WebSiteSearchHandlerWebAdding</Name>
+			<Type>WebAdding</Type>
+			<SequenceNumber>100</SequenceNumber>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
+		</Receiver>
+		<Receiver>
+			<Name>WebSiteSearchHandlerWebProvisioned</Name>
+			<Type>WebProvisioned</Type>
+			<SequenceNumber>100</SequenceNumber>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
+		</Receiver>
+	</Receivers>
+</Elements>

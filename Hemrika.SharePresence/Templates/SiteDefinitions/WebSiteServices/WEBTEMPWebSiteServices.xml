@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Templates xmlns:ows="Microsoft SharePoint">
+	<Template
+		Name="WebSiteServices"
+		ID="20004">
+		<Configuration
+			ID="0"
+			Title="WebSite Services"
+			Description="WebSiteServices Description"
+			DisplayCategory="WebSite"
+			Hidden="False"
+			ImageUrl="/_layouts/images/Hemrika/WebSiteServices.gif"
+      RootWebOnly="False"
+      SubWebOnly="True" />
+  </Template>
+</Templates>

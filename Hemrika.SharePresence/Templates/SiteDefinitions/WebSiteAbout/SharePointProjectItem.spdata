@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.SiteDefinition" DefaultFile="onet.xml" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Package" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="onet.xml" Target="SiteTemplates\WebSiteAbout\XML\" Type="TemplateFile" />
+    <ProjectItemFile Source="WEBTEMPWebSiteAbout.xml" Target="1033\XML\" Type="TemplateFile" />
+    <ProjectItemFile Source="WebSiteAbout.gif" Target="Images\Hemrika\" Type="TemplateFile" />
+    <ProjectItemFile Source="default.aspx" Target="SiteTemplates\WebSiteAbout\" Type="TemplateFile" />
+    <ProjectItemFile Source="About.aspx" Target="SiteTemplates\WebSiteAbout\" Type="TemplateFile" />
+    <ProjectItemFile Source="Legal.aspx" Target="SiteTemplates\WebSiteAbout\" Type="TemplateFile" />
+    <ProjectItemFile Source="History.aspx" Target="SiteTemplates\WebSiteAbout\" Type="TemplateFile" />
+    <ProjectItemFile Source="People.aspx" Target="SiteTemplates\WebSiteAbout\" Type="TemplateFile" />
+  </Files>
+</ProjectItem>

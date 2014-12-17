@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers
+		Scope="Site">
+    <Receiver>
+      <Name>WebSiteRootHandlerWebProvisioned</Name>
+      <Type>WebProvisioned</Type>
+      <SequenceNumber>100</SequenceNumber>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Class>Hemrika.SharePresence.Templates.WebSiteRootHandler</Class>
+    </Receiver>
+    <Receiver>
+      <Name>WebSiteRootHandlerSiteDeleting</Name>
+      <Type>SiteDeleting</Type>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Class>Hemrika.SharePresence.Templates.WebSiteRootHandler</Class>
+      <SequenceNumber>1000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>WebSiteRootHandlerWebDeleting</Name>
+      <Type>WebDeleting</Type>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Class>Hemrika.SharePresence.Templates.WebSiteRootHandler</Class>
+      <SequenceNumber>1000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<root>
+	<xsd:schema
+		id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import
+			namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element
+			name="root"
+			msdata:IsdataSet="true">
+			<xsd:complexType>
+				<xsd:choice
+					maxOccurs="unbounded">
+					<xsd:element
+						name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element
+									name="value"
+									type="xsd:string"
+									minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute
+								name="name"
+								use="required"
+								type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element
+						name="assembly">
+						<xsd:complexType>
+							<xsd:attribute
+								name="alias"
+								type="xsd:string" />
+							<xsd:attribute
+								name="name"
+								type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element
+						name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element
+									name="value"
+									type="xsd:string"
+									minOccurs="0"
+									msdata:Ordinal="1" />
+								<xsd:element
+									name="comment"
+									type="xsd:string"
+									minOccurs="0"
+									msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute
+								name="name"
+								type="xsd:string"
+								use="required"
+								msdata:Ordinal="1" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element
+						name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element
+									name="value"
+									type="xsd:string"
+									minOccurs="0"
+									msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute
+								name="name"
+								type="xsd:string"
+								use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader
+		name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader
+		name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader
+		name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader
+		name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data
+		name="WebSiteRoot_SiteDefinitionTitle">
+		<value>WebSite Root</value>
+	</data>
+	<data
+		name="WebSiteRoot_SiteDefinitionDescription">
+		<value>WebSite Root Description</value>
+	</data>
+	<data
+		name="WebSiteContact_SiteDefinitionTitle">
+		<value>WebSite Contact</value>
+	</data>
+	<data
+		name="WebSiteContact_SiteDefinitionDescription">
+		<value>WebSiteContact Description</value>
+	</data>
+	<data
+		name="WebSiteAbout_SiteDefinitionTitle">
+		<value>WebSite About</value>
+	</data>
+	<data
+		name="WebSiteAbout_SiteDefinitionDescription">
+		<value>WebSiteAbout Description</value>
+	</data>
+	<data
+		name="WebSiteProducts_SiteDefinitionTitle">
+		<value>WebSite Products</value>
+	</data>
+	<data
+		name="WebSiteProducts_SiteDefinitionDescription">
+		<value>WebSiteProducts Description</value>
+	</data>
+	<data
+		name="WebSiteServices_SiteDefinitionTitle">
+		<value>WebSite Services</value>
+	</data>
+	<data
+		name="WebSiteServices_SiteDefinitionDescription">
+		<value>WebSiteServices Description</value>
+	</data>
+	<data
+		name="WebSitePortFolio_SiteDefinitionTitle">
+		<value>WebSite PortFolio</value>
+	</data>
+	<data
+		name="WebSitePortFolio_SiteDefinitionDescription">
+		<value>WebSitePortFolio Description</value>
+	</data>
+	<data
+		name="WebSiteAssets_SiteDefinitionTitle">
+		<value>WebSite Assets</value>
+	</data>
+	<data
+		name="WebSiteAssets_SiteDefinitionDescription">
+		<value>WebSiteAssets Description</value>
+	</data>
+	<data
+		name="WebSiteMailing_SiteDefinitionTitle">
+		<value>WebSite Mailing</value>
+	</data>
+	<data
+		name="WebSiteMailing_SiteDefinitionDescription">
+		<value>WebSiteMailing Description</value>
+	</data>  <data
+		name="WebSiteSearch_SiteDefinitionTitle">
+    <value>WebSite Search</value>
+  </data>
+  <data
+		name="WebSiteSearch_SiteDefinitionDescription">
+    <value>WebSite Search Description</value>
+  </data> 
+		   
+</root>
