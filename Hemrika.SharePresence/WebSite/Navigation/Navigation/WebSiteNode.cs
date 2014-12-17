@@ -23,6 +23,7 @@ namespace Hemrika.SharePresence.WebSite.Navigation
     [XmlRoot("root", Namespace = "Hemrika.SharePresence.WebSite.Navigation")]
     public class WebSiteNode : ICloneable, IHierarchyData, INavigateUIData, IXmlSerializable
     {
+        [NonSerialized]
         private XmlDocument _XMLDoc;
 
         public XmlDocument XmlDoc
@@ -30,6 +31,8 @@ namespace Hemrika.SharePresence.WebSite.Navigation
             get { return _XMLDoc; }
             set { _XMLDoc = value; }
         }
+
+        [NonSerialized]
         private System.Xml.XmlNode _XMLNode;
 
         public System.Xml.XmlNode XmlNode

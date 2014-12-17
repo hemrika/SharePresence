@@ -24,7 +24,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.GateKeeper
             }
 
             // Check that the request url.scheme and url.host (ex. (http/https)://www.domain.com...) matches the urlreferrer value
-            Regex regExpression = new Regex(string.Format("^{0}://{1}", current.Request.Url.Scheme, current.Request.Url.Host, RegexOptions.Compiled | RegexOptions.IgnoreCase));
+            Regex regExpression = new Regex(string.Format("^{0}://{1}", current.Request.Url.Scheme, current.Request.Url.Host), RegexOptions.Compiled | RegexOptions.IgnoreCase);
             if (regExpression.IsMatch(current.Request.UrlReferrer.AbsoluteUri))
             {
                 //GateKeeperModule.log.Debug("Referral from self");

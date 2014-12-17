@@ -218,6 +218,32 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
             get { return true; }
         }
 
-        public void Dispose() { }
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    browserCapabilities = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~MobileModule()
+        {
+            Dispose(false);
+        }
     }
 }

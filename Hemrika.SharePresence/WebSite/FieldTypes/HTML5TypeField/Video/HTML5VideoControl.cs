@@ -240,7 +240,10 @@ namespace Hemrika.SharePresence.WebSite.FieldTypes
                         return new HTML5VideoField(videoEntity);
                     }
                     else
-                        throw new IndexOutOfRangeException();
+                    {
+                        return new HTML5VideoField();
+                    }
+                        //throw new IndexOutOfRangeException();
 
                 }
                 else

@@ -325,7 +325,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.WebPageModule
                         StreamReader reader = new StreamReader(m);
                         content = reader.ReadToEnd();
                         reader.Close();
-                        m.Close();
+                        //m.Close();
 
                         StreamWriter writer = new StreamWriter(stream);
 
@@ -336,7 +336,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.WebPageModule
                 }
                 catch (HttpException hex)
                 {
-                    throw hex;
+                    throw;
                 }
                 catch (Exception ex)
                 {

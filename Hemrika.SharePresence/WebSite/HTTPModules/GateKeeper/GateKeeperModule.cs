@@ -423,6 +423,34 @@ namespace Hemrika.SharePresence.WebSite.Modules.GateKeeper
 
         }
 
-        public void Dispose() { }
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    application.Dispose();
+                    application = null;
+                    config = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~GateKeeperModule()
+        {
+            Dispose(false);
+        }
     }
 }

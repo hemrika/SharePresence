@@ -111,6 +111,31 @@ namespace Hemrika.SharePresence.WebSite.Modules.Blog
             get { return true; }
         }
 
-        public void Dispose() { }
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~BlogModule()
+        {
+            Dispose(false);
+        }
     }
 }

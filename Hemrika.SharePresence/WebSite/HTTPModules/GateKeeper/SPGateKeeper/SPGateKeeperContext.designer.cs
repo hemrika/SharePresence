@@ -63,7 +63,8 @@ namespace Hemrika.SharePresence.WebSite.Modules.GateKeeper {
 		partial void OnCreated();
 		#endregion
 
-		Microsoft.SharePoint.Linq.EntityState Microsoft.SharePoint.Linq.ITrackEntityState.EntityState {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        Microsoft.SharePoint.Linq.EntityState Microsoft.SharePoint.Linq.ITrackEntityState.EntityState {
 			get {
 				return this._entityState;
 			}
@@ -74,7 +75,8 @@ namespace Hemrika.SharePresence.WebSite.Modules.GateKeeper {
 			}
 		}
 
-		System.Collections.Generic.IDictionary<string, object> Microsoft.SharePoint.Linq.ITrackOriginalValues.OriginalValues {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        System.Collections.Generic.IDictionary<string, object> Microsoft.SharePoint.Linq.ITrackOriginalValues.OriginalValues {
 			get {
 				if ((null == this._originalValues)) {
 					this._originalValues = new System.Collections.Generic.Dictionary<string, object>();

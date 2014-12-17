@@ -10,6 +10,7 @@ using Hemrika.SharePresence.Common.ListRepository;
 using Hemrika.SharePresence.WebSite.ContentTypes;
 using Hemrika.SharePresence.WebSite.Fields;
 using System.IO;
+using Hemrika.SharePresence.WebSite.FieldTypes.HTML5TypeField.Video;
 
 namespace Hemrika.SharePresence.WebSite.FieldTypes
 {

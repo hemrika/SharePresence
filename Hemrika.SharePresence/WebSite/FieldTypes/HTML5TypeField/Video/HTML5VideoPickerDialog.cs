@@ -6,6 +6,7 @@ using Microsoft.SharePoint.WebControls;
 using Hemrika.SharePresence.WebSite.FieldTypes;
 using Microsoft.SharePoint;
 using System.Web.UI.WebControls;
+using Hemrika.SharePresence.WebSite.FieldTypes.HTML5TypeField.Video;
 
 namespace Hemrika.SharePresence.WebSite.FieldTypes
 {

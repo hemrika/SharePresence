@@ -137,6 +137,33 @@ namespace Hemrika.SharePresence.WebSite.Modules.MediaModule
         /// <summary>
         /// 
         /// </summary>
-        public void Dispose() { }
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    //application.Dispose();
+                    //application = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~MediaModule()
+        {
+            Dispose(false);
+        }
     }
 }

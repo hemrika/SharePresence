@@ -194,6 +194,7 @@ namespace Hemrika.SharePresence.WebSite.Navigation
             throw new NotImplementedException();
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1065:DoNotRaiseExceptionsInUnexpectedLocations")]
         public object SyncRoot
         {
             get { throw new NotImplementedException(); }

@@ -294,22 +294,17 @@ namespace Hemrika.SharePresence.WebSite.Navigation
                 transform.Load(tidyXsl, settings, new XmlUrlResolver());
 
 				//output (result) writers 
-				using (System.IO.StringWriter sw = new System.IO.StringWriter())
-				{
-					using (XmlTextWriter tw = new XmlTextWriter(sw))
-					{
-						//Source (input) readers 
-						using (System.IO.StringReader srZRow = new System.IO.StringReader(zRowData))
-						{
-							using (XmlTextReader xtrZRow = new XmlTextReader(srZRow))
-							{
-								//Transform 
-								transform.Transform(xtrZRow, null, tw);
-								return sw.ToString();
-							}
-						}
-					}
-				}
+                using (System.IO.StringWriter sw = new System.IO.StringWriter())
+                {
+                    XmlTextWriter tw = new XmlTextWriter(sw);
+                    //Source (input) readers 
+                    System.IO.StringReader srZRow = new System.IO.StringReader(zRowData);
+                    XmlTextReader xtrZRow = new XmlTextReader(srZRow);
+
+                    //Transform 
+                    transform.Transform(xtrZRow, null, tw);
+                    return sw.ToString();
+                }
 			}
 			catch
 			{

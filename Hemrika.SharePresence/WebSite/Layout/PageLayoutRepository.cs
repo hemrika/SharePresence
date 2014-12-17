@@ -253,7 +253,7 @@ namespace Hemrika.SharePresence.WebSite.Layout
                 StreamReader reader = new StreamReader(m);
                 content = reader.ReadToEnd();
                 reader.Close();
-                m.Close();
+                //m.Close();
 
                 site.Dispose();
                 rootWeb.Dispose();

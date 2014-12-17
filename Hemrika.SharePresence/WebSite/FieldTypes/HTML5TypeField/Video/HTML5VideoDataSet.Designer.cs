@@ -10,7 +10,8 @@
 
 #pragma warning disable 1591
 
-namespace Hemrika.SharePresence.WebSite.FieldTypes {
+namespace Hemrika.SharePresence.WebSite.FieldTypes.HTML5TypeField.Video
+{
     
     
     /// <summary>

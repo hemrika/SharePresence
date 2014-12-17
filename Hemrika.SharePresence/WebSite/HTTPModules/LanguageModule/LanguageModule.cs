@@ -275,11 +275,35 @@ using System.Web;
             var requestedCulture = this.getRequestedCulture(context); 
             SPUtility.SetThreadCulture(requestedCulture, requestedCulture);  
         }  
-        public void Dispose()  
-        { 
-        }
         */
 
-        public void Dispose() { }
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    application.Dispose();
+                    application = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~LanguageModule()
+        {
+            Dispose(false);
+        }
     }
 }

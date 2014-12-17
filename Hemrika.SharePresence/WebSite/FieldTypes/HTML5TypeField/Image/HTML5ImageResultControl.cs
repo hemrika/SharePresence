@@ -14,6 +14,7 @@ using System.Drawing;
 using System.Data;
 using System.Collections;
 using System.Web;
+using Hemrika.SharePresence.WebSite.FieldTypes.HTML5TypeField.Image;
 
 namespace Hemrika.SharePresence.WebSite.FieldTypes
 {

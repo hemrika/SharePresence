@@ -7,6 +7,7 @@ using System.Data;
 using Microsoft.SharePoint;
 using System.Web.UI.WebControls;
 using Hemrika.SharePresence.Common.ListRepository;
+using Hemrika.SharePresence.WebSite.FieldTypes.HTML5TypeField.Image;
 
 namespace Hemrika.SharePresence.WebSite.FieldTypes
 {

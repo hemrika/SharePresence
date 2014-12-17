@@ -14,6 +14,7 @@ namespace Hemrika.SharePresence.WebSite.Video
     [Serializable]
     public class VideoSettings
     {
+        [NonSerialized]
         private SPContext _context;
 
         public SPContext Context

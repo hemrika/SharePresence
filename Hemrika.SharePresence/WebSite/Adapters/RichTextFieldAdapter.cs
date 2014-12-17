@@ -37,10 +37,8 @@ namespace Hemrika.SharePresence.WebSite.Adapters
                     {
                         using (StringWriter sw = new StringWriter(sb))
                         {
-                            using (HtmlTextWriter htw = new HtmlTextWriter(sw))
-                            {
-                                base.Render(htw);
-                            }
+                            HtmlTextWriter htw = new HtmlTextWriter(sw);
+                            base.Render(htw);
                         }
                     }
                     string content = sb.ToString();

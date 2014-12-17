@@ -16,7 +16,7 @@ namespace Hemrika.SharePresence.WebSite.WebParts
     /// <summary>
     /// TODO: Update summary.
     /// </summary>
-    public class FormContentTemplate : ITemplate
+    public class FormContentTemplate : ITemplate, IDisposable
     {
         internal static string InnerHTML;
         public WebPart WebPart { get; set; }
@@ -39,6 +39,37 @@ namespace Hemrika.SharePresence.WebSite.WebParts
             canvas = new FormCanvas(InnerHTML, container);
             canvas.WebPart = WebPart as FormWebPart;
             container.Controls.Add(canvas);
+        }
+
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    canvas.Dispose();
+                        canvas = null;
+                    WebPart.Dispose();
+                    WebPart = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~FormContentTemplate()
+        {
+            Dispose(false);
         }
     }
 }

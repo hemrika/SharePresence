@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="871d5f24-d41b-4afb-879f-4b87be82bdad" solutionId="871d5f24-d41b-4afb-879f-4b87be82bdad" resetWebServer="false" sharePointProductVersion="15.0" name="WebSite" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="871d5f24-d41b-4afb-879f-4b87be82bdad" solutionId="871d5f24-d41b-4afb-879f-4b87be82bdad" resetWebServer="false" sharePointProductVersion="15.0" name="Hemrika.SharePresence.WebSite" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <assemblies>
-    <projectOutputAssembly location="Hemrika.SharePresence.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Common\Hemrika.SharePresence.Common.csproj" >
+    <projectOutputAssembly location="Hemrika.SharePresence.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Common\Hemrika.SharePresence.Common.csproj">
       <safeControls>
-        <safeControl assemblyName="Hemrika.SharePresence.Common" namespaceName="Hemrika.SharePresence.Common" typeName="*" isSafeAgainstScript="false" />
-        <safeControl assemblyName="Hemrika.SharePresence.Common" namespaceName="Hemrika.SharePresence.Common.WebSiteController" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="Hemrika.SharePresence.Common" namespaceName="Hemrika.SharePresence.Common" typeName="*" isSafeAgainstScript="true" />
+        <safeControl assemblyName="Hemrika.SharePresence.Common" namespaceName="Hemrika.SharePresence.Common.WebSiteController" typeName="*" isSafeAgainstScript="true" />
       </safeControls>
     </projectOutputAssembly>
     <projectOutputAssembly location="Hemrika.SharePresence.SPLicense.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\License\Hemrika.SharePresence.SPLicense.csproj" />
     <projectOutputAssembly location="Hemrika.SharePresence.Extensions.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Extensions\Hemrika.SharePresence.Extensions.csproj" />
-    <projectOutputAssembly location="Hemrika.SharePresence.HTML5.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\HTML5\Hemrika.SharePresence.HTML5.csproj" >
+    <projectOutputAssembly location="Hemrika.SharePresence.HTML5.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\HTML5\Hemrika.SharePresence.HTML5.csproj">
       <safeControls>
-        <safeControl assemblyName="Hemrika.SharePresence.Html5" namespaceName="Hemrika.SharePresence.Html5.WebControls" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="Hemrika.SharePresence.Html5" namespaceName="Hemrika.SharePresence.Html5.WebControls" typeName="*" isSafeAgainstScript="true" />
       </safeControls>
     </projectOutputAssembly>
-    <projectOutputAssembly location="Hemrika.SharePresence.Google.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Google\Hemrika.SharePresence.Google.csproj" >
+    <projectOutputAssembly location="Hemrika.SharePresence.Google.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Google\Hemrika.SharePresence.Google.csproj">
       <safeControls>
-        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google" typeName="*" isSafeAgainstScript="false" />
-        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google.Analytics" typeName="*" isSafeAgainstScript="false" />
-        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google.WebmasterTools" typeName="*" isSafeAgainstScript="false" />
-        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google.Visualization" typeName="*" isSafeAgainstScript="false" />
+        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google" typeName="*" isSafeAgainstScript="true" />
+        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google.Analytics" typeName="*" isSafeAgainstScript="true" />
+        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google.WebmasterTools" typeName="*" isSafeAgainstScript="true" />
+        <safeControl assemblyName="Hemrika.SharePresence.Google" namespaceName="Hemrika.SharePresence.Google.Visualization" typeName="*" isSafeAgainstScript="true" />
       </safeControls>
     </projectOutputAssembly>
   </assemblies>

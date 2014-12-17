@@ -42,8 +42,8 @@ namespace Hemrika.SharePresence.WebSite.ControlTemplates
                     license = SPLicenseFile.LoadFile(bufferStream, null, false, string.Empty);
 
                     streamReader.Close();
-                    bufferStream.Close();
-                    openStream.Close();
+                    //bufferStream.Close();
+                    //openStream.Close();
 
                 }
 

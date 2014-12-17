@@ -28,6 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -810,9 +811,9 @@
       <DependentUpon>HTML5ImageDataSet.xsd</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FieldTypes\HTML5TypeField\Image\HTML5ImageDataSet.Designer.cs">
+    <None Include="FieldTypes\HTML5TypeField\Image\HTML5ImageDataSet.Designer.cs">
       <DependentUpon>HTML5ImageDataSet.cs</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="FieldTypes\HTML5TypeField\Image\HTML5ImageDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -844,9 +845,9 @@
       <DependentUpon>HTML5VideoDataSet.xsd</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FieldTypes\HTML5TypeField\Video\HTML5VideoDataSet.Designer.cs">
+    <None Include="FieldTypes\HTML5TypeField\Video\HTML5VideoDataSet.Designer.cs">
       <DependentUpon>HTML5VideoDataSet.cs</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="FieldTypes\HTML5TypeField\Video\HTML5VideoDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -870,6 +871,7 @@
     <Compile Include="FieldTypes\SchemaOrgFieldType\SchemaType.cs" />
     <Compile Include="FieldTypes\SchemaOrgFieldType\SchemaTypeControl.cs" />
     <Compile Include="FieldTypes\SchemaOrgFieldType\SchemaTypeField.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="HTTPModules\AccesModule\AccesModule.cs" />
     <Compile Include="HTTPModules\AccesModule\AccesModuleControl.cs">
       <SubType>ASPXCodeBehind</SubType>

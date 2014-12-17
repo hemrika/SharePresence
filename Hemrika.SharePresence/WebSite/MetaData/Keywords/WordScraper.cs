@@ -95,7 +95,7 @@ namespace Hemrika.SharePresence.WebSite.MetaData.Keywords
 			}
 			catch (Exception e)
 			{
-				throw e;
+				throw;
 			}
 			
 			/* now process rawParagraphs into dense paragraphs

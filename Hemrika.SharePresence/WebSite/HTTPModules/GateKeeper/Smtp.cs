@@ -50,7 +50,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.GateKeeper
             {
                 //GateKeeperModule.log.WarnFormat("SendNotification : [{0}]", ex.Message);
                 //GateKeeperModule.log.Error(ex.StackTrace);
-                throw ex;
+                throw;
             }
         }
 

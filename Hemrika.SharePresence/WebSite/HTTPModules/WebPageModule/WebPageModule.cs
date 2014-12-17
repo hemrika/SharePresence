@@ -331,9 +331,6 @@ using System.Web;
             }
         }
 
-
-        public void Dispose() { }
-
         void WebSiteControllerModule_OnPostAuthorizeRequest(object sender, EventArgs e)
         {
             application = sender as HttpApplication;
@@ -636,6 +633,37 @@ using System.Web;
             }
 
             return false;
+        }
+
+                private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    application.Dispose();
+                    application = null;
+                    locker = null;
+                    mimeMappings = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~WebPageModule()
+        {
+            Dispose(false);
         }
     }
 }

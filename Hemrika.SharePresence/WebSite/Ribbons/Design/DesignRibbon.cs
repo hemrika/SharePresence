@@ -40,6 +40,8 @@ using Hemrika.SharePresence.Common.ServiceLocation;
     /// TODO: Add comment for ContentRibbon
     /// </summary> 
     [AspNetHostingPermission(SecurityAction.LinkDemand, Level = AspNetHostingPermissionLevel.Minimal), SharePointPermission(SecurityAction.LinkDemand, ObjectModel = true)]
+    [AspNetHostingPermission(SecurityAction.InheritanceDemand, Level = AspNetHostingPermissionLevel.Minimal)]
+    [SharePointPermission(SecurityAction.InheritanceDemand, ObjectModel = true)]
     public class DesignRibbon : SPRibbonCommandHandler, IPostBackEventHandler//, ICallbackEventHandler
     {
         private IServiceLocator serviceLocator;

@@ -71,8 +71,8 @@ namespace Hemrika.SharePresence.WebSite.Video
                 while ((read = stream.Read(buffer, 0, buffer.Length)) > 0)
                     fs.Write(buffer, 0, read);
 
-                fs.Flush();
-                fs.Close();
+                //fs.Flush();
+                //fs.Close();
             }
         }
     }

@@ -256,7 +256,11 @@ namespace Hemrika.SharePresence.WebSite.FieldTypes
                         return new HTML5ImageField(imageEntity.Src, imageEntity.Alt);
                     }
                     else
-                        throw new IndexOutOfRangeException();
+                    {
+                        return new HTML5ImageField();
+                    }
+                    //else
+                        //throw new IndexOutOfRangeException();
                 }
                 else
                 {

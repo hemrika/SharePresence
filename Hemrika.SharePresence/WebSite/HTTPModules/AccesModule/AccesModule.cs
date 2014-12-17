@@ -11,7 +11,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.AccesModule
     using System.Linq;
     using System.Text;
     using Hemrika.SharePresence.Common.WebSiteController;
-using System.Web;
+    using System.Web;
     using System.Text.RegularExpressions;
     using System.Globalization;
     using Microsoft.SharePoint;
@@ -106,7 +106,7 @@ using System.Web;
             application = sender as HttpApplication;
             Uri url = WebSiteControllerModule.GetFullUrl(application.Context);
 
-            if (WebSiteControllerConfig.IsPageControlled( url, module.RuleType))
+            if (WebSiteControllerConfig.IsPageControlled(url, module.RuleType))
             {
                 System.Collections.Generic.List<WebSiteControllerRule> rules = WebSiteControllerConfig.GetRulesForPage(SPContext.Current.Site.WebApplication, url, module.RuleType);
                 WebSiteControllerRule rule = rules[rules.Count - 1];
@@ -193,9 +193,34 @@ using System.Web;
             get { return false; }
         }
 
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    application.Dispose();
+                        application = null;
+                }
+                _disposed = true;
+            }
+        }
+
         /// <summary>
         /// 
         /// </summary>
-        public void Dispose() { }
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~AccesModule()
+        {
+            Dispose(false);
+        }
+
     }
 }

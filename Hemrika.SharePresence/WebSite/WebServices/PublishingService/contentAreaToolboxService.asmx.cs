@@ -336,10 +336,12 @@ namespace Hemrika.SharePresence.WebSite
             }
             finally
             {
+                /*
                 if (writer2 != null)
                 {
                     writer2.Close();
                 }
+                */
                 if (w != null)
                 {
                     w.Close();

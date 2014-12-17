@@ -408,9 +408,9 @@ namespace Hemrika.SharePresence.WebSite.Modules.SemanticModule
                 }
             }
 
-            catch (HttpException ex)
+            catch (HttpException)
             {
-                throw (ex);
+                throw;
             }
             catch (Exception ex)
             {
@@ -874,6 +874,33 @@ namespace Hemrika.SharePresence.WebSite.Modules.SemanticModule
             get { return true; }
         }
 
-        public void Dispose() { }
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    application.Dispose();
+                    application = null;
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~SemanticModule()
+        {
+            Dispose(false);
+        }
     }
 }
