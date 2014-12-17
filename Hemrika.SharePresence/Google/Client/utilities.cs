@@ -932,7 +932,7 @@ namespace Hemrika.SharePresence.Google.Client
             catch (WebException e)
             {
                 //Tracing.TraceMsg("QueryAuthtoken failed " + e.Status + " " + e.Message);
-                throw(e);
+                throw;
             }
             HttpWebResponse response = authResponse as HttpWebResponse;
             if (response != null)

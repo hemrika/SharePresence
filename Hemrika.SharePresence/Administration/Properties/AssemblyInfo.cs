@@ -9,16 +9,15 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyCompany("Hemrika")]
-[assembly: AssemblyTitle("Hemrika.SharePresence")]
-[assembly: AssemblyDescription("SharePresence Administration")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("Hemrika.SharePresence")]
+[assembly: AssemblyCompany("Hemrika SharePresence Administration")]
+[assembly: AssemblyTitle("Hemrika SharePresence Administration")]
+[assembly: AssemblyDescription("SharePresence Administration components.")]
+[assembly: AssemblyConfiguration("Retail")]
+[assembly: AssemblyProduct("Hemrika SharePresence")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCopyright("Copyright � Hemrika")]
-
+[assembly: AssemblyCopyright("Copyright © Hemrika 2014")]
 [assembly: AssemblyCulture("")]
-
+[assembly: ComVisible(false)]
 // Version information for an assembly consists of the following four values:
 //
 //      Major Version

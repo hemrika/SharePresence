@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyCompany("Hemrika SharePresence Extensions")]
-[assembly: AssemblyTitle("Hemrika SharePresence Extensions")]
-[assembly: AssemblyDescription("SharePresence Extensions.")]
-[assembly: AssemblyConfiguration("Retail")]
+[assembly: AssemblyTitle("Hemrika SharePresence Deployment")]
+[assembly: AssemblyDescription("SharePresence Deployment")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Hemrika")]
 [assembly: AssemblyProduct("Hemrika SharePresence")]
-[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCopyright("Copyright © Hemrika 2014")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9b2cb1d9-7df2-484d-980e-b7f8bfaa0bf9")]
+[assembly: Guid("57b02dba-0de6-4d86-a2c3-3564bf0f9117")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -29,8 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

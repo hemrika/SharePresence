@@ -45,6 +45,7 @@ namespace Hemrika.SharePresence.Google.Analytics
         /// </summary>
         /// <param name="initValue">initial value</param>
         /// <param name="initName">name for the key</param>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Dimension(string initName, string initValue) : base(AnalyticsNameTable.XmlDimensionElement,
                                          AnalyticsNameTable.gAnalyticsPrefix,
                                          AnalyticsNameTable.gAnalyticsNamspace)

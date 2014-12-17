@@ -197,11 +197,7 @@ namespace Hemrika.SharePresence.Google.Client
     /// <summary>standard exception class to be used inside the feed object
     /// </summary> 
     //////////////////////////////////////////////////////////////////////
-#if WindowsCE || PocketPC
-#else 
-    [Serializable]
-#endif
-    public class GDataBatchRequestException : LoggedException
+[Serializable]public class GDataBatchRequestException : LoggedException, ISerializable
     {
 
         private AtomFeed batchResult;
@@ -251,6 +247,22 @@ namespace Hemrika.SharePresence.Google.Client
         {
         }
 #endif
+
+        [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+        protected virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            base.GetObjectData(info, context);
+            info.AddValue("BatchResult", this.batchResult);
+        }
+
+        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.SerializationFormatter)]
+        void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            if (info == null)
+                throw new ArgumentNullException("info");
+
+            GetObjectData(info, context);
+        }
     }
     /////////////////////////////////////////////////////////////////////////////
 
@@ -387,7 +399,8 @@ namespace Hemrika.SharePresence.Google.Client
     /// <summary>exception class thrown when we encounter an access denied
     /// (HttpSTatusCode.Forbidden) when accessing a server
     /// </summary> 
-    //////////////////////////////////////////////////////////////////////    
+    ////////////////////////////////////////////////////////////////////// 
+    [Serializable]
     public class GDataForbiddenException : GDataRequestException
     {
         //////////////////////////////////////////////////////////////////////
@@ -406,8 +419,9 @@ namespace Hemrika.SharePresence.Google.Client
     /// <summary>exception class thrown when we encounter a redirect
     /// (302 and 307) when accessing a server
     /// </summary> 
-    //////////////////////////////////////////////////////////////////////    
-    public class GDataRedirectException : GDataRequestException
+    ////////////////////////////////////////////////////////////////////// 
+    [Serializable]
+    public class GDataRedirectException : GDataRequestException, ISerializable
     {
         private string redirectLocation; 
         //////////////////////////////////////////////////////////////////////
@@ -438,13 +452,29 @@ namespace Hemrika.SharePresence.Google.Client
             }
         }
 
+        [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+        protected virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            base.GetObjectData(info, context);
+            info.AddValue("Location", this.redirectLocation);
+        }
+
+        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.SerializationFormatter)]
+        void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            if (info == null)
+                throw new ArgumentNullException("info");
+
+            GetObjectData(info, context);
+        }
     }
 
     //////////////////////////////////////////////////////////////////////
     /// <summary>exception class thrown when we encounter a not-modified
     /// response (HttpStatusCode.NotModified) when accessing a server
     /// </summary> 
-    //////////////////////////////////////////////////////////////////////    
+    ////////////////////////////////////////////////////////////////////// 
+    [Serializable]
     public class GDataNotModifiedException : GDataRequestException
     {
       //////////////////////////////////////////////////////////////////////
@@ -465,7 +495,8 @@ namespace Hemrika.SharePresence.Google.Client
     ///      to modified/update a resource and the server detected a version 
     ///        conflict.
     ///  </summary> 
-    //////////////////////////////////////////////////////////////////////    
+    //////////////////////////////////////////////////////////////////////
+    [Serializable]
     public class GDataVersionConflictException : GDataRequestException
     {
       //////////////////////////////////////////////////////////////////////

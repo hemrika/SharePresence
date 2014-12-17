@@ -114,7 +114,7 @@ namespace Hemrika.SharePresence.Common.License.LicenseProxy
                         if (lic != null)
                         {
                             lic.Close();
-                            lic.Dispose();
+                            //lic.Dispose();
                         }
 
                         if (licenseFile != null)
@@ -125,12 +125,13 @@ namespace Hemrika.SharePresence.Common.License.LicenseProxy
 
                             license = SPLicenseFile.LoadFile(licenseFile.OpenBinaryStream(), type, false, String.Empty);// true, key);
                         }
-
+                        /*
                         if (lic != null)
                         {
                             lic.Close();
-                            lic.Dispose();
+                            //lic.Dispose();
                         }
+                        */
                         centralWeb.AllowUnsafeUpdates = false;
                     }
                     centralSite.AllowUnsafeUpdates = false;

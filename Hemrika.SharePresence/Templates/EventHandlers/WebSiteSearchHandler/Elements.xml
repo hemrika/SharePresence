@@ -7,35 +7,35 @@
 			<Name>WebSiteSearchHandlerSiteDeleted</Name>
 			<Type>SiteDeleted</Type>
 			<SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
 		</Receiver>
 		<Receiver>
 			<Name>WebSiteSearchHandlerWebDeleted</Name>
 			<Type>WebDeleted</Type>
 			<SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
 		</Receiver>
 		<Receiver>
 			<Name>WebSiteSearchHandlerWebDeleting</Name>
 			<Type>WebDeleting</Type>
 			<SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
 		</Receiver>
 		<Receiver>
 			<Name>WebSiteSearchHandlerWebAdding</Name>
 			<Type>WebAdding</Type>
 			<SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
 		</Receiver>
 		<Receiver>
 			<Name>WebSiteSearchHandlerWebProvisioned</Name>
 			<Type>WebProvisioned</Type>
 			<SequenceNumber>100</SequenceNumber>
-      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3421bd1d946bda6c</Assembly>
+      <Assembly>Hemrika.SharePresence.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11e6604a27f32a11</Assembly>
 			<Class>Hemrika.SharePresence.Templates.WebSiteSearchHandler</Class>
 		</Receiver>
 	</Receivers>

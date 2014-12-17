@@ -134,6 +134,7 @@ namespace Hemrika.SharePresence.Google.Extensions.AppControl {
         /// <summary>
         /// creates a default app:edited element with the given datetime value
         /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public AppEdited(DateTime dateValue)
             : base(BaseNameTable.XmlElementPubEdited,
                BaseNameTable.gAppPublishingPrefix,

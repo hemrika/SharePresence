@@ -67,7 +67,7 @@ namespace Hemrika.SharePresence.SPLicense.LicenseFile
 	/// <seealso cref="System.Xml.XmlDocument">XmlDocument</seealso>
 	/// <seealso cref="System.Xml.XmlNode">XmlNode</seealso>
 	[Serializable]
-	public class SPLicenseFile : License
+	public class SPLicenseFile : License, IDisposable
 	{
 		private string					version				= "1.0";
 
@@ -435,10 +435,33 @@ namespace Hemrika.SharePresence.SPLicense.LicenseFile
 		/// <summary>
 		/// Destroys this instance of the license.
 		/// </summary>
-		public override void Dispose( )
-		{
+        private bool _disposed = false;
 
-		}
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1063:ImplementIDisposableCorrectly")]
+        public override void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~SPLicenseFile()
+        {
+            Dispose(false);
+        }
 
 #region Loading & Parsing
 		/// <summary>

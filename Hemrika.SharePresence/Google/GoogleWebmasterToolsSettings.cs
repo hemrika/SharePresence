@@ -40,9 +40,31 @@ namespace Hemrika.SharePresence.Google
             set { _Verified = value; }
         }
 
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
         public void Dispose()
         {
-            
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~GoogleWebmasterToolsSettings()
+        {
+            Dispose(false);
         }
     }
 }

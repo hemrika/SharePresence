@@ -9,7 +9,7 @@ using System.Drawing;
 namespace Hemrika.SharePresence.Google.Visualization
 {
     
-    public class BaseGVI
+    public class BaseGVI : IDisposable
     {
         public static bool REGISTER_GOOGLE_API_JS = false;
         
@@ -265,6 +265,34 @@ namespace Hemrika.SharePresence.Google.Visualization
         internal static string RGBtoHex(byte R, byte G, byte B)
         {
             return String.Format("#{0:X2}{1:X2}{2:X2}", R, G, B);
+        }
+
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    dt.Dispose();
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~BaseGVI()
+        {
+            Dispose(false);
         }
     }
 }

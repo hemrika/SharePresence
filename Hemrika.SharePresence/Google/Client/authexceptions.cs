@@ -239,11 +239,8 @@ namespace Hemrika.SharePresence.Google.Client
          /// <summary>many unsuccessfull logins might create this...
          /// </summary> 
          //////////////////////////////////////////////////////////////////////
-#if WindowsCE || PocketPC
-#else
-    [Serializable]
-#endif
-          public class CaptchaRequiredException : AuthenticationException
+    [Serializable]      
+    public class CaptchaRequiredException : AuthenticationException, ISerializable
           {
              private string captchaUrl;
              private string captchaToken;
@@ -288,6 +285,24 @@ namespace Hemrika.SharePresence.Google.Client
                   get {return this.captchaToken;}
               }
               // end of accessor for captchaToken
+
+              [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+              protected virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+              {
+                  base.GetObjectData(info, context);
+                  info.AddValue("Url", this.captchaUrl);
+                  info.AddValue("Token", this.captchaToken);
+              }
+
+              [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.SerializationFormatter)]
+              void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)
+              {
+                  if (info == null)
+                      throw new ArgumentNullException("info");
+
+                  GetObjectData(info, context);
+              }
+
         }
 
 } //end of file //////////////////////////////////////////////////////////////////////////

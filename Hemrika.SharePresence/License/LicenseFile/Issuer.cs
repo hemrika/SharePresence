@@ -13,6 +13,7 @@ namespace Hemrika.SharePresence.SPLicense.LicenseFile
 	/// </summary>
 	/// <seealso cref=" Hemrika.SharePresence.SPLicenseFile"> Hemrika.SharePresence.SPLicenseFile</seealso>
 	/// <seealso cref="AbstractLicenseData">AbstractLicenseData</seealso>
+    [Serializable]
 	public class Issuer : AbstractLicenseData
 	{
 		private string		fullName	= String.Empty;

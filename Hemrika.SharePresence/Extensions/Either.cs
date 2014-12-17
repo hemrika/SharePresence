@@ -392,6 +392,7 @@ namespace Hemrika.SharePresence.Extensions
         /// The value of an <c>Left</c>.
         /// <para>Throws an exception on an <c>Right</c>. Don't catch this exception!</para>
         /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1065:DoNotRaiseExceptionsInUnexpectedLocations")]
         public TL Left
         {
             get
@@ -408,6 +409,7 @@ namespace Hemrika.SharePresence.Extensions
         /// The value of an <c>Right</c>.
         /// <para>Throws an exception on an <c>Left</c>. Don't catch this exception!</para>
         /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1065:DoNotRaiseExceptionsInUnexpectedLocations")]
         public TR Right
         {
             get

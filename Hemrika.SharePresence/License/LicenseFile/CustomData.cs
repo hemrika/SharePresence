@@ -16,7 +16,8 @@ namespace Hemrika.SharePresence.SPLicense.LicenseFile
 	/// <seealso cref=" Hemrika.SharePresence.SPLicenseFile"> Hemrika.SharePresence.SPLicenseFile</seealso>
 	/// <seealso cref="AbstractLicenseData">AbstractLicenseData</seealso>
 	/// <seealso cref="System.Collections.Specialized.StringDictionary">StringDictionary</seealso>
-	public class CustomData : AbstractLicenseData
+    [Serializable]
+    public class CustomData : AbstractLicenseData
 	{
 		private StringDictionary	data	= new StringDictionary( );
 

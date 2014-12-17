@@ -6,14 +6,15 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Google")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Google")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("Hemrika SharePresence Google")]
+[assembly: AssemblyTitle("Hemrika SharePresence Google")]
+[assembly: AssemblyDescription("SharePresence Google components.")]
+[assembly: AssemblyConfiguration("Retail")]
+[assembly: AssemblyProduct("Hemrika SharePresence")]
 [assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Hemrika 2014")]
 [assembly: AssemblyCulture("")]
+
 [assembly: CLSCompliant(true)]
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

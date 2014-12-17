@@ -9,7 +9,7 @@ using Hemrika.SharePresence.Google.Analytics;
 namespace Hemrika.SharePresence.Google
 {
     [Serializable]
-    public class GoogleSettings
+    public class GoogleSettings : IDisposable
     {
 
         public GoogleSettings()
@@ -250,6 +250,34 @@ namespace Hemrika.SharePresence.Google
             }
 
             return this;
+        }
+
+                private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    _Webmaster.Dispose();
+                }
+                _disposed = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~GoogleSettings()
+        {
+            Dispose(false);
         }
     }
 }

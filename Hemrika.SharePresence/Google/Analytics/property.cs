@@ -45,6 +45,7 @@ namespace Hemrika.SharePresence.Google.Analytics
         /// </summary>
         /// <param name="name">name property value</param>
         /// <param name="value">the value property value</param>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Property(String name, String value) : base(AnalyticsNameTable.XmlPropertyElement,
                                          AnalyticsNameTable.gAnalyticsPrefix,
                                          AnalyticsNameTable.gAnalyticsNamspace)

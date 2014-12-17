@@ -6,12 +6,12 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WebSite")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebSite")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyTitle("Hemrika SharePresence")]
+[assembly: AssemblyDescription("SharePresence Core functionality.")]
+[assembly: AssemblyConfiguration("Retail")]
+[assembly: AssemblyCompany("Hemrika")]
+[assembly: AssemblyProduct("Hemrika SharePresence")]
+[assembly: AssemblyCopyright("Copyright © Hemrika 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

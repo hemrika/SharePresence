@@ -63,7 +63,7 @@ namespace Hemrika.SharePresence.Common.TemplateEngine
                 }
                 catch (XsltException ex)
                 {
-                    throw ex;
+                    throw;
                 }
             }
 

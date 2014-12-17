@@ -24,7 +24,7 @@ namespace Hemrika.SharePresence.Extensions
                 image.Save(memory, ImageFormat.Jpeg);
                 var base64 = Convert.ToBase64String(memory.ToArray());
                 memory.Close();
-                memory.Dispose();
+                //memory.Dispose();
                 return base64;
             }
             catch (Exception)
@@ -40,7 +40,7 @@ namespace Hemrika.SharePresence.Extensions
                 var memory = new MemoryStream(Convert.FromBase64String(base64));
                 var bitmap = new Bitmap(memory);
                 memory.Close();
-                memory.Dispose();
+                //memory.Dispose();
                 return bitmap;
             }
             catch (Exception)

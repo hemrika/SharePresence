@@ -260,7 +260,7 @@ namespace Hemrika.SharePresence.Common.TemplateEngine
                     }
                     catch (XsltException ex)
                     {
-                        throw ex;
+                        throw;
                         //throw new Exception(ex.Message + "Error : " + ex.Data.ToString());
                     }
 

@@ -430,6 +430,7 @@ namespace Hemrika.SharePresence.Extensions
         /// The value of a <c>Some</c>.
         /// <para>Throws an exception on a <c>None</c>. Don't catch this exception!</para>
         /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1065:DoNotRaiseExceptionsInUnexpectedLocations")]
         public T Value
         {
             get

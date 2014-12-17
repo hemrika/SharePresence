@@ -19,6 +19,7 @@ namespace Hemrika.SharePresence.SPLicense.LicenseFile
 	/// </remarks>
 	/// <seealso cref=" Hemrika.SharePresence.SPLicenseFile"> Hemrika.SharePresence.SPLicenseFile</seealso>
 	/// <seealso cref="AbstractLicenseData">AbstractLicenseData</seealso>
+    [Serializable]
 	public class Statistics : AbstractLicenseData
 	{
 		private int				usageCount			= 0;

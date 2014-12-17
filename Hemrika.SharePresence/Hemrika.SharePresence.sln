@@ -41,7 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationConfiguration", 
 		SPSF.targets = SPSF.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deployment", "Deployment\Deployment.csproj", "{E497AEB3-204A-4A74-B37D-6F2402D4B57C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Deployment", "Deployment\Hemrika.SharePresence.Deployment.csproj", "{E497AEB3-204A-4A74-B37D-6F2402D4B57C}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -73,7 +73,7 @@ Global
 		SccProjectUniqueName8 = Templates\\Hemrika.SharePresence.Templates.csproj
 		SccProjectName8 = Templates
 		SccLocalPath8 = Templates
-		SccProjectUniqueName9 = Deployment\\Deployment.csproj
+		SccProjectUniqueName9 = Deployment\\Hemrika.SharePresence.Deployment.csproj
 		SccProjectName9 = Deployment
 		SccLocalPath9 = Deployment
 	EndGlobalSection

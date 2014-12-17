@@ -41,6 +41,7 @@ namespace Hemrika.SharePresence.Google.Extensions
         /// default constructor with an initial value
         /// </summary>
         /// <param name="initValue"></param>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public ExtendedProperty(string initValue) : base(GDataParserNameTable.XmlExtendedPropertyElement,
                                          BaseNameTable.gDataPrefix,
                                          BaseNameTable.gNamespace)
@@ -53,6 +54,7 @@ namespace Hemrika.SharePresence.Google.Extensions
         /// </summary>
         /// <param name="initValue">initial value</param>
         /// <param name="initName">name for the key</param>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public ExtendedProperty(string initValue, string initName) : base(GDataParserNameTable.XmlExtendedPropertyElement,
                                          BaseNameTable.gDataPrefix,
                                          BaseNameTable.gNamespace)

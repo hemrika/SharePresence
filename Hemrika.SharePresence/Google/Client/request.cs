@@ -434,18 +434,6 @@ namespace Hemrika.SharePresence.Google.Client
         /////////////////////////////////////////////////////////////////////////////
 
 
-        //////////////////////////////////////////////////////////////////////
-        /// <summary>implements the disposable interface</summary> 
-        //////////////////////////////////////////////////////////////////////
-        public void Dispose()
-        {
-            if (this.responseStream != null)
-                this.responseStream.Close();
-            Dispose(true);
-            GC.SuppressFinalize(this);
-        }
-
-
         /// <summary>
         /// exposing the private targetUri so that subclasses can override
         /// the value for redirect handling
@@ -496,13 +484,28 @@ namespace Hemrika.SharePresence.Google.Client
             }
             if (disposing == true)
             {
-                //Tracing.TraceMsg("disposing of request"); 
+                //Tracing.TraceMsg("disposing of request");
+                if (this.responseStream != null)
+                    this.responseStream.Close();
                 Reset(); 
                 this.disposed = true;
             }
         }
 
+        //////////////////////////////////////////////////////////////////////
+        /// <summary>implements the disposable interface</summary> 
+        //////////////////////////////////////////////////////////////////////
+        public void Dispose()
+        {
 
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~GDataRequest()
+        {
+            Dispose(false);
+        }
 
         //////////////////////////////////////////////////////////////////////
         /// <summary>accessor method for the GDataCredentials used</summary> 

@@ -17,6 +17,7 @@
 */
 
 using System;
+using System.Runtime.Serialization;
 
 namespace Hemrika.SharePresence.Google.Client
 {
@@ -25,6 +26,7 @@ namespace Hemrika.SharePresence.Google.Client
     /// xoauth_requestor_id query string.
     /// </summary>
     //[Obsolete("this is going to be removed in the future and replaced with OAuthAuthenticator")]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2229:ImplementSerializationConstructors"), Serializable]
     public class OAuthUri : Uri
     {
         public static string OAuthParameter = "xoauth_requestor_id"; 
