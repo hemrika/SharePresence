@@ -124,7 +124,6 @@
     <None Include="Features\Hemrika Administration\Hemrika Administration.feature">
       <FeatureId>{9777e48b-9134-4f2b-a8a5-70eb582a5c00}</FeatureId>
     </None>
-    <None Include="key.snk" />
     <None Include="ListDefinitions\hemrikalicensefiles\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{70c8e9ae-f417-41af-83e7-08581dc116d2}</SharePointProjectItemId>
     </None>
