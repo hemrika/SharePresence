@@ -24,6 +24,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Admin
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.WebSite", "WebSite\Hemrika.SharePresence.WebSite.csproj", "{D609C8E7-4C80-4695-9BCF-89A8CA232E58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B8CC039-F519-478B-90EE-E38BC84FB1B0} = {7B8CC039-F519-478B-90EE-E38BC84FB1B0}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemrika.SharePresence.Templates", "Templates\Hemrika.SharePresence.Templates.csproj", "{7B8CC039-F519-478B-90EE-E38BC84FB1B0}"
 EndProject
@@ -80,6 +83,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = Hemrika SharePresence
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2BA6A375-0FDD-4BFE-AE44-26E7E1764C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
