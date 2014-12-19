@@ -258,7 +258,7 @@ namespace Hemrika.SharePresence.Common.TemplateEngine
                             }
                         }
                     }
-                    catch (XsltException ex)
+                    catch (XsltException)
                     {
                         throw;
                         //throw new Exception(ex.Message + "Error : " + ex.Data.ToString());

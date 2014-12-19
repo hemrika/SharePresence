@@ -287,7 +287,7 @@ namespace Hemrika.SharePresence.Google.Client
               // end of accessor for captchaToken
 
               [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
-              protected virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+              public override void GetObjectData(SerializationInfo info, StreamingContext context)
               {
                   base.GetObjectData(info, context);
                   info.AddValue("Url", this.captchaUrl);

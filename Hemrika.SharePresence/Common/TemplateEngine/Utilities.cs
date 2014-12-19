@@ -61,7 +61,7 @@ namespace Hemrika.SharePresence.Common.TemplateEngine
                 {
                     result.Load(reader, settings, resolver);
                 }
-                catch (XsltException ex)
+                catch (XsltException)
                 {
                     throw;
                 }
