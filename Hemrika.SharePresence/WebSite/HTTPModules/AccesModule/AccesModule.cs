@@ -70,7 +70,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.AccesModule
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/AccesModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/AccesModuleControl.ascx"; }
         }
 
         /// <summary>

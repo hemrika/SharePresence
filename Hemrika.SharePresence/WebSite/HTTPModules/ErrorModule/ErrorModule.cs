@@ -75,7 +75,7 @@ using System.Web;
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/ErrorModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/ErrorModuleControl.ascx"; }
         }
 
         /// <summary>

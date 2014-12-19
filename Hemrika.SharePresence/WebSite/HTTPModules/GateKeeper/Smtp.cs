@@ -46,7 +46,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.GateKeeper
                 //GateKeeperModule.log.Debug("Sending message");
                 SendMailMessageAsync(mail); 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //GateKeeperModule.log.WarnFormat("SendNotification : [{0}]", ex.Message);
                 //GateKeeperModule.log.Error(ex.StackTrace);

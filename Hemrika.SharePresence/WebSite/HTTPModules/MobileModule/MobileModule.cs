@@ -77,7 +77,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.MobileModule
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/MobileModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/MobileModuleControl.ascx"; }
         }
 
         /// <summary>

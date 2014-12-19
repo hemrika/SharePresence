@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="871d5f24-d41b-4afb-879f-4b87be82bdad" solutionId="871d5f24-d41b-4afb-879f-4b87be82bdad" resetWebServer="false" sharePointProductVersion="15.0" name="Hemrika.SharePresence.WebSite" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="871d5f24-d41b-4afb-879f-4b87be82bdad" solutionId="871d5f24-d41b-4afb-879f-4b87be82bdad" resetWebServer="true" title="Hemrika SharePresence Core" description="Hemrika SharePresence Core" resetWebServerModeOnUpgrade="Recycle" sharePointProductVersion="15.0" name="Hemrika.SharePresence.WebSite" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <assemblies>
     <projectOutputAssembly location="Hemrika.SharePresence.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Common\Hemrika.SharePresence.Common.csproj">
       <safeControls>
@@ -23,9 +23,28 @@
       </safeControls>
     </projectOutputAssembly>
   </assemblies>
+  <features>
+    <featureReference itemId="643e58aa-8999-421d-bc13-722fceca8467" />
+    <featureReference itemId="120291a3-a947-4435-93ee-f14dfb7f7fe9" />
+    <featureReference itemId="bd3a289e-bbcd-4342-ba8c-f796636b5481" />
+    <featureReference itemId="a1c4917d-dd31-4776-9d69-05326f1eb52f" />
+    <featureReference itemId="8474a1e3-2ded-474d-b192-856d411ba0f9" />
+    <featureReference itemId="b8889a64-d296-43d3-a2bc-231c7ecef850" />
+    <featureReference itemId="2a565c30-f638-435e-9cdc-ed98ea25275b" />
+    <featureReference itemId="dd5ba297-ad6a-41d7-aa97-6903a1748a91" />
+    <featureReference itemId="e62ca60c-5a7d-47b3-8306-04b3c184a47e" />
+    <featureReference itemId="55cd7f55-c560-40aa-9cad-0b342293a91d" />
+    <featureReference itemId="98ee0a05-e895-4f77-9ed4-99fb419777d4" />
+    <featureReference itemId="2780b62a-2f56-4b41-8235-a711589a0776" />
+    <featureReference itemId="29e40040-f138-4fc8-b368-c02782f1e475" />
+    <featureReference itemId="644785a8-2993-4dcd-860d-779371af135f" />
+    <featureReference itemId="341efd9d-b2a9-47b8-a446-5e4e9fea013c" />
+    <featureReference itemId="38d74b9a-2c74-4ac4-8fdf-0ae7302ee210" />
+    <featureReference itemId="af1251d6-4dbb-419d-b40b-20d4aa86d456" />
+    <featureReference itemId="503b36cc-3d66-4d99-99cc-f185b2067bd9" />
+  </features>
   <projectItems>
     <projectItemReference itemId="8439aae4-d9f0-4bc1-9b6b-62a64712257f" />
-    <projectItemReference itemId="daaa65ca-046c-49ae-af22-d034ab091e89" />
     <projectItemReference itemId="119c591c-01ce-419d-9783-fbfd6472879f" />
     <projectItemReference itemId="d087922b-8964-40d6-a213-c284f74a5bf2" />
     <projectItemReference itemId="75c059bb-66d5-4e4a-978c-63e8228df94d" />
@@ -53,23 +72,35 @@
     <projectItemReference itemId="7cbc659c-8eaf-43b8-a934-e89a3de63681" />
     <projectItemReference itemId="7248d61f-8f7a-4643-8520-a6ba8d5f5b0b" />
     <projectItemReference itemId="d1ca1046-9b47-4df0-8dcc-98693cf108e6" />
-    <projectItemReference itemId="0f90134d-3d1c-47e8-893e-0b9aa89ce8d0" />
     <projectItemReference itemId="3f59a6c2-7a2d-41aa-8b01-565ea5cf9b78" />
     <projectItemReference itemId="20ff7112-0d63-4af4-8e18-6f598d209419" />
     <projectItemReference itemId="bee1b4d9-fda4-4718-a96d-04d8ac45c3e1" />
     <projectItemReference itemId="1750542d-e3ab-445e-8516-10898acead05" />
-    <projectItemReference itemId="f3a7999d-dcaa-4589-88b9-d7726e03e8ab" />
     <projectItemReference itemId="fe820fb6-9894-41e0-a0b5-2b29be657130" />
     <projectItemReference itemId="5470e824-7d01-48f8-85bd-d36d854c3da3" />
     <projectItemReference itemId="c5988116-afc0-46b7-a883-ed881c933a9a" />
     <projectItemReference itemId="975b925e-3b5e-4c61-8e5d-ddb9c7a13b71" />
-    <projectItemReference itemId="bae45208-9431-4ca6-88c8-0897ad0457ee" />
-    <projectItemReference itemId="8551eab7-2069-498f-a3a9-08f9fcb957c9" />
     <projectItemReference itemId="601ab62e-8d91-4378-b40c-de93eeeb2b14" />
     <projectItemReference itemId="cda51ea7-3fc5-4fe2-b227-e00fab953804" />
     <projectItemReference itemId="5637f771-2c93-4e76-91f0-63a279100d60" />
     <projectItemReference itemId="64a041a4-ead4-4eba-98f9-bf8f82b37481" />
     <projectItemReference itemId="6d7aa063-8313-4993-b1e5-3ffe8aa207fd" />
     <projectItemReference itemId="eb26e4b9-ef95-41ec-82a9-2f86b9ab9758" />
+    <projectItemReference itemId="b7bb899c-9411-49ab-9cb2-516aabc30059" />
+    <projectItemReference itemId="4f1194c3-7d00-4851-8f9c-5df1ed114821" />
+    <projectItemReference itemId="58cf0e1e-03e3-483c-862b-213ac12ad60d" />
+    <projectItemReference itemId="1260c3a0-6e1e-4fbc-8a2d-e46da7bc3c46" />
+    <projectItemReference itemId="43d76a93-fe77-4096-9f64-97c18e49b881" />
+    <projectItemReference itemId="3aba0691-fea1-4338-bec3-c75b4b0b1a8c" />
+    <projectItemReference itemId="8d690118-e040-4dd2-a54f-a9866de733f9" />
+    <projectItemReference itemId="8a60eb19-183a-4210-b705-98288ca851a2" />
+    <projectItemReference itemId="3bb3c8a3-c7ea-4dd0-8520-cfc8f76ed7f3" />
+    <projectItemReference itemId="1e1a7a2d-81c2-4416-9efd-b56e36f22136" />
+    <projectItemReference itemId="514f840c-ccb2-4114-bfc0-c64fe52f0c09" />
+    <projectItemReference itemId="d0c3c43f-57c0-4827-80c8-6d5ade57b70e" />
+    <projectItemReference itemId="f260adf0-72f4-457b-8476-9556f7d72d7b" />
+    <projectItemReference itemId="8786fed1-9b59-4454-8312-ed81cf9541ba" />
+    <projectItemReference itemId="aabd45ad-5a76-4913-9817-aa17259a69a0" />
+    <projectItemReference itemId="beb53253-73a5-433a-9a1e-fd89541f011e" />
   </projectItems>
 </package>

@@ -4,7 +4,7 @@
 <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register Tagprefix="asp" Namespace="System.Web.UI" Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" %>
-<%@ Register TagPrefix="SharePresence" TagName="Twitter" Src="/_controltemplates/Hemrika/MetaData/TwitterEdit.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="Twitter" Src="/_controltemplates/15/Hemrika/MetaData/TwitterEdit.ascx" %>
 <%@ Import Namespace="Microsoft.SharePoint" %>
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TwitterEdit.aspx.cs"Inherits="Hemrika.SharePresence.WebSite.MetaData.TwitterEdit" DynamicMasterPageFile="~masterurl/default.master" %>
 

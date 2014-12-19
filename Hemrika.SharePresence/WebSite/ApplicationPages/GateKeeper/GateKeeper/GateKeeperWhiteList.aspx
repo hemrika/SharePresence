@@ -3,9 +3,9 @@
 <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register Tagprefix="asp" Namespace="System.Web.UI" Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" %>
-<%@ Register TagPrefix="SharePresence" TagName="gkipwhitelist"  Src="/_controltemplates/Hemrika/GateKeeper/IPWhiteList.ascx" %>
-<%@ Register TagPrefix="SharePresence" TagName="gkuawhitelist" Src="/_controltemplates/Hemrika/GateKeeper/UAWhiteList.ascx" %>
-<%@ Register TagPrefix="SharePresence" TagName="gkurlwhitelist" Src="/_controltemplates/Hemrika/GateKeeper/UrlWhiteList.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="gkipwhitelist"  Src="/_controltemplates/15/Hemrika/GateKeeper/IPWhiteList.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="gkuawhitelist" Src="/_controltemplates/15/Hemrika/GateKeeper/UAWhiteList.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="gkurlwhitelist" Src="/_controltemplates/15/Hemrika/GateKeeper/UrlWhiteList.ascx" %>
 <%@ Import Namespace="Microsoft.SharePoint" %>
 <%@ Assembly Name="Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GateKeeperWhiteList.aspx.cs" Inherits="Hemrika.SharePresence.WebSite.GateKeeper.GateKeeperWhiteList" DynamicMasterPageFile="~masterurl/default.master" %>

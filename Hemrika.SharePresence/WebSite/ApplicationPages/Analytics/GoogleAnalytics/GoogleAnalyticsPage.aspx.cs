@@ -8,7 +8,7 @@ namespace Hemrika.SharePresence.WebSite
     public partial class GoogleAnalyticsPage : GooglePageBase
     {
         private string _report = "AccountInfo";
-        private const string _reportpath = @"~/_CONTROLTEMPLATES/Hemrika/Analytics/Google{0}.ascx";
+        private const string _reportpath = @"~/_controltemplates/15/Hemrika/Analytics/Google{0}.ascx";
 
         protected override void CreateChildControls()
         {

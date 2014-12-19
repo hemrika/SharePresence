@@ -42,7 +42,7 @@ namespace Hemrika.SharePresence.WebSite
 
                 if (webApp != SPAdministrationWebApplication.Local)
                 {
-                    UpdateMimiMappings(properties);
+                    UpdateMimeMappings(properties);
 
                     ActivateModule_WebSiteModule(properties);
 
@@ -98,41 +98,6 @@ namespace Hemrika.SharePresence.WebSite
                     SPDiagnosticsService.Local.WriteTrace(0, new SPDiagnosticsCategory(ex.Source, TraceSeverity.High, EventSeverity.Error), TraceSeverity.High, ex.Message, ex.Data);
                     //ex.ToString();
                 }
-            }
-        }
-
-        private void UpdateMimiMappings(SPFeatureReceiverProperties properties)
-        {
-            try
-            {
-                if (webApp != null)
-                {
-                    SPMimeMappingCollection mappings = webApp.MimeMappings;
-                    webApp.MimeMappings.Add("mp4", "Website.Video", "video/mp4");
-                    webApp.MimeMappings.Add("ogg", "Website.Video", "video/ogg");
-                    webApp.MimeMappings.Add("webm", "Website.Video", "video/webm");
-                    webApp.MimeMappings.Add("flv", "Website.Video", "video/flv");
-                    webApp.MimeMappings.Add("mpg", "Website.Video", "video/mpeg");
-                    webApp.MimeMappings.Add("avi", "Website.Video", "video/x-msvideo");
-                    webApp.MimeMappings.Add("mov", "Website.Video", "video/quicktime");
-                    webApp.MimeMappings.Add("wmv", "Website.Video", "video/x-ms-wmv");
-                    webApp.Update();
-                }
-            }
-            catch (Exception ex)
-            {
-                SPDiagnosticsService.Local.WriteTrace(0, new SPDiagnosticsCategory(ex.Source, TraceSeverity.High, EventSeverity.Error), TraceSeverity.High, ex.Message, ex.Data);
-                //ex.ToString();
-            }
-
-            try
-            {
-                Microsoft.Web.Administration.ServerManager serverManager = new Microsoft.Web.Administration.ServerManager();
-            }
-            catch (Exception)
-            {
-
-                throw;
             }
         }
 
@@ -230,6 +195,45 @@ namespace Hemrika.SharePresence.WebSite
                 webApp = properties.Feature.Parent as SPWebApplication;
             }
         }
+
+        #region Mime Mappings
+
+        private void UpdateMimeMappings(SPFeatureReceiverProperties properties)
+        {
+            try
+            {
+                if (webApp != null)
+                {
+                    SPMimeMappingCollection mappings = webApp.MimeMappings;
+                    webApp.MimeMappings.Add("mp4", "Website.Video", "video/mp4");
+                    webApp.MimeMappings.Add("ogg", "Website.Video", "video/ogg");
+                    webApp.MimeMappings.Add("webm", "Website.Video", "video/webm");
+                    webApp.MimeMappings.Add("flv", "Website.Video", "video/flv");
+                    webApp.MimeMappings.Add("mpg", "Website.Video", "video/mpeg");
+                    webApp.MimeMappings.Add("avi", "Website.Video", "video/x-msvideo");
+                    webApp.MimeMappings.Add("mov", "Website.Video", "video/quicktime");
+                    webApp.MimeMappings.Add("wmv", "Website.Video", "video/x-ms-wmv");
+                    webApp.Update();
+                }
+            }
+            catch (Exception ex)
+            {
+                SPDiagnosticsService.Local.WriteTrace(0, new SPDiagnosticsCategory(ex.Source, TraceSeverity.High, EventSeverity.Error), TraceSeverity.High, ex.Message, ex.Data);
+                //ex.ToString();
+            }
+
+            try
+            {
+                Microsoft.Web.Administration.ServerManager serverManager = new Microsoft.Web.Administration.ServerManager();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        #endregion
 
         #region WebSiteController
 

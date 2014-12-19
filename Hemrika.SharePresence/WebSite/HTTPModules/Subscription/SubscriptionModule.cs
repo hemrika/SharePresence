@@ -73,7 +73,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.Subscription
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/SubscriptionModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/SubscriptionModuleControl.ascx"; }
         }
 
         /// <summary>

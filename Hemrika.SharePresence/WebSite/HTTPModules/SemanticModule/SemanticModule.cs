@@ -83,7 +83,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.SemanticModule
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/SemanticModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/SemanticModuleControl.ascx"; }
         }
 
         /// <summary>

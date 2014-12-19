@@ -99,7 +99,7 @@ using System.Web;
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/WebPageModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/WebPageModuleControl.ascx"; }
         }
 
         /// <summary>

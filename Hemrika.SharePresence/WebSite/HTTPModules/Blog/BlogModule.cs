@@ -73,7 +73,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.Blog
         /// <value>The control.</value>
         public string Control
         {
-            get { return "~/_controltemplates/Hemrika/Controls/BlogModuleControl.ascx"; }
+            get { return "~/_controltemplates/15/Hemrika/Controls/BlogModuleControl.ascx"; }
         }
 
         /// <summary>

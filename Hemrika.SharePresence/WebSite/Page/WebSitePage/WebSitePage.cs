@@ -275,7 +275,7 @@
 
         private void AnalyticsConnector()
         {
-            string _reportpath = @"~/_CONTROLTEMPLATES/Hemrika/Analytics/GoogleConnector.ascx";
+            string _reportpath = @"~/_controltemplates/15/Hemrika/Analytics/GoogleConnector.ascx";
 
             try
             {
@@ -290,7 +290,7 @@
 
         private void BlogConnector()
         {
-            string _reportpath = @"~/_CONTROLTEMPLATES/Hemrika/Blog/BlogConnector.ascx";
+            string _reportpath = @"~/_controltemplates/15/Hemrika/Blog/BlogConnector.ascx";
 
             try
             {

@@ -5,7 +5,7 @@
     Namespace="System.Web.UI" TagPrefix="asp" %>
 <%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register TagPrefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-<%@ Register TagPrefix="SharePresence" TagName="WebPage" Src="/_controltemplates/Hemrika/Content/CreateWebPage.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="WebPage" Src="/_controltemplates/15/Hemrika/Content/CreateWebPage.ascx" %>
 
 <asp:Content ContentPlaceHolderId="PlaceHolderPageTitle" runat="server">
     <SharePoint:EncodedLiteral runat="server" text="<%$Resources:Hemrika.SharePresence.WebSite.AppResources,CreateWebPage_PageTitle%>" EncodeMethod='HtmlEncode'/>

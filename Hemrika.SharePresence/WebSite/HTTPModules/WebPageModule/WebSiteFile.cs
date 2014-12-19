@@ -334,7 +334,7 @@ namespace Hemrika.SharePresence.WebSite.Modules.WebPageModule
                         stream.Seek(0, SeekOrigin.Begin);
                     }
                 }
-                catch (HttpException hex)
+                catch (HttpException)
                 {
                     throw;
                 }

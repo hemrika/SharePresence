@@ -4,7 +4,7 @@
     Namespace="System.Web.UI" TagPrefix="asp" %>
 <%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register TagPrefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-<%@ Register TagPrefix="SharePresence" TagName="Editor" Src="/_controltemplates/Hemrika/Content/AlohaEditor.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="Editor" Src="/_controltemplates/15/Hemrika/Content/AlohaEditor.ascx" %>
 <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">
 <div data-role="page" class="type-interior" data-theme="b">
     <div data-role="content" data-theme="b">

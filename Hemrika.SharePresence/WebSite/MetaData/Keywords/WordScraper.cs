@@ -93,7 +93,7 @@ namespace Hemrika.SharePresence.WebSite.MetaData.Keywords
 
 				rawParagraphs = new List<string>(paras);
 			}
-			catch (Exception e)
+			catch (Exception)
 			{
 				throw;
 			}

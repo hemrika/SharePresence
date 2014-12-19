@@ -4,7 +4,7 @@
 <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register Tagprefix="asp" Namespace="System.Web.UI" Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" %>
-<%@ Register TagPrefix="SharePresence" TagName="Ratings" Src="/_controltemplates/Hemrika/Social/ManageRatingSettings.ascx" %>
+<%@ Register TagPrefix="SharePresence" TagName="Ratings" Src="/_controltemplates/15/Hemrika/Social/ManageRatingSettings.ascx" %>
 <%@ Import Namespace="Microsoft.SharePoint" %>
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RatingManage.aspx.cs"Inherits="Hemrika.SharePresence.WebSite.Social.RatingManage" DynamicMasterPageFile="~masterurl/default.master" %>
 <asp:Content ID="PageHead" ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
