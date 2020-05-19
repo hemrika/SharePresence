@@ -25,7 +25,7 @@ namespace Hemrika.SharePresence.Google
             {
                 if (string.IsNullOrEmpty(_APIkey))
                 {
-                    return "AIzaSyCumr3wKJIdmyDqXXAtFEdUH4NRGbisbjc";
+                    return "<APIkey>";
                 }
                 else
                 {
