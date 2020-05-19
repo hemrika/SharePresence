@@ -55,7 +55,7 @@ namespace Hemrika.SharePresence.WebSite.ControlTemplates
             {
                 google.Settings.Username = tbx_Google_Account_Name.Text;
                 google.Settings.Password = tbx_Google_Account_Password.Text;
-                google.Settings.APIkey = "AIzaSyCumr3wKJIdmyDqXXAtFEdUH4NRGbisbjc";
+                google.Settings.APIkey = "<APIkey>";
                 google.Settings = google.Settings.Save();
             }
             SetNotice();
