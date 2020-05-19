@@ -49,7 +49,7 @@ define([
 		/**
 		 * Google translate API key
 		 */
-		apiKey: "AIzaSyBgsTE6JQ5wsgERpi6m2xBY-9pCn2I5zcA",
+		apiKey: "<APIkey>",
 		
 		/**
 		 * Initialize the plugin
