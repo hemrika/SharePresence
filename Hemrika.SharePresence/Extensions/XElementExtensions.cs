@@ -17,11 +17,15 @@ namespace Hemrika.SharePresence.Extensions
     {
         public static string ToString(this XElement element, string emptyValue)
         {
-            string returnValue = string.Empty;
+            string returnValue;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = element.Value;
+            }
+            else
+            {
+                returnValue = emptyValue;
             }
 
             return returnValue;
@@ -31,7 +35,7 @@ namespace Hemrika.SharePresence.Extensions
         {
             decimal returnValue;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = decimal.Parse(element.Value);
             }
@@ -47,7 +51,7 @@ namespace Hemrika.SharePresence.Extensions
         {
             decimal? returnValue = null;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = decimal.Parse(element.Value);
             }
@@ -59,7 +63,7 @@ namespace Hemrika.SharePresence.Extensions
         {
             int returnValue;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = int.Parse(element.Value);
             }
@@ -75,7 +79,7 @@ namespace Hemrika.SharePresence.Extensions
         {
             int? returnValue = null;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = int.Parse(element.Value);
             }
@@ -87,13 +91,13 @@ namespace Hemrika.SharePresence.Extensions
         {
             DateTime returnValue;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = DateTime.Parse(element.Value, null, DateTimeStyles.RoundtripKind);
             }
             else
             {
-                returnValue = DateTime.MinValue;
+                returnValue = emptyValue;
             }
 
             return returnValue;
@@ -103,7 +107,7 @@ namespace Hemrika.SharePresence.Extensions
         {
             DateTime? returnValue = null;
 
-            if (string.IsNullOrEmpty(element.Value))
+            if (!string.IsNullOrEmpty(element.Value))
             {
                 returnValue = DateTime.Parse(element.Value, null, DateTimeStyles.RoundtripKind);
             }
