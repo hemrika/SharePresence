@@ -184,7 +184,7 @@ namespace Hemrika.SharePresence.Google.Client
 
 
         /// <summary>
-        /// returns the content lenght of the file
+        /// Returns the content length of the file.
         /// </summary>
         /// <returns></returns>
         public override long ContentLength
